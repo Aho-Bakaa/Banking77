@@ -1,0 +1,16 @@
+{
+  "id": "goofybhatoora/banking77-base-model-eval",
+  "title": "Banking77 Base Model Eval",
+  "code_file": "kaggle_base_eval_kernel.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "goofybhatoora/banking77-eval-data"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

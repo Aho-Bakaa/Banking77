@@ -1,0 +1,18 @@
+{
+  "id": "goofybhatoora/banking77-phase-4-evaluation",
+  "title": "Banking77 Phase 4 Evaluation",
+  "code_file": "kaggle_eval_kernel.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "goofybhatoora/banking77-eval-data"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "goofybhatoora/banking77-qwen2-5-3b-qlora"
+  ]
+}
