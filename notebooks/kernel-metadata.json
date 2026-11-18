@@ -1,0 +1,16 @@
+{
+  "id": "goofybhatoora/banking77-qwen2-5-3b-qlora",
+  "title": "Banking77 Qwen2.5 3B QLoRA",
+  "code_file": "kaggle_train_qlora.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "goofybhatoora/banking77-processed-cot"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}
