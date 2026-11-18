@@ -1,0 +1,57 @@
+[{"stream_name":"stderr","time":11.652432666,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.652475327,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.652494256,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.652499323,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.439709769,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.439744534,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.439751957,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.439756934,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":27.365167793,"data":"PyTorch Version: 2.11.0+cu130\n"}
+,{"stream_name":"stdout","time":27.365200636,"data":"CUDA Available: True\n"}
+,{"stream_name":"stdout","time":27.365205355,"data":"GPU Device: Tesla T4\n"}
+,{"stream_name":"stdout","time":27.365208977,"data":"VRAM: 15.64 GB\n"}
+,{"stream_name":"stdout","time":33.98261985,"data":"Scanning /kaggle/input for dataset...\n"}
+,{"stream_name":"stdout","time":34.095038412,"data":"Using Data Dir: /kaggle/input/datasets/goofybhatoora/banking77-eval-data\n"}
+,{"stream_name":"stdout","time":68.477490627,"data":"\n"}
+,{"stream_name":"stdout","time":68.477546678,"data":"--- Loading Tokenizer: Qwen/Qwen2.5-3B-Instruct ---\n"}
+,{"stream_name":"stderr","time":68.614590832,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":68.614620643,"data":"\n"}
+,{"stream_name":"stderr","time":68.614626746,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":70.163683874,"data":"--- Loading Base Model (Zero-Shot 4-bit NF4): Qwen/Qwen2.5-3B-Instruct ---\n"}
+,{"stream_name":"stdout","time":116.715630386,"data":"\n"}
+,{"stream_name":"stdout","time":116.71567163899999,"data":"Generating b77_test in 'free' mode (3080 queries)...\n"}
+,{"stream_name":"stdout","time":123.628696334,"data":"  b77_test/free: 16/3080 queries done (2.3 q/s)\n"}
+,{"stream_name":"stdout","time":203.886819391,"data":"  b77_test/free: 256/3080 queries done (2.9 q/s)\n"}
+,{"stream_name":"stdout","time":265.732769474,"data":"  b77_test/free: 496/3080 queries done (3.3 q/s)\n"}
+,{"stream_name":"stdout","time":322.612493722,"data":"  b77_test/free: 736/3080 queries done (3.6 q/s)\n"}
+,{"stream_name":"stdout","time":380.10593382,"data":"  b77_test/free: 976/3080 queries done (3.7 q/s)\n"}
+,{"stream_name":"stdout","time":454.704226265,"data":"  b77_test/free: 1216/3080 queries done (3.6 q/s)\n"}
+,{"stream_name":"stdout","time":512.87981287,"data":"  b77_test/free: 1456/3080 queries done (3.7 q/s)\n"}
+,{"stream_name":"stdout","time":587.408945412,"data":"  b77_test/free: 1696/3080 queries done (3.6 q/s)\n"}
+,{"stream_name":"stdout","time":653.92668935,"data":"  b77_test/free: 1936/3080 queries done (3.6 q/s)\n"}
+,{"stream_name":"stdout","time":714.809999203,"data":"  b77_test/free: 2176/3080 queries done (3.6 q/s)\n"}
+,{"stream_name":"stdout","time":781.937942512,"data":"  b77_test/free: 2416/3080 queries done (3.6 q/s)\n"}
+,{"stream_name":"stdout","time":843.047022765,"data":"  b77_test/free: 2656/3080 queries done (3.7 q/s)\n"}
+,{"stream_name":"stdout","time":919.092234007,"data":"  b77_test/free: 2896/3080 queries done (3.6 q/s)\n"}
+,{"stream_name":"stdout","time":981.481142388,"data":"  b77_test/free: 3080/3080 queries done (3.6 q/s)\n"}
+,{"stream_name":"stdout","time":981.678834955,"data":"--\u003e Wrote /kaggle/working/eval_base/b77_test__free.jsonl (3080 records)\n"}
+,{"stream_name":"stdout","time":981.678919632,"data":"\n"}
+,{"stream_name":"stdout","time":981.678935438,"data":"Generating amb_test in 'free' mode (200 queries)...\n"}
+,{"stream_name":"stdout","time":985.177446491,"data":"  amb_test/free: 16/200 queries done (4.4 q/s)\n"}
+,{"stream_name":"stdout","time":1034.301904279,"data":"  amb_test/free: 200/200 queries done (3.8 q/s)\n"}
+,{"stream_name":"stdout","time":1034.355774085,"data":"--\u003e Wrote /kaggle/working/eval_base/amb_test__free.jsonl (200 records)\n"}
+,{"stream_name":"stdout","time":1034.35581731,"data":"\n"}
+,{"stream_name":"stdout","time":1034.355824818,"data":"--- Base Model Evaluation Complete! ---\n"}
+,{"stream_name":"stdout","time":1034.37278205,"data":"\n"}
+,{"stream_name":"stdout","time":1034.372820683,"data":"--- Output Verification ---\n"}
+,{"stream_name":"stdout","time":1034.372826392,"data":"amb_test__free.jsonl           -\u003e   200 records (    81.7 KB)\n"}
+,{"stream_name":"stdout","time":1034.372830664,"data":"b77_test__free.jsonl           -\u003e  3080 records (  1118.4 KB)\n"}
+,{"stream_name":"stderr","time":1039.847694401,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1039.847737521,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1040.086186074,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1040.08621914,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1041.022285997,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1041.122219441,"data":"[NbConvertApp] Writing 145215 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1043.834055076,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1044.440457933,"data":"[NbConvertApp] Writing 420684 bytes to __results__.html\n"}
+]

@@ -95,20 +95,22 @@ Evaluated on the official Banking77 test set (**3,080 queries**) and the synthet
 
 ### Comprehensive Performance Comparison
 
-| Evaluation Metric | FREE Mode (Autonomous) | THINK Mode (Forced CoT) | FAST Mode (Ablation / Direct) |
-| :--- | :---: | :---: | :---: |
-| **Top-1 Intent Accuracy** | **60.45%** (1,862/3,080) | **62.66%** (1,930/3,080) | 70.65%* (Direct emission) |
-| **Top-3 Candidate Coverage** | **77.37%** (2,383/3,080) | **78.12%** (2,406/3,080) | 70.97% |
-| **Ambiguity Recall (`amb_test`)** | **96.00%** (192/200) | **76.00%** (152/200) | **2.00%** (4/200) |
-| **Ambiguity False Positives** | **4.00%** (8/200) | 24.00% (48/200) | 75.50% (151/200) |
-| **Ambiguity Candidate Jaccard** | **77.13%** | 65.07% | 59.17% |
-| **Think Trigger Rate** | 94.5% (2,910/3,080) | 100.0% (3,080/3,080) | 0.4% (11/3,080) |
-| **Fast-Path Accuracy** | **99.41%** (169/170) | N/A | 70.84% |
-| **Mean Latency (GPU)** | 1,254.6 ms | 1,213.6 ms | **958.6 ms** |
-| **Avg Generated Tokens** | 56.7 | 53.5 | **19.2** |
-| **Train vs. Test Gap (500 samples)** | **-4.05%** (56.4% vs 60.5%) | **-4.60%** (58.0% vs 62.7%) | -0.79% |
+| Evaluation Metric | Untuned Base Model<br>(Qwen2.5-3B Zero-Shot) | FREE Mode<br>(Autonomous) | THINK Mode<br>(Forced CoT) | FAST Mode<br>(Ablation / Direct) |
+| :--- | :---: | :---: | :---: | :---: |
+| **Top-1 Intent Accuracy** | 46.10% (1,420/3,080) | **60.45%** (1,862/3,080) | **62.66%** (1,930/3,080) | 70.65%* (Direct emission) |
+| **Top-3 Candidate Coverage** | N/A | **77.37%** (2,383/3,080) | **78.12%** (2,406/3,080) | 70.97% |
+| **JSON Schema Adherence** | **0.00%** (0/3,080) | **99.93%** (3,078/3,080) | **99.90%** (3,077/3,080) | 88.15% (2,715/3,080) |
+| **Hallucinated Intent Names** | **11.88%** (366/3,080) | **0.00%** (0/3,080) | **0.00%** (0/3,080) | **0.00%** (0/3,080) |
+| **Ambiguity Recall (`amb_test`)** | **5.50%** (11/200) | **96.00%** (192/200) | **76.00%** (152/200) | **2.00%** (4/200) |
+| **Ambiguity False Positives** | 94.50% | **4.00%** (8/200) | 24.00% (48/200) | 75.50% (151/200) |
+| **Ambiguity Candidate Jaccard** | N/A | **77.13%** | 65.07% | 59.17% |
+| **Think Trigger Rate** | 0.0% | 94.5% (2,910/3,080) | 100.0% (3,080/3,080) | 0.4% (11/3,080) |
+| **Fast-Path Accuracy** | N/A | **99.41%** (169/170) | N/A | 70.84% |
+| **Mean Latency (GPU)** | **279.0 ms** | 1,254.6 ms | 1,213.6 ms | 958.6 ms |
+| **Avg Generated Tokens** | **5.4** | 56.7 | 53.5 | 19.2 |
+| **Train vs. Test Gap (500 samples)** | N/A | **-4.05%** (56.4% vs 60.5%) | **-4.60%** (58.0% vs 62.7%) | -0.79% |
 
-*\* Note on FAST mode: FAST mode forces single-token greedy assignment. While Top-1 accuracy on unambiguous test queries appears high, it fails catastrophically on underspecified queries—achieving only **2.00% ambiguity recall** (guessing blindly 98% of the time). In contrast, FREE mode correctly flags 96.00% of ambiguous customer queries with high candidate Jaccard (77.13%).*
+*\* Note on FAST mode & Base Model: The untuned base model completely fails to follow the structured JSON contract (0% schema adherence), hallucinates non-existent intent names on 11.88% of queries, and achieves only 5.5% ambiguity recall. FAST mode forces single-token greedy assignment; while its Top-1 accuracy on unambiguous test queries appears high, it fails catastrophically on underspecified queries—achieving only **2.00% ambiguity recall** (guessing blindly 98% of the time). In contrast, FREE mode correctly flags 96.00% of ambiguous customer queries with high candidate Jaccard (77.13%).*
 
 ### Generalization & Overfitting Check
 Evaluation on 500 randomly sampled training queries confirmed a negative train-test gap (**-4.05%** in FREE mode), demonstrating that the QLoRA adapter learned generalized semantic cues rather than memorizing training instances.
