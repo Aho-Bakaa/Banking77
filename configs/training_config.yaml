@@ -1,0 +1,57 @@
+# Phase 3: QLoRA Fine-Tuning Configuration for Qwen-2.5-3B-Instruct on Kaggle GPU
+
+model:
+  base_model_name: "Qwen/Qwen2.5-3B-Instruct"
+  load_in_4bit: true
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "float16"
+  bnb_4bit_use_double_quant: true
+  max_seq_length: 640
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+training:
+  output_dir: "./checkpoints/qwen2.5_3b_banking77_lora"
+  num_train_epochs: 3
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 4    # Effective batch size: 16
+  per_device_eval_batch_size: 4
+  learning_rate: 0.0002             # 2e-4
+  lr_scheduler_type: "cosine"       # Adaptive cosine decay with warmup
+  warmup_steps: 38
+  weight_decay: 0.01
+  fp16: false                       # 4-bit base computes in Float16 via BitsAndBytes; avoids GradScaler AMP bug
+  bf16: false
+  logging_steps: 20
+  evaluation_strategy: "steps"
+  eval_steps: 100
+  save_strategy: "steps"
+  save_steps: 100
+  save_total_limit: 3               # Retains top/recent 3 checkpoints
+  load_best_model_at_end: true
+  metric_for_best_model: "eval_loss"
+  greater_is_better: false
+  gradient_checkpointing: true
+  seed: 77
+
+early_stopping:
+  patience: 3                       # Stop if eval_loss doesn't improve for 3 checks (300 steps)
+  threshold: 0.005
+
+paths:
+  train_data: "data/processed/train.jsonl"
+  val_data: "data/processed/val.jsonl"
+  final_adapter_dir: "./models/qwen2.5_3b_banking77_final"

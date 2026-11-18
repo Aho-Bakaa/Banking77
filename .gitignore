@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and Environments
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# Model Weights, Checkpoints & Artifacts (Trained weights hosted on Hugging Face / Kaggle)
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.onnx
+checkpoints/
+kaggle_output/
+kaggle_logs/
+runs/
+wandb/
+
+# Archives & Temporary files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editor Configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets & Local credentials
+.env
+.env.local
+*.pem
+kaggle.json
