@@ -27,7 +27,7 @@ flowchart TD
     FastPath --> DirectResolution["JSON Output: Resolved Intent"]
     
     ThinkPath --> DisambiguationCheck{"Is Query\nSufficiently Specified?"}
-    DisambiguationCheck -- "Yes" --> S2Resolved["&lt;think&gt;...&lt;/think&gt;\nstatus: resolved\nTarget Intent Assigned"]
+    DisambiguationCheck -- "Yes" --> S2Resolved["&lt;think&gt;...&lt;/think&gt;\nstatus: resolved\n Intent Assigned"]
     DisambiguationCheck -- "No (Ambiguous)" --> S2Clarify["&lt;think&gt;...&lt;/think&gt;\nstatus: ambiguous\nRanked Candidates + Follow-Up Question"]
 ```
 
