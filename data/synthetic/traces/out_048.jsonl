@@ -1,0 +1,60 @@
+{"id": 2243, "thought": "Cue: how much is ok to top up with - amount allowed. vs top_up_by_card_charge: amount, not fee. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2244, "thought": "Cue: maximum I can top up. vs automatic_top_up: general limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2246, "thought": "Cue: any top-up limits. vs automatic_top_up: general. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2248, "thought": "Cue: greatest number of times I can top up - frequency limit. vs automatic_top_up: limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2249, "thought": "Cue: is there a limit to top-up. vs top_up_failed: limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2251, "thought": "Cue: how much am I allowed to top up. vs top_up_by_cash_or_cheque: amount. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2252, "thought": "Cue: limit on how much I can top up. vs automatic_top_up: general. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2253, "thought": "Cue: limit to how much I can top up. vs disposable_card_limits: top-ups. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2254, "thought": "Cue: limit for the amount I can top up. vs wrong_amount_of_cash_received: no. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2261, "thought": "Cue: know how much I can top up. vs top_up_by_card_charge: amount. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2263, "thought": "Cue: top-up limits I must follow. vs verify_top_up: limits. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2265, "thought": "Cue: is topping up unlimited. vs top_up_by_card_charge: limits. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2269, "thought": "Cue: rules for a top-up - broad; limits likely. vs supported_cards_and_currencies: rules could be accepted methods. -> ambiguous: top_up_limits | supported_cards_and_currencies", "status": "ambiguous", "candidates": ["top_up_limits", "supported_cards_and_currencies"], "question": "Do you mean how much you can top up, or which payment methods are accepted?"}
+{"id": 2272, "thought": "Cue: most I can top up to a card. vs supported_cards_and_currencies: amount. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2275, "thought": "Cue: what's the max I can top up. vs automatic_top_up: general max. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2279, "thought": "Cue: number of times I can top up. vs automatic_top_up: frequency. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2282, "thought": "Cue: information on my limit for top-ups. vs top_up_by_card_charge: limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2283, "thought": "Cue: information on limits for top-ups. vs disposable_card_limits: top-ups. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2285, "thought": "Cue: what is my top-up limit. vs top_up_reverted: limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2289, "thought": "Cue: add a SERIOUS amount of cash to my card - large amount, limits matter; also how-to. vs top_up_by_cash_or_cheque: cash method. -> ambiguous: top_up_limits | top_up_by_cash_or_cheque", "status": "ambiguous", "candidates": ["top_up_limits", "top_up_by_cash_or_cheque"], "question": "Is your main question how much you can add, or how to add physical cash?"}
+{"id": 2292, "thought": "Cue: is there a topping up limit. vs automatic_top_up: general. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2294, "thought": "Cue: 'can I top up?' - bare capability question; no limit cue. vs topping_up_by_card: how-to. -> ambiguous: top_up_limits | topping_up_by_card", "status": "ambiguous", "candidates": ["topping_up_by_card", "top_up_limits"], "question": "Would you like to know how to top up, or how much you're able to top up?", "flag": "label_noise"}
+{"id": 2298, "thought": "Cue: do you limit my top-offs. vs top_up_reverted: limits. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2300, "thought": "Cue: how many top-ups can I use. vs disposable_card_limits: top-ups. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2313, "thought": "Cue: limit for top ups. vs pending_top_up: limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2314, "thought": "Cue: explain how much I can top up. vs topping_up_by_card: amount. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2318, "thought": "Cue: how often can I top up. vs automatic_top_up: frequency limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2322, "thought": "Cue: top-up limit on my cards. vs top_up_failed: limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2323, "thought": "Cue: my limit for topping up. vs pending_top_up: limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2325, "thought": "Cue: amount at which I'd be cut off from topping up. vs wrong_amount_of_cash_received: limit. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2327, "thought": "Cue: how much can I top up on my card. -> top_up_limits", "status": "resolved", "intent": "top_up_limits"}
+{"id": 2329, "thought": "Cue: daily limit on my card - could be spending/withdrawal limit, not top-up. vs disposable_card_limits: no disposable. -> ambiguous: top_up_limits | card_acceptance", "status": "ambiguous", "candidates": ["top_up_limits", "cash_withdrawal_charge"], "question": "Do you mean the daily limit for topping up, or for spending and withdrawing with the card?", "flag": "label_noise"}
+{"id": 3155, "thought": "Cue: top up showed, then money disappeared - reversed after appearing. vs top_up_failed: it showed first. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3160, "thought": "Cue: has my top-up gone through - status check, no reversal cue. vs pending_top_up: fits better. -> ambiguous: top_up_reverted | pending_top_up", "status": "ambiguous", "candidates": ["pending_top_up", "top_up_reverted"], "question": "Is the top-up still pending, or did it show up and then disappear?", "flag": "label_noise"}
+{"id": 3161, "thought": "Cue: went to top up my card and it was cancelled. vs reverted_card_payment?: top-up. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3162, "thought": "Cue: I didn't cancel my top-up - top-up cancelled by the system. vs top_up_failed: cancelled. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3171, "thought": "Cue: top-up has been cancelled. vs top_up_failed: cancelled. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3175, "thought": "Cue: topped up ('talked up') earlier and saw it, now vanished. vs transfer_not_received_by_recipient: own top-up reversed. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3176, "thought": "Cue: top-up cancelled, ask about 3D Secure before submitting. vs verify_top_up: 3DS relates, but cancelled is the event. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3177, "thought": "Cue: can't put money in my top up account - inability, no reversal cue. vs top_up_failed: fits. -> ambiguous: top_up_reverted | top_up_failed", "status": "ambiguous", "candidates": ["top_up_failed", "top_up_reverted"], "question": "Is the top-up failing straight away, or does the money appear and then get taken back?", "flag": "label_noise"}
+{"id": 3181, "thought": "Cue: why would my top up be reverted. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3182, "thought": "Cue: tried a top-up and it was cancelled, why. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3183, "thought": "Cue: did you revert my top up. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3184, "thought": "Cue: app DECLINED my top up - declined, not reversed. vs top_up_reverted: no reversal. -> top_up_failed", "status": "resolved", "intent": "top_up_failed", "flag": "label_noise"}
+{"id": 3185, "thought": "Cue: reason my top-up has been cancelled. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3187, "thought": "Cue: completed a top up, saw it go through, now disappeared. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3188, "thought": "Cue: money I added was returned. vs reverted_card_payment?: added money = top-up. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3189, "thought": "Cue: why didn't my top up work - failure, no reversal cue. vs top_up_failed: fits. -> ambiguous: top_up_reverted | top_up_failed", "status": "ambiguous", "candidates": ["top_up_failed", "top_up_reverted"], "question": "Did the top-up fail immediately, or did it go through and then get reversed?", "flag": "label_noise"}
+{"id": 3195, "thought": "Cue: why won't my top up go through - failure. vs top_up_failed: fits. -> ambiguous: top_up_reverted | top_up_failed", "status": "ambiguous", "candidates": ["top_up_failed", "top_up_reverted"], "question": "Is the top-up being rejected, or does it go through and then get reversed?", "flag": "label_noise"}
+{"id": 3196, "thought": "Cue: funds I added were returned. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3199, "thought": "Cue: top up done successfully but not showing in balance - successful then missing. vs pending_top_up: 'successfully'. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3200, "thought": "Cue: put money in the other day, now it's gone. vs balance_not_updated_after_cheque_or_cash_deposit: it was there, now gone. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3202, "thought": "Cue: topped up, saw it go through, now disappeared. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3204, "thought": "Cue: status of my top up - status check. vs pending_top_up: fits. -> ambiguous: top_up_reverted | pending_top_up", "status": "ambiguous", "candidates": ["pending_top_up", "top_up_reverted"], "question": "Is the top-up still pending, or did it appear and then vanish?", "flag": "label_noise"}
+{"id": 3207, "thought": "Cue: crypto top up not working, money vanished. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3209, "thought": "Cue: asks why the top-up is showing as cancelled. vs top_up_failed: cancelled after initiation. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3212, "thought": "Cue: statement shows my top-up has been reverted. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3214, "thought": "Cue: top up was REJECTED - failure. vs top_up_reverted: rejected. -> top_up_failed", "status": "resolved", "intent": "top_up_failed", "flag": "label_noise"}
+{"id": 3218, "thought": "Cue: did a top-up, money was reverted. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}
+{"id": 3220, "thought": "Cue: how to tell if my top-up has been cancelled. -> top_up_reverted", "status": "resolved", "intent": "top_up_reverted"}

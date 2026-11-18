@@ -1,0 +1,60 @@
+{"id":1766,"thought":"Cue: where do I unblock my PIN. vs change_pin: unblocking, not choosing a new PIN. -> pin_blocked","status":"resolved","intent":"pin_blocked"}
+{"id":1767,"thought":"Cue: blocked now because I entered the wrong PIN. vs declined_cash_withdrawal: cause is the PIN lock. -> pin_blocked","status":"resolved","intent":"pin_blocked"}
+{"id":1768,"thought":"Cue: my PIN has been blocked, what to do. vs change_pin: unblock first. -> pin_blocked","status":"resolved","intent":"pin_blocked"}
+{"id":1773,"thought":"Cue: my PIN is not working, help. vs get_physical_card: the customer has a PIN that fails. -> pin_blocked","status":"resolved","intent":"pin_blocked"}
+{"id":1774,"thought":"Cue: unlock after typing the wrong PIN too many times. vs passcode_forgotten: card PIN, not app login. -> pin_blocked","status":"resolved","intent":"pin_blocked"}
+{"id":1776,"thought":"Cue: unblock my PIN, put the wrong one too many times. vs change_pin: unblocking. -> pin_blocked","status":"resolved","intent":"pin_blocked"}
+{"id":1777,"thought":"Cue: I need a new PIN number - reason unstated: blocked, forgotten or just a change. vs change_pin: plain reading. -> ambiguous: pin_blocked | change_pin","status":"ambiguous","candidates":["pin_blocked","change_pin"],"question":"Is your current PIN blocked, or would you simply like to change it?"}
+{"id":1781,"thought":"Cue: can't figure out how to unblock my PIN number. vs change_pin: unblocking. -> pin_blocked","status":"resolved","intent":"pin_blocked"}
+{"id":4546,"thought":"Cue: use the card at any cash machine. vs card_acceptance: specifically ATMs, not merchants. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4547,"thought":"Cue: what locations can I get money from - cash withdrawal locations. vs receiving_money: getting cash out, not being paid. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4548,"thought":"Cue: what ATMs take this card. vs card_swallowed: no retention. vs card_acceptance: ATMs. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4550,"thought":"Cue: do all ATMs accept this card. vs card_acceptance: ATM-specific. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4552,"thought":"Cue: which ATMs am I allowed to get money from. vs cash_withdrawal_charge: no fee asked. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4553,"thought":"Cue: where is the closest ATM to me. vs declined_cash_withdrawal: no failure. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4554,"thought":"Cue: which ATMs accept this 'bill of fare' (garbled for card). ATM acceptance. vs card_acceptance: ATMs named. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4555,"thought":"Cue: must I use a bank-approved ATM to withdraw. vs cash_withdrawal_charge: not about fees. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4556,"thought":"Cue: how do I withdraw money - where/how to get cash. vs transfer_into_account: taking money out, not adding. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4557,"thought":"Cue: use this card at any ATM. vs card_acceptance: ATMs. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4558,"thought":"Cue: what locations allow me to withdraw money. vs top_up_by_cash_or_cheque: withdrawing, not depositing. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4559,"thought":"Cue: what ATMs accept my card. vs card_acceptance: ATM-specific. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4560,"thought":"Cue: use my card to withdraw from my account - cash withdrawal capability. vs cash_withdrawal_not_recognised: no unknown withdrawal. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4561,"thought":"Cue: where can I withdraw money. vs cash_withdrawal_charge: no fee. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4563,"thought":"Cue: specific ATMs I can draw money from. vs wrong_amount_of_cash_received: no problem reported. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4564,"thought":"Cue: where can money withdrawals be made. vs pending_cash_withdrawal: no pending item. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4565,"thought":"Cue: do I have to use bank-approved ATMs. vs cash_withdrawal_charge: about which ATMs. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4566,"thought":"Cue: where can I find Mastercard ATMs. vs visa_or_mastercard: network is context; asks ATM locations. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4567,"thought":"Cue: what ATMs can I use my card at. vs card_acceptance: ATMs. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4568,"thought":"Cue: what ATM machines allow this card. vs card_swallowed: no retention. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4569,"thought":"Cue: where can I do a cash withdrawal. vs pending_cash_withdrawal: no pending. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4571,"thought":"Cue: where are the ATMs that accept this card. vs card_acceptance: ATMs. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4573,"thought":"Cue: will any ATMs decline my card - hypothetical ATM coverage. vs declined_cash_withdrawal: no actual decline. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4578,"thought":"Cue: can I use my card at an ATM. vs card_swallowed: no retention. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4581,"thought":"Cue: where can I get money from my card - cash access points. vs order_physical_card: card held. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4583,"thought":"Cue: need an ATM right now - finding an ATM. vs wrong_amount_of_cash_received: no problem. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4586,"thought":"Cue: what ATMs use this card. vs card_acceptance: ATMs. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4588,"thought":"Cue: get money out of any machine - ATM coverage. vs receiving_money: cash out. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4591,"thought":"Cue: use my card in another institution's ATM. vs card_acceptance: ATMs. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4596,"thought":"Cue: use a different bank's ATM than my own. vs cash_withdrawal_charge: not fees. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4601,"thought":"Cue: a Mastercard ATM nearby. vs visa_or_mastercard: ATM location. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4603,"thought":"Cue: how do I know where I can get money withdrawn. vs pending_cash_withdrawal: no. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4609,"thought":"Cue: ATMs near me that accept this card. vs card_acceptance: ATMs. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4610,"thought":"Cue: help finding my nearest ATM. vs card_swallowed: no retention. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4612,"thought":"Cue: which ATMs accept this 'circuit board' (garbled for card). vs change_pin: no PIN. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4615,"thought":"Cue: is this card accepted by ATMs. vs card_acceptance: ATMs specifically. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4616,"thought":"Cue: only certain ATM machines for this card. vs disposable_card_limits: no disposable card. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4617,"thought":"Cue: where can I find a Mastercard ATM. vs visa_or_mastercard: location. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4620,"thought":"Cue: how far is the closest ATM. vs pending_cash_withdrawal: no. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4626,"thought":"Cue: how to tell if an ATM ('AMT') will take this card. vs card_acceptance: ATMs. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4627,"thought":"Cue: how do I know it is a Mastercard ATM. vs visa_or_mastercard: ATM identification. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4628,"thought":"Cue: which ATMs will accept this card. vs supported_cards_and_currencies: not top-up. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4629,"thought":"Cue: what ATM locations are near me. vs top_up_by_cash_or_cheque: no deposit. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":4630,"thought":"Cue: what ATM accepts Mastercard. vs visa_or_mastercard: ATM coverage. -> atm_support","status":"resolved","intent":"atm_support"}
+{"id":9342,"thought":"Cue: charged extra when I withdrew money - fee on a withdrawal. vs extra_charge_on_statement: tied to cash withdrawal. vs wrong_exchange_rate_for_cash_withdrawal: no rate. -> cash_withdrawal_charge","status":"resolved","intent":"cash_withdrawal_charge"}
+{"id":9346,"thought":"Cue: took more money out than I withdrew - extra deducted on a withdrawal: a fee or a rate issue. vs wrong_amount_of_cash_received: they got the cash; more was debited. -> ambiguous: cash_withdrawal_charge | wrong_exchange_rate_for_cash_withdrawal","status":"ambiguous","candidates":["cash_withdrawal_charge","wrong_exchange_rate_for_cash_withdrawal"],"question":"Was the withdrawal in a foreign currency, or does it look like a separate fee was added?"}
+{"id":9348,"thought":"Cue: why has a cash withdrawal charged me. vs pending_cash_withdrawal: about the charge. -> cash_withdrawal_charge","status":"resolved","intent":"cash_withdrawal_charge"}
+{"id":9351,"thought":"Cue: charged a fee for withdrawing cash. vs card_payment_fee_charged: withdrawal. -> cash_withdrawal_charge","status":"resolved","intent":"cash_withdrawal_charge"}
+{"id":9354,"thought":"Cue: ATM transaction, charged extra. vs wrong_amount_of_cash_received: no cash shortfall. -> cash_withdrawal_charge","status":"resolved","intent":"cash_withdrawal_charge"}
+{"id":9363,"thought":"Cue: charged for ATM withdrawals that used to be free, how much. vs declined_cash_withdrawal: fees. -> cash_withdrawal_charge","status":"resolved","intent":"cash_withdrawal_charge"}
+{"id":9364,"thought":"Cue: fee for an ATM transaction. vs extra_charge_on_statement: ATM-tied. -> cash_withdrawal_charge","status":"resolved","intent":"cash_withdrawal_charge"}
+{"id":9365,"thought":"Cue: charged for ATM fees. vs transfer_fee_charged: ATM. -> cash_withdrawal_charge","status":"resolved","intent":"cash_withdrawal_charge"}

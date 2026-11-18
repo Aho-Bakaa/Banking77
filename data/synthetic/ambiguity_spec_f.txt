@@ -1,0 +1,89 @@
+## decline_channel | declined_card_payment,declined_transfer,declined_cash_withdrawal | The channel that was declined (card payment, transfer, ATM) is not stated.
+I got declined || declined, channel unknown || What were you doing: paying by card, sending a transfer, or withdrawing cash?
+declined again!! || repeated decline || Was it a card payment, a transfer, or an ATM withdrawal that was declined?
+why was it declined || 'it' unknown || Which transaction was declined: a purchase, a transfer, or a withdrawal?
+it says declined || declined message || Where did you see that: at a shop, in a transfer, or at an ATM?
+declined for no reason || unexplained decline || Was this a card payment, a transfer, or a cash withdrawal?
+everything's getting declined || broad declines || Are card payments, transfers, or withdrawals being declined?
+my request was declined || request || Was it a payment, a transfer, or a withdrawal request?
+declined twice today || two declines || Were both card payments, transfers, or ATM withdrawals?
+the bank declined me || bank decline || What were you trying to do when it happened?
+got a decline notice || notice || Was the notice about a card payment, a transfer, or a withdrawal?
+rejected again, why || rejection || Which transaction was rejected?
+you keep declining me || repeated || Is it card payments, transfers, or cash withdrawals?
+transaction declined || transaction || Was it a purchase, a transfer, or an ATM withdrawal?
+declined even though I have money || funds present || Were you paying, transferring, or withdrawing?
+not approved || not approved || Which transaction wasn't approved?
+## pending_type | pending_card_payment,pending_transfer,pending_cash_withdrawal | The type of the pending transaction is not stated.
+something is pending || pending item || Is it a card payment, a transfer, or a cash withdrawal that's pending?
+pending forever || long pending || Which transaction is pending: a purchase, transfer, or withdrawal?
+why is this pending || this || Is it a card payment, a transfer, or an ATM withdrawal?
+it's still pending || still pending || What kind of transaction is it?
+pending transaction won't clear || won't clear || Is it a purchase, a transfer, or a withdrawal?
+how long does pending last || duration || For a card payment, a transfer, or a cash withdrawal?
+everything shows pending || all pending || Which transactions are you looking at?
+there's a pending item on my account || pending item || Is it a card payment, a transfer, or a withdrawal?
+pending since yesterday || since yesterday || What type of transaction is it?
+my money is pending || money pending || Is it a payment, transfer, or withdrawal that's pending?
+pending status won't change || stuck pending || Is it a card payment, a transfer, or a cash withdrawal?
+pending amount on my balance || pending amount || What was the transaction: a purchase, transfer, or withdrawal?
+## card_setup | activate_my_card,card_linking | Whether the card is new and needs activating, or needs adding to the app, is not stated.
+how do I set up my card || setup || Is this a brand new card to activate, or a card you want to add to the app?
+my card isn't ready to use || not ready || Have you activated it yet, or does it just not show in your app?
+get my card going || start using || Is it newly arrived, or a card you already had?
+card setup help || help || Do you need to activate it, or link it to the app?
+I have the card, now what || next steps || Would you like to activate it, or add it to your app?
+how do I start using my card || first use || Is it new, or an existing card you want in the app?
+card needs enabling || enable || Activation, or linking it in the app?
+the app doesn't know about my card || not in app || Is it a new card that needs activation, or one you want to link?
+## lost_phone_card | lost_or_stolen_phone,lost_or_stolen_card | Whether the phone, the card, or both were lost is not stated.
+I lost everything || everything || Did you lose your phone, your card, or both?
+my bag was stolen || bag || Was your card and/or your phone in the bag?
+I got robbed || robbed || What was taken: your card, your phone, or both?
+lost my stuff on the train || stuff || Was your card or phone among the things you lost?
+wallet and maybe phone gone || uncertain || Is your phone missing as well as your card?
+someone took my things || things taken || Was it your phone, your card, or both?
+I left my belongings at the hotel || left at hotel || Did you leave your card, your phone, or both?
+pickpocketed || pickpocket || Was your card or your phone taken?
+## withdrawal_cost | cash_withdrawal_charge,wrong_exchange_rate_for_cash_withdrawal | Whether the extra cost was a fee or the exchange rate is not stated.
+taking cash out cost me too much || overcost || Was the withdrawal in a foreign currency, or was it a fee?
+ATM withdrawal more expensive than expected || expensive || Did you withdraw in another currency?
+paid too much for cash || too much || Was it a separate fee or the exchange rate?
+cash withdrawal cost? || cost || Was it in your home currency or abroad?
+the ATM took more than I withdrew || more taken || Were you abroad when you withdrew?
+withdrawal charge seems high || high charge || Was this withdrawal in a foreign currency?
+## topup_how | topping_up_by_card,transfer_into_account,top_up_by_cash_or_cheque | The intended top-up method is not stated.
+how do I add money || add money || Would you like to top up by card, by bank transfer, or with cash or a cheque?
+put money in my account how || how || By card, bank transfer, or cash/cheque?
+ways to fund my account || ways || Do you prefer card, bank transfer, or cash and cheques?
+how can I load my account || load || Card, transfer, or cash/cheque?
+best way to add funds || best way || Which do you have available: a card, another bank account, or cash/cheque?
+I want to put money on here || put money || How would you like to add it?
+topping up options || options || Card, bank transfer, or cash/cheque?
+can I add money || add || Which method would you like to use?
+## beneficiary | beneficiary_not_allowed,failed_transfer,declined_transfer | Whether the recipient is blocked or the transfer failed or was declined is unclear.
+can't send money to this person || one recipient || Are you blocked from adding them, or is the transfer failing?
+transfer to my friend won't work || friend || Did you get a 'not allowed' message, or did it fail or get declined?
+this account won't accept my transfer || account || Is that account blocked as a recipient, or did the transfer fail?
+my payee isn't working || payee || Can't you add them, or did a transfer to them fail?
+sending to this account gives an error || error || Does the error say the recipient isn't allowed, or that it failed?
+paying my supplier doesn't work || supplier || Is the supplier blocked, or did the payment fail?
+## dispute | card_payment_not_recognised,request_refund,transaction_charged_twice | The reason for disputing the charge is not stated.
+I want to dispute a charge || dispute || Do you not recognise it, were you charged twice, or do you want a refund?
+how do I dispute something || dispute || What's wrong with the charge?
+chargeback please || chargeback || Is the charge unknown, a duplicate, or for goods you didn't get?
+I disagree with a payment on my card || disagree || Didn't you make it, or were you charged twice?
+contest a transaction || contest || Why would you like to contest it?
+this charge is wrong || wrong charge || Is it unrecognised, duplicated, or something you want refunded?
+## money_in | receiving_money,transfer_into_account | Whether money comes from someone else or from the customer's own account is not stated.
+how does money get into my account || money in || Is it money from someone else, or from your own account elsewhere?
+how do I get money here || get money || Will someone send it to you, or are you moving your own money?
+transfers into my account? || transfers in || From another person, or from your own bank account?
+money coming in || incoming || Who is sending the money?
+can I receive transfers || receive || From other people, or from your own accounts?
+## replace_reason | card_about_to_expire,lost_or_stolen_card,card_not_working | Why the card needs replacing is not stated.
+replace my card || replace || Is your card expiring, lost or stolen, or damaged?
+need a replacement || replacement || Why do you need a replacement?
+my card needs replacing || needs replacing || Is it expiring, lost, or not working?
+swap my card || swap || Is it expired, missing, or faulty?
+new card to replace this one || replace || What's wrong with your current card?

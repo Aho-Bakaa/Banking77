@@ -1,0 +1,86 @@
+## card_fail | card_not_working,declined_card_payment | Nothing says whether one payment was refused or the card fails everywhere.
+My card failed today || card 'failed' once, no context || Was the card declined for a specific purchase, or is it not working anywhere you try it?
+card didnt work earlier || single past failure, no merchant || Did this happen while paying somewhere, and has the card worked anywhere since?
+The card isn't going through || 'not going through', no setting || Is it being declined at a particular shop, or failing for every payment?
+my card got rejected || rejection, no merchant or frequency || Was it rejected for one purchase, or every time you use it?
+Something's up with my card || vague card problem || What happens when you try to use it: is a payment declined, or does the card not work at all?
+Card problems again!! || recurring vague issue || Are payments being declined, or is the card not working at all?
+it says payment failed on my card || payment failed, no detail || Was it a single payment that failed, or are all payments with this card failing?
+Why does my card keep failing || repeated failure, no setting || Is it failing at shops when you pay, or for every kind of transaction?
+card not accepted || not accepted, unknown where || Was it refused at one place, or is it not working anywhere?
+Tried to pay, card said no || one attempt refused || Has the card worked for other payments since, or is it failing everywhere?
+my card is being weird || vague || What is it doing: being declined for purchases, or not working at all?
+Card error at the till || till error, one merchant || Is this the only place it failed, or does the card fail everywhere?
+Payment with card wouldn't work this morning || one morning failure || Was it one payment that was declined, or is the card not working generally?
+is my card broken or something || suspects fault, no evidence || Have payments been declined, or does the card not respond at all?
+Card keeps saying error || error, no context || Where do you see the error: when paying at a shop, or every time you use the card?
+Help, card not working at the shop || shop failure; card or merchant? || Has the card worked at other shops, or is it failing everywhere?
+my card was refused || refused once || Was it a single refused payment, or are all payments failing?
+Card isn't letting me pay || can't pay, unclear scope || Is it one merchant refusing it, or is the card not working at all?
+Card stopped working mid-purchase || failure during purchase || Did the payment get declined, or has the card stopped working entirely?
+why won't my card go through online || online failure; one site? || Is it one website declining it, or does it fail everywhere?
+Card is acting up || vague || Are payments being declined, or is the card not working in general?
+cant use card || inability, no context || Is the card being declined when you pay, or not working at all?
+Tried my card twice, nothing || two failed attempts || Were both at the same place, and has it worked anywhere else?
+card no longer working properly || degraded, unclear || Are specific payments being declined, or is the card failing everywhere?
+My debit card didn't work at the restaurant || one merchant || Has your card worked anywhere else today, or is it failing every time?
+Payment bounced on my card || 'bounced', one payment || Was it just this payment, or are others failing too?
+The cashier said my card isn't working || cashier report, one place || Is this the only place it hasn't worked, or does it fail everywhere?
+card issue at checkout || checkout problem || Was the payment declined, or is the card not being read at all?
+I can't buy anything with my card || all purchases fail? || Are you seeing a 'declined' message, or does the card not work at all?
+## card_tap | contactless_not_working,card_not_working | Payment method (tap vs chip/PIN) is not stated.
+terminal wouldn't read my card || terminal read failure, mode unstated || Were you tapping the card, or inserting it and entering your PIN?
+Paying for the bus didn't work || transit payment failure, likely tap || Were you tapping to pay, and does chip and PIN still work?
+card doesn't work at the machine || machine failure, mode unknown || Is it tapping that fails, or inserting the card too?
+my card won't pay at the self-checkout || self-checkout, mode unknown || Does it fail when you tap, when you insert it, or both?
+card not reading || read failure || Is it contactless that doesn't read, or the chip as well?
+nothing happens when I pay with my card || no response || Were you paying contactless or with chip and PIN?
+the reader beeped and declined || reader decline || Was that a tap payment or a chip-and-PIN payment?
+card won't work on the train gates || gates use tap || Does your card work when you insert it and enter your PIN?
+it just doesn't register when I pay || not registering || Are you tapping the card, or inserting it?
+couldnt pay for coffee with my card || small purchase failure || Did you tap the card, and has chip and PIN worked recently?
+## card_missing | lost_or_stolen_card,card_arrival,card_swallowed | Whether the card was lost, never delivered, or kept by an ATM is not said.
+I don't have my card || card not in hand, reason unknown || Have you lost it, has it not arrived yet, or was it kept by an ATM?
+where's my card || location unknown || Are you waiting for a card to be delivered, or have you lost one you had?
+my card is gone || missing card || Was it lost or stolen, or did a machine keep it?
+I can't find my bank card anywhere || can't find; lost or never received || Did you have this card before, or are you waiting for it to arrive?
+still no card || 'still' suggests waiting || Are you waiting on a card we sent, or has your card gone missing?
+card missing help || missing || Did you lose it, or is it a new card that hasn't arrived?
+I need my card back || wants it back; from where? || Was your card kept by an ATM, or has it been lost or stolen?
+Don't know what happened to my card || unknown || Was it delivered to you and then lost, or have you never received it?
+No card yet and I need it || waiting or lost || Are you waiting for a new card, or did you lose your current one?
+card isnt with me || not in possession || Is it lost or stolen, or still on its way to you?
+the machine didn't give anything back || machine, card or cash? || Did the ATM keep your card, or not give you your cash?
+## fraud | card_payment_not_recognised,compromised_card | Whether the customer is reporting specific unknown payments or a compromised card is unclear.
+I think something fishy is going on with my card || suspicion, no specifics || Are there specific payments you don't recognise, or do you think your card details have been stolen?
+weird activity on my account || unusual activity || Can you see particular payments you didn't make, or are you worried the card has been compromised?
+someone may have my card details || suspected compromise || Have you spotted any payments you didn't make yet?
+not sure these purchases are mine || maybe unknown purchases || Would you like to dispute specific purchases, or secure your card first?
+is my card safe? || security worry || Have you noticed payments you don't recognise, or anything else suspicious?
+I think I've been scammed || scam, unclear how || Did someone use your card details, or are there specific payments you want to dispute?
+things on my statement I dont remember || unremembered items || Are these card purchases you didn't make, and do you think your card was compromised?
+my card might be compromised || suspicion || Do you see any specific transactions you didn't make?
+there's stuff on my card I didn't buy || unknown purchases || Would you like to block the card, dispute the purchases, or both?
+somebody's been spending my money || misuse || Is the money going on card purchases, and do you still have your card?
+## unknown_charge | card_payment_not_recognised,direct_debit_payment_not_recognised,cash_withdrawal_not_recognised | The type of the unknown transaction is not stated.
+there's money gone from my account I can't explain || unexplained debit || Does it show as a card purchase, a direct debit, or a cash withdrawal?
+transaction I don't recognise || unknown transaction || Is it a card payment, a direct debit, or an ATM withdrawal?
+something came out of my account || debit, type unknown || How does it appear in the app: as a card payment, a direct debit, or a cash withdrawal?
+unknown payment out || outgoing unknown || Was it a card payment, a direct debit, or a cash withdrawal?
+who took £50 from my account || unknown £50 debit || Does the £50 show as a card payment, direct debit, or cash withdrawal?
+I never authorised this || unauthorised, unknown type || What type of transaction is it: a card purchase, a direct debit, or a withdrawal?
+mystery transaction on my statement || mystery item || Is it a purchase, a direct debit, or a cash withdrawal?
+a debit I didn't make || 'debit' ambiguous || Is it a direct debit, a card payment, or a cash withdrawal?
+my balance dropped for no reason || unexplained drop || Can you see the transaction that caused it, and what type it is?
+there is a charge that isnt mine || charge not mine || Does it look like a purchase, a direct debit, or a cash withdrawal?
+## fee_generic | card_payment_fee_charged,transfer_fee_charged,cash_withdrawal_charge | The transaction the fee applies to is not stated.
+why the fee? || fee, no context || Which transaction was the fee on: a card payment, a transfer, or a cash withdrawal?
+got charged a fee || fee charged || What were you doing when the fee was charged: paying, transferring, or withdrawing cash?
+fees?? || bare fee query || Are you asking about fees for card payments, transfers, or cash withdrawals?
+I see a fee I don't understand || unexplained fee || Is the fee next to a card payment, a transfer, or an ATM withdrawal?
+How much do you charge || generic pricing || Which service: card payments, transfers, or cash withdrawals?
+there was a fee taken || fee taken || Which transaction was it attached to?
+Is there a charge for using this || 'this' unclear || Do you mean paying by card, sending a transfer, or taking out cash?
+Do I pay fees || generic || Which would you like to know about: card payment, transfer, or withdrawal fees?
+what's this charge for using my account || account use fee || Which activity was it for: a card payment, a transfer, or a withdrawal?
+fee showed up after I used it || fee after use; 'it' unclear || Did you use your card to pay, send a transfer, or withdraw cash?

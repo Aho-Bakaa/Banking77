@@ -1,0 +1,60 @@
+{"id":8516,"thought":"Cue: my top-up never worked - failed. vs pending_top_up: 'never worked' = failure. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8518,"thought":"Cue: topped up but the app rejected it. vs top_up_reverted: rejected up front. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8519,"thought":"Cue: top-up with card this morning unsuccessful. vs pending_top_up: unsuccessful. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8520,"thought":"Cue: tried to top up, denied. vs top_up_reverted: denied. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8524,"thought":"Cue: top up didn't go through - failed or still pending. vs pending_top_up: plausible. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"Is the top-up showing as failed, or still pending?"}
+{"id":8525,"thought":"Cue: my top up has failed. vs pending_top_up: failed. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8526,"thought":"Cue: why is it failing to top up. vs pending_top_up: failing. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8527,"thought":"Cue: can't get the top-up to work. vs apple_pay_or_google_pay: no wallet. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8528,"thought":"Cue: how do I know if my top up worked - status check. vs pending_top_up: fits. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"What does the app show for the top-up right now: pending, failed, or nothing at all?"}
+{"id":8529,"thought":"Cue: why can't I top up my account - inability. vs topping_up_by_card: failure. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8530,"thought":"Cue: my top-up was declined. vs declined_transfer: top-up. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8534,"thought":"Cue: why was my top-up rejected. vs verify_top_up: rejected. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8536,"thought":"Cue: my top up isn't working. vs pending_top_up: failure. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8537,"thought":"Cue: trouble with my top up - vague. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"What's the trouble: did the top-up fail, or is it stuck as pending?"}
+{"id":8538,"thought":"Cue: confused why my top-up did not go through. vs pending_top_up: possible. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"Did the top-up fail, or is it still showing as pending?"}
+{"id":8539,"thought":"Cue: added money but the app didn't process it - not processed by the app. vs pending_top_up: possible. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8541,"thought":"Cue: have the funds, why can't I use my top-up - top-up blocked. vs topping_up_by_card: failure. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8542,"thought":"Cue: top up with my card today didn't work, worked before. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8543,"thought":"Cue: keeping my money by declining my card - card declined, no top-up cue. vs declined_card_payment: fits. -> ambiguous: top_up_failed | declined_card_payment","status":"ambiguous","candidates":["top_up_failed","declined_card_payment"],"question":"Was your card declined when topping up, or when paying for something?","flag":"label_noise"}
+{"id":8544,"thought":"Cue: need to top up my card, being declined. vs declined_card_payment: top-up. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8545,"thought":"Cue: why did the app deny my top-up. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8546,"thought":"Cue: my top-up was rejected. vs top_up_reverted: rejected. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8547,"thought":"Cue: fix my top up - something wrong, unspecified. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"What's happening with your top-up: did it fail, or is it stuck pending?"}
+{"id":8552,"thought":"Cue: believe my top up did not work. vs pending_top_up: failure. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8553,"thought":"Cue: help reapplying my top-up, it isn't working. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8555,"thought":"Cue: credit card transaction declined for a loan payment - a payment decline, not a top-up. vs declined_card_payment: fits. -> declined_card_payment","status":"resolved","intent":"declined_card_payment","flag":"label_noise"}
+{"id":8556,"thought":"Cue: why did the top-up fail. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8557,"thought":"Cue: requested a top-up, not reflected - pending vs failed unclear. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"Is the top-up showing as pending, or did it fail?"}
+{"id":8558,"thought":"Cue: tried to top up, why didn't it work. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8562,"thought":"Cue: not sure if my 'pop-up' (top-up) went through. vs pending_top_up: status unknown. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"What does your app show for the top-up: pending or failed?"}
+{"id":8564,"thought":"Cue: tried to top up, app rejected it. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8565,"thought":"Cue: 'my message' didn't go through - no top-up or payment named. Unclear. -> ambiguous: top_up_failed | failed_transfer","status":"ambiguous","candidates":["top_up_failed","failed_transfer"],"question":"What were you trying to do: top up your account, or send a transfer?","flag":"label_noise"}
+{"id":8567,"thought":"Cue: didn't see the money I added to my card - not reflected. vs pending_top_up: fits. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"Is the top-up still pending, or did it fail?"}
+{"id":8572,"thought":"Cue: just topped up, the app denied it. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8573,"thought":"Cue: why did my top-up not work. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8575,"thought":"Cue: explain why my top-up didn't go through. vs pending_top_up: possible. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"Is it showing as failed, or still pending?"}
+{"id":8577,"thought":"Cue: why my top-up failed to go through. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8579,"thought":"Cue: the top-up did not go through. vs pending_top_up: possible. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"Does the app show the top-up as failed or pending?"}
+{"id":8582,"thought":"Cue: problems with my top up - vague. -> ambiguous: top_up_failed | pending_top_up","status":"ambiguous","candidates":["top_up_failed","pending_top_up"],"question":"What's the problem with the top-up: has it failed, or is it still pending?"}
+{"id":8583,"thought":"Cue: why is my top up failing. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8587,"thought":"Cue: what was the issue with my topping up - past failure implied. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8589,"thought":"Cue: why would the app deny my top-up. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8590,"thought":"Cue: need to add funds to my card because it keeps being declined - payments declined, top-up urgency. vs declined_card_payment: declines are on payments. -> ambiguous: top_up_failed | declined_card_payment","status":"ambiguous","candidates":["top_up_failed","declined_card_payment"],"question":"Is your top-up being declined, or are payments being declined because the balance is low?"}
+{"id":8592,"thought":"Cue: tried to CHARGE (top up) my card, declined; worked days ago. vs declined_card_payment: 'charge my card' = load it. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8593,"thought":"Cue: could not get the top-up to go through. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8594,"thought":"Cue: can't access my money, something wrong with the top-up. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8595,"thought":"Cue: trying to top up, credit card declined. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8597,"thought":"Cue: top-up has been CANCELLED - reversed after initiation. vs top_up_failed: cancelled fits reverted. -> ambiguous: top_up_failed | top_up_reverted","status":"ambiguous","candidates":["top_up_failed","top_up_reverted"],"question":"Did the top-up fail straight away, or did it go through first and then get cancelled?"}
+{"id":8602,"thought":"Cue: added funds but the app didn't process it. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8603,"thought":"Cue: why has my top-up not worked. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8605,"thought":"Cue: way to fix my top up. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8607,"thought":"Cue: won't let me top my card up, urgent, other ways to top up. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8608,"thought":"Cue: a red flag on my top up - flagged/blocked top-up. vs verify_top_up: possible verification. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8609,"thought":"Cue: was there a problem with topping up. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":8611,"thought":"Cue: my top-up failed to go through. -> top_up_failed","status":"resolved","intent":"top_up_failed"}
+{"id":2236,"thought":"Cue: increase my top-up maximum. vs automatic_top_up: limit. -> top_up_limits","status":"resolved","intent":"top_up_limits"}
+{"id":2237,"thought":"Cue: top up any amount - limits. vs top_up_by_cash_or_cheque: amount. -> top_up_limits","status":"resolved","intent":"top_up_limits"}
+{"id":2239,"thought":"Cue: top up as much as I can - maximum. -> top_up_limits","status":"resolved","intent":"top_up_limits"}
+{"id":2241,"thought":"Cue: is there a maximum I can top up. -> top_up_limits","status":"resolved","intent":"top_up_limits"}
+{"id":2242,"thought":"Cue: how many top-ups am I allowed. vs disposable_card_limits: top-ups. -> top_up_limits","status":"resolved","intent":"top_up_limits"}

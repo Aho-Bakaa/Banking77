@@ -1,0 +1,60 @@
+{"id": 4512, "thought": "Cue: card details could be stolen as I didn't make these transactions. Customer concludes details stolen. vs card_payment_not_recognised: transactions are evidence. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4516, "thought": "Cue: card used in a town I've never been to, stop further use. vs lost_or_stolen_card: card not reported missing. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4517, "thought": "Cue: froze my account, how to order a replacement - replacement after a security freeze. vs card_about_to_expire: no expiry. vs order_physical_card: driver is the freeze. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4518, "thought": "Cue: think someone has used my card. vs lost_or_stolen_card: no loss stated. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4519, "thought": "Cue: card was STOLEN and used for purchases, freeze it. Physical theft is explicit. vs compromised_card: misuse follows from theft; theft is primary. -> ambiguous: compromised_card | lost_or_stolen_card", "status": "ambiguous", "candidates": ["compromised_card", "lost_or_stolen_card"], "question": "Was the physical card itself stolen, or do you still have it and someone has been using its details?"}
+{"id": 4520, "thought": "Cue: transactions I don't remember, someone got my card details. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4521, "thought": "Cue: card information stolen, unknown transactions in a city never visited, block it. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4522, "thought": "Cue: card used without my permission. vs lost_or_stolen_card: no loss. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4523, "thought": "Cue: someone used my card without permission, a few unknown transactions. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4525, "thought": "Cue: transactions I didn't make, cancel card and prevent further use. Prevention of misuse. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4527, "thought": "Cue: someone hacked into my card's account. vs lost_or_stolen_phone: no phone. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4532, "thought": "Cue: order a replacement for a STOLEN card - physical theft. vs compromised_card: theft of the card. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card", "flag": "label_noise"}
+{"id": 4533, "thought": "Cue: don't recognise transactions, someone has my card details. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4535, "thought": "Cue: think my card has been compromised. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4537, "thought": "Cue: someone may be using my card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4538, "thought": "Cue: wallet stolen with all my credit cards - physical theft. vs compromised_card: card itself stolen. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card", "flag": "label_noise"}
+{"id": 4539, "thought": "Cue: fraudulent charges, put safeguards to stop it. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4540, "thought": "Cue: card suffered a security breach. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4542, "thought": "Cue: transactions I didn't make, someone has my information. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4544, "thought": "Cue: didn't make these transactions, is someone else using my card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 1475, "thought": "Cue: any activity on my card today - checking for use, typical after misplacing a card, but no loss stated. vs compromised_card: possible concern. -> ambiguous: lost_or_stolen_card | compromised_card", "status": "ambiguous", "candidates": ["lost_or_stolen_card", "compromised_card"], "question": "Have you misplaced your card, or are you worried someone may be using its details?"}
+{"id": 1476, "thought": "Cue: lost my wallet with all my cards. vs card_swallowed: no ATM. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1477, "thought": "Cue: I lost my card. vs card_arrival: had it before. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1480, "thought": "Cue: freeze my card immediately - urgent freeze, reason unstated (loss or fraud). vs compromised_card: equally plausible. -> ambiguous: lost_or_stolen_card | compromised_card", "status": "ambiguous", "candidates": ["lost_or_stolen_card", "compromised_card"], "question": "I can help you freeze it right away. Has your card been lost or stolen, or do you think someone is using its details?"}
+{"id": 1481, "thought": "Cue: phone number to freeze a card - freezing, reason unstated. -> ambiguous: lost_or_stolen_card | compromised_card", "status": "ambiguous", "candidates": ["lost_or_stolen_card", "compromised_card"], "question": "You can freeze your card in the app right now. Is it lost or stolen, or are you worried about fraud?"}
+{"id": 1482, "thought": "Cue: can't find my card. vs card_arrival: not awaiting delivery. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1483, "thought": "Cue: bag with phone and cards stolen in Spain, block and reorder. vs lost_or_stolen_phone: phone also stolen, but asks to block the card. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1486, "thought": "Cue: my card has been stolen. vs compromised_card: physical theft. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1487, "thought": "Cue: states the card was stolen - physical theft. vs compromised_card: the card itself is gone. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1488, "thought": "Cue: a fee shouldn't apply if my card was stolen - replacement fee after theft. vs card_payment_fee_charged: about the stolen-card case. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1490, "thought": "Cue: status of my new card - tracking a card delivery. vs lost_or_stolen_card: no loss. -> card_arrival", "status": "resolved", "intent": "card_arrival", "flag": "label_noise"}
+{"id": 1495, "thought": "Cue: what to do if my card was stolen. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1496, "thought": "Cue: wallet stolen in Spain, block current card and send new. vs getting_spare_card: replacement. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1497, "thought": "Cue: left card at a restaurant, they don't have it, worried about fraud. Card is lost. vs compromised_card: fraud only feared. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1498, "thought": "Cue: bag stolen with all my cards, cancel and send new. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1499, "thought": "Cue: I think my card is stolen. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1500, "thought": "Cue: fear that my card was stolen. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1502, "thought": "Cue: guide me to my card's location - card missing. vs card_arrival: could be a delivery. -> ambiguous: lost_or_stolen_card | card_arrival", "status": "ambiguous", "candidates": ["lost_or_stolen_card", "card_arrival"], "question": "Have you misplaced a card you already had, or are you waiting for a card we sent?"}
+{"id": 1504, "thought": "Cue: my card is missing. vs card_arrival: no delivery mentioned. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1505, "thought": "Cue: wallet stolen with cards, freeze and order new. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1506, "thought": "Cue: freeze my card immediately - reason unstated. -> ambiguous: lost_or_stolen_card | compromised_card", "status": "ambiguous", "candidates": ["lost_or_stolen_card", "compromised_card"], "question": "I can help with that now. Is your card lost or stolen, or do you suspect fraudulent use?"}
+{"id": 1508, "thought": "Cue: what can I do if I lost my card. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1509, "thought": "Cue: the card is stolen, next steps. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1512, "thought": "Cue: lost track of my card. vs card_arrival: had it. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1513, "thought": "Cue: wants to report a stolen card - physical theft report. vs compromised_card: card taken, not just details. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1516, "thought": "Cue: I have lost my card, next step. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1517, "thought": "Cue: my card has been lost. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1518, "thought": "Cue: card lost or stolen, what to do. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1520, "thought": "Cue: wallet with card stolen in Spain, block and reorder. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1521, "thought": "Cue: who to speak with regarding a lost card. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1523, "thought": "Cue: I lost my card, what to do. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1524, "thought": "Cue: can't find my card. vs card_arrival: no delivery. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1525, "thought": "Cue: first step after my card has been stolen. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1528, "thought": "Cue: someone took my card without permission - physical taking. vs compromised_card: card itself taken. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1529, "thought": "Cue: lost my card, need a new one. vs getting_spare_card: replacement after loss. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1531, "thought": "Cue: misplaced my card, show me the last place I used it. vs card_payment_not_recognised: wants to trace the lost card. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1532, "thought": "Cue: asks for help because the card is missing. vs card_arrival: no delivery awaited. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1534, "thought": "Cue: order a new card as my other one was stolen. vs order_physical_card: driver is theft. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1535, "thought": "Cue: someone stole my card because I can't find it. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}
+{"id": 1536, "thought": "Cue: steps if I have a stolen card. -> lost_or_stolen_card", "status": "resolved", "intent": "lost_or_stolen_card"}

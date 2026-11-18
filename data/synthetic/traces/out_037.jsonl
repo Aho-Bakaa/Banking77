@@ -1,0 +1,60 @@
+{"id":9976,"thought":"Cue: can an American resident apply for a card - residency eligibility. vs order_physical_card: eligibility by country is the question. -> country_support","status":"resolved","intent":"country_support"}
+{"id":9978,"thought":"Cue: need a new card and I live in the United States - eligibility by residence. vs card_about_to_expire: residency is the stated concern. -> country_support","status":"resolved","intent":"country_support"}
+{"id":9981,"thought":"Cue: which countries are you in. vs fiat_currency_support: countries, not currencies. -> country_support","status":"resolved","intent":"country_support"}
+{"id":9985,"thought":"Cue: need to get a card but live in the US. vs order_physical_card: US residency. -> country_support","status":"resolved","intent":"country_support"}
+{"id":9986,"thought":"Cue: not in the UK, can I get a card. vs order_physical_card: residency. -> country_support","status":"resolved","intent":"country_support"}
+{"id":9987,"thought":"Cue: which countries do you currently support. vs fiat_currency_support: countries. -> country_support","status":"resolved","intent":"country_support"}
+{"id":9988,"thought":"Cue: get one of your cards in the EU. vs getting_spare_card: region eligibility. -> country_support","status":"resolved","intent":"country_support"}
+{"id":9989,"thought":"Cue: want a card but not in the UK. vs card_arrival: eligibility. -> country_support","status":"resolved","intent":"country_support"}
+{"id":9993,"thought":"Cue: use it all over the world - 'it' (card/account) worldwide. vs card_acceptance: fits too. -> ambiguous: country_support | card_acceptance","status":"ambiguous","candidates":["country_support","card_acceptance"],"question":"Do you mean using your card while travelling, or holding an account from any country?"}
+{"id":9997,"thought":"Cue: just moved to the US, how do I get a card. vs order_physical_card: new country of residence. -> country_support","status":"resolved","intent":"country_support"}
+{"id":9998,"thought":"Cue: you provide support in what countries. vs receiving_money: countries. -> country_support","status":"resolved","intent":"country_support"}
+{"id":3652,"thought":"Cue: changes to my personal information. vs verify_my_identity: editing, not verifying. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3654,"thought":"Cue: change my address. vs change_pin: address, not PIN. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3655,"thought":"Cue: my address is incorrect on file. vs unable_to_verify_identity: correcting details. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3657,"thought":"Cue: where to edit personal details. vs terminate_account: editing. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3658,"thought":"Cue: change my name after marriage. vs change_pin: name. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3663,"thought":"Cue: edit the personal details on my account. vs verify_my_identity: editing. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3665,"thought":"Cue: modify my account details. vs terminate_account: modifying. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3671,"thought":"Cue: change details about my personal account. vs why_verify_identity: editing. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3673,"thought":"Cue: change my name in my profile. vs change_pin: name. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3686,"thought":"Cue: how do I edit my details. vs topping_up_by_card: no. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3690,"thought":"Cue: just married, need to change my name. vs cancel_transfer: no. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3700,"thought":"Cue: how do I change my details. vs change_pin: details. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3701,"thought":"Cue: identity not verified and can't edit my details. Blocked edit due to verification. vs unable_to_verify_identity: verification failing is the blocker. -> ambiguous: edit_personal_details | unable_to_verify_identity","status":"ambiguous","candidates":["edit_personal_details","unable_to_verify_identity"],"question":"Is the main problem that your identity verification hasn't gone through, or that you need to change details that are wrong?"}
+{"id":3712,"thought":"Cue: walk me through editing personal information. vs compromised_card: no. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3713,"thought":"Cue: change my address. vs exchange_via_app: no. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3714,"thought":"Cue: change my name, not married. vs change_pin: name. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3718,"thought":"Cue: way to modify my details. vs cancel_transfer: details. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3724,"thought":"Cue: moved, need to change address. vs change_pin: address. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3731,"thought":"Cue: update my address. vs card_linking: address. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3734,"thought":"Cue: need to update my address. vs cancel_transfer: address. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3736,"thought":"Cue: must change my address. vs change_pin: address. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3740,"thought":"Cue: update account details, change last name. vs unable_to_verify_identity: editing. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3748,"thought":"Cue: moved somewhere else, need to change details. vs exchange_via_app: details. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3753,"thought":"Cue: modify my account details. vs receiving_money: details. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3759,"thought":"Cue: new address, change my information. vs change_pin: address. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3760,"thought":"Cue: need to change my data - personal data. vs change_pin: generic data. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3765,"thought":"Cue: where to update details. vs card_linking: details. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3768,"thought":"Cue: change my last name. vs verify_my_identity: editing. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":3769,"thought":"Cue: I have a new email - update contact detail. vs card_linking: email change. -> edit_personal_details","status":"resolved","intent":"edit_personal_details"}
+{"id":6150,"thought":"Cue: company is bad, delete my account now. vs request_refund: closing account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6159,"thought":"Cue: steps to delete my account. vs edit_personal_details: deleting. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6163,"thought":"Cue: not using my account, close it or let it sit. vs why_verify_identity: closure. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6164,"thought":"Cue: no longer want to be a customer. vs request_refund: leaving. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6165,"thought":"Cue: delete all accounts immediately. vs cancel_transfer: accounts. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6167,"thought":"Cue: delete my account asap. vs request_refund: account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6172,"thought":"Cue: like to delete my account. vs edit_personal_details: deletion. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6174,"thought":"Cue: delete my account immediately. vs cancel_transfer: account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6176,"thought":"Cue: close out my account and be done. vs cancel_transfer: account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6177,"thought":"Cue: close an account in the app or by talking to someone. vs lost_or_stolen_phone: closure. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6180,"thought":"Cue: hate this company, delete my account. vs request_refund: account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6181,"thought":"Cue: asking to end my account. vs cancel_transfer: account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6182,"thought":"Cue: want to delete my account, how. vs passcode_forgotten: deletion. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6183,"thought":"Cue: unhappy, terminate my account. vs request_refund: account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6188,"thought":"Cue: terminate and close my account. vs cancel_transfer: account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6189,"thought":"Cue: shut down all my account services. vs card_not_working: closure. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6192,"thought":"Cue: how do I close my account. vs cancel_transfer: account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6193,"thought":"Cue: need to terminate my account. vs cancel_transfer: account. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6195,"thought":"Cue: want to close my account, unsatisfactory. vs request_refund: closure. -> terminate_account","status":"resolved","intent":"terminate_account"}
+{"id":6198,"thought":"Cue: steps to finishing up with this account - closing it. vs transfer_into_account: ending. -> terminate_account","status":"resolved","intent":"terminate_account"}

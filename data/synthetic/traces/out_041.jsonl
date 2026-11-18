@@ -1,0 +1,60 @@
+{"id": 3842, "thought": "Cue: why do you need me to do an identity check. vs verify_my_identity: why, not how. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3843, "thought": "Cue: I can't do the verification - inability to verify. vs why_verify_identity: no reason asked. -> unable_to_verify_identity", "status": "resolved", "intent": "unable_to_verify_identity", "flag": "label_noise"}
+{"id": 3844, "thought": "Cue: use my account if identity verification is not complete - access before verification. vs unable_to_verify_identity: pending, not failed. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3845, "thought": "Cue: log in although not confirmed yet - access before verification. vs pending_transfer: no. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3846, "thought": "Cue: explain why I should verify my identity. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3849, "thought": "Cue: why give you my driver's licence - reason for ID document. vs order_physical_card: ID. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3851, "thought": "Cue: am I supposed to verify my identity - whether it's necessary. vs verify_my_identity: necessity. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3856, "thought": "Cue: must I verify my identity - necessity. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3857, "thought": "Cue: how to SPEED UP identity verification - process speed, pending check. vs why_verify_identity: no why. -> ambiguous: verify_my_identity | unable_to_verify_identity", "status": "ambiguous", "candidates": ["verify_my_identity", "unable_to_verify_identity"], "question": "Have you already submitted your documents and are waiting, or haven't you started yet?", "flag": "label_noise"}
+{"id": 3858, "thought": "Cue: do I have to verify who I am - necessity. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3864, "thought": "Cue: HOW to verify my identity - process. vs why_verify_identity: how. -> verify_my_identity", "status": "resolved", "intent": "verify_my_identity", "flag": "label_noise"}
+{"id": 3866, "thought": "Cue: use my account although verification hasn't passed. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3867, "thought": "Cue: what is my identification used for - purpose. vs compromised_card: purpose. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3868, "thought": "Cue: bypass identity verification - avoiding it, necessity. vs pin_blocked: no. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3869, "thought": "Cue: why so much information about my identity. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3870, "thought": "Cue: what if I don't want to disclose all identity details. vs compromised_card: privacy objection. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3872, "thought": "Cue: verification hasn't passed yet, can I use my account. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3873, "thought": "Cue: can we skip verifying. vs verify_top_up: identity skip. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3876, "thought": "Cue: waiting for ID verification, too soon to use my account. vs pending_card_payment: verification. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3877, "thought": "Cue: what is the identity check for - purpose. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3880, "thought": "Cue: what do you do with identity information collected - purpose/privacy. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3881, "thought": "Cue: why is verification for my identity needed. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3882, "thought": "Cue: I'm not verifying my identity - refusal. vs unable_to_verify_identity: unwilling. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3883, "thought": "Cue: do you need my birthdate - necessity of a detail. vs age_limit: not about age limits. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3885, "thought": "Cue: need to prove identity, why and how - both why and how. vs verify_my_identity: how part. -> ambiguous: why_verify_identity | verify_my_identity", "status": "ambiguous", "candidates": ["why_verify_identity", "verify_my_identity"], "question": "Would you like me to start with why we need it, or with the steps to complete it?"}
+{"id": 3886, "thought": "Cue: is verifying my identity important. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3889, "thought": "Cue: what is an identity check - purpose/meaning. vs verify_my_identity: what it is. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 3891, "thought": "Cue: afraid to give all my identity details. vs compromised_card: privacy. -> why_verify_identity", "status": "resolved", "intent": "why_verify_identity"}
+{"id": 1120, "thought": "Cue: maximum amount for auto top-up - auto top-up limit. vs top_up_limits: specifically auto top-up. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1124, "thought": "Cue: money transferred into my account at intervals along my trip - scheduled automatic funding. vs transfer_into_account: automatic/recurring. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1128, "thought": "Cue: daily auto top-up limit. vs top_up_limits: auto. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1129, "thought": "Cue: access the option to top up - generic top-up option. vs topping_up_by_card: possible. -> ambiguous: automatic_top_up | topping_up_by_card", "status": "ambiguous", "candidates": ["automatic_top_up", "topping_up_by_card"], "question": "Are you looking for the automatic top-up setting, or how to add money manually?"}
+{"id": 1131, "thought": "Cue: how low the balance must be before the system tops up - auto top-up threshold. vs balance_not_updated_after_bank_transfer: no missing money. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1134, "thought": "Cue: low money, will it top up automatically. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1145, "thought": "Cue: possible to do auto top up. vs topping_up_by_card: auto. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1150, "thought": "Cue: schedule future top ups. vs top_up_limits: scheduling. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1152, "thought": "Cue: limit on amount for auto top-up. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1156, "thought": "Cue: increments to top up my card - amounts, could be auto top-up amounts or limits. vs top_up_limits: plausible. -> ambiguous: automatic_top_up | top_up_limits", "status": "ambiguous", "candidates": ["automatic_top_up", "top_up_limits"], "question": "Are you setting up automatic top-ups, or asking about the amounts allowed for any top-up?"}
+{"id": 1158, "thought": "Cue: running low on credit, can I auto top up. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1159, "thought": "Cue: auto top up feature. vs apple_pay_or_google_pay: auto. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1160, "thought": "Cue: auto top-up option. vs top_up_reverted: auto. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1161, "thought": "Cue: use the 'auto-top' option (garbled). vs supported_cards_and_currencies: auto top. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1162, "thought": "Cue: when I travel can it top up automatically. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1173, "thought": "Cue: refills to my card while travelling - topping up abroad, likely automatic. vs card_delivery_estimate: money, not a card. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1174, "thought": "Cue: limit on auto top. vs top_up_limits: auto. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1178, "thought": "Cue: automatically replenish my balance. vs balance_not_updated_after_bank_transfer: auto. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1180, "thought": "Cue: automatically top up when travelling. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1182, "thought": "Cue: top up when it reaches a certain balance - threshold trigger. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1186, "thought": "Cue: options for topping up, automatic and/or manual. vs top_up_by_cash_or_cheque: auto named. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1188, "thought": "Cue: is auto top up available. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1190, "thought": "Cue: add money automatically at certain time points while travelling. vs exchange_via_app: auto funding. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1192, "thought": "Cue: asks whether there is a limit on auto top-up. vs top_up_limits: specifically the automatic feature. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1197, "thought": "Cue: where to find the auto top-up feature. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1201, "thought": "Cue: function to top up automatically. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1203, "thought": "Cue: can topping up be automatic. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1204, "thought": "Cue: auto top up multiple times. vs transaction_charged_twice: auto. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1207, "thought": "Cue: activate auto top-up when travelling. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1219, "thought": "Cue: can it automatically top up my account. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1221, "thought": "Cue: heard of an auto top-up option, where. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}
+{"id": 1226, "thought": "Cue: set up top ups in advance - scheduled. -> automatic_top_up", "status": "resolved", "intent": "automatic_top_up"}

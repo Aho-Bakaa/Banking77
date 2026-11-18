@@ -1,0 +1,60 @@
+{"id":7458,"thought":"Cue: why did my transfer fail, what can I do. vs declined_transfer: failed, not declined. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7459,"thought":"Cue: my transfer failed, help. vs declined_transfer: failed. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7461,"thought":"Cue: transfer to friend's account keeps rejecting, info correct. vs transfer_into_account: outgoing failing. vs beneficiary_not_allowed: possible. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7463,"thought":"Cue: help my transfer go through. vs declined_transfer: generic failure. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7465,"thought":"Cue: cause of my failed transfer. vs beneficiary_not_allowed: failure. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7469,"thought":"Cue: transfer fail message, no explanation. vs declined_transfer: 'fail'. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7472,"thought":"Cue: buying a flat, mortgage payment not going through, error. vs transfer_not_received_by_recipient: failing to send. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7473,"thought":"Cue: funds transfer did not work properly. vs pending_transfer: failure. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7474,"thought":"Cue: why didn't my transfer work. vs declined_transfer: generic failure. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7476,"thought":"Cue: why can I not make a transfer - inability. vs beneficiary_not_allowed: possible. -> ambiguous: failed_transfer | beneficiary_not_allowed","status":"ambiguous","candidates":["failed_transfer","beneficiary_not_allowed"],"question":"Is this happening for every transfer, or just to one particular account?"}
+{"id":7477,"thought":"Cue: transfer failed, why. vs declined_transfer: failed. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7478,"thought":"Cue: app says my transfer failed. vs declined_transfer: failed. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7480,"thought":"Cue: transaction not approved - declined; type unstated. vs declined_transfer: approval. -> ambiguous: failed_transfer | declined_transfer | declined_card_payment","status":"ambiguous","candidates":["declined_transfer","failed_transfer","declined_card_payment"],"question":"Was this a transfer or a card payment that wasn't approved?"}
+{"id":7481,"thought":"Cue: attempted a transfer, didn't go through. vs pending_transfer: attempt failed. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7483,"thought":"Cue: transfer I tried to make failed. vs cancel_transfer: failure. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7485,"thought":"Cue: can't transfer into someone else's account, keeps rejecting, info correct. vs beneficiary_not_allowed: possible. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7488,"thought":"Cue: my card couldn't complete a transfer. vs card_not_working: transfer. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7489,"thought":"Cue: buying a flat, mortgage transfer errors. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7491,"thought":"Cue: transfers keep failing. vs declined_transfer: failing. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7493,"thought":"Cue: transfers to friends all failing since morning. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7497,"thought":"Cue: what went wrong with my transfer attempt. vs declined_transfer: generic. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7498,"thought":"Cue: why does it say my transfer failed. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7499,"thought":"Cue: don't think my transfer went through. vs pending_transfer: possible. -> ambiguous: failed_transfer | pending_transfer","status":"ambiguous","candidates":["failed_transfer","pending_transfer"],"question":"Does the app show it as failed, or still pending?"}
+{"id":7500,"thought":"Cue: find out why my transfer didn't go through. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7504,"thought":"Cue: couldn't transfer money from my account. vs beneficiary_not_allowed: generic. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7505,"thought":"Cue: what stopped my transfer from being accepted. vs declined_transfer: fits. -> ambiguous: failed_transfer | declined_transfer","status":"ambiguous","candidates":["failed_transfer","declined_transfer"],"question":"Did the transfer show as declined or as failed?"}
+{"id":7510,"thought":"Cue: how is this transfer supposed to work, not working. vs transfer_into_account: failing. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7514,"thought":"Cue: transfer failing when I try. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7515,"thought":"Cue: standard bank transfer five times, none going through. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7516,"thought":"Cue: reason my transfer did not go through. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7517,"thought":"Cue: tried to transfer money, didn't go through. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7518,"thought":"Cue: transfer didn't complete, can't access funds. vs declined_cash_withdrawal: transfer. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7519,"thought":"Cue: transferring this morning, keep getting rejected. vs declined_transfer: rejected fits. -> ambiguous: failed_transfer | declined_transfer","status":"ambiguous","candidates":["failed_transfer","declined_transfer"],"question":"Is the app saying 'declined', or that the transfer failed?"}
+{"id":7520,"thought":"Cue: flat purchase, mortgage payment error, help with transfer. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7522,"thought":"Cue: sending to an investment bank, rejected, right details. vs beneficiary_not_allowed: possible. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7524,"thought":"Cue: attempted a transfer, it failed. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7525,"thought":"Cue: couldn't make a transfer. vs beneficiary_not_allowed: generic. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7527,"thought":"Cue: transfer to friends keeps getting rejected. vs declined_transfer: fits. -> ambiguous: failed_transfer | declined_transfer","status":"ambiguous","candidates":["failed_transfer","declined_transfer"],"question":"Does it show as declined, or as failed?"}
+{"id":7529,"thought":"Cue: transfers not going through after 4 tries, system broken. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7532,"thought":"Cue: why was my transaction declined - type unstated. -> ambiguous: failed_transfer | declined_transfer | declined_card_payment","status":"ambiguous","candidates":["declined_transfer","declined_card_payment","failed_transfer"],"question":"Was the declined transaction a transfer or a card payment?"}
+{"id":7534,"thought":"Cue: tell me why my transfer failed. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7535,"thought":"Cue: did a transfer, failed to go through. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7536,"thought":"Cue: why has my payment not transferred. vs pending_transfer: possible. -> ambiguous: failed_transfer | pending_transfer","status":"ambiguous","candidates":["failed_transfer","pending_transfer"],"question":"Is the payment shown as pending, or did it fail?"}
+{"id":7541,"thought":"Cue: mortgage payment giving an error message. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7545,"thought":"Cue: unable to complete my transfer. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7546,"thought":"Cue: sending a house deposit to the agent, throwing an error. vs extra_charge_on_statement: no. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7547,"thought":"Cue: bank transfer not going through, enough funds? -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7548,"thought":"Cue: flat purchase, mortgage payment error, help with transfer. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7551,"thought":"Cue: transferring money, something going wrong. vs transfer_fee_charged: failure. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7552,"thought":"Cue: unsuccessfully trying to make a transfer. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7553,"thought":"Cue: can't transfer to friend's account, keeps rejecting, enough funds. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7554,"thought":"Cue: why did the bank reject my transfer. vs declined_transfer: rejected fits. -> ambiguous: failed_transfer | declined_transfer","status":"ambiguous","candidates":["declined_transfer","failed_transfer"],"question":"Was it declined when submitted, or did it fail afterwards?"}
+{"id":7556,"thought":"Cue: error making a payment for a flat mortgage. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7559,"thought":"Cue: sending money to friends, keep getting rejected. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":7563,"thought":"Cue: why can't my transfer complete. vs transfer_not_received_by_recipient: not completing. -> failed_transfer","status":"resolved","intent":"failed_transfer"}
+{"id":5989,"thought":"Cue: put in money for vacation, not showing, how long - incoming money pending. vs balance_not_updated_after_bank_transfer: fits. -> ambiguous: pending_transfer | balance_not_updated_after_bank_transfer","status":"ambiguous","candidates":["balance_not_updated_after_bank_transfer","pending_transfer"],"question":"Did you add the money by bank transfer into this account, and is it showing as pending?","flag":"label_noise"}
+{"id":5991,"thought":"Text is agent-style guidance: transfers process up to a day before departing, SEPA 2 days, SWIFT 5 days - explains pending outgoing transfers. vs transfer_timing: timing info too. -> pending_transfer","status":"resolved","intent":"pending_transfer"}
+{"id":5992,"thought":"Cue: when will my transfer finish pending. vs pending_card_payment: transfer. -> pending_transfer","status":"resolved","intent":"pending_transfer"}
+{"id":5995,"thought":"Cue: how long for a money transfer to show up - timing. vs transfer_timing: fits. -> ambiguous: pending_transfer | transfer_timing","status":"ambiguous","candidates":["pending_transfer","transfer_timing"],"question":"Do you have a transfer showing as pending right now, or are you asking about normal timings?"}
+{"id":5997,"thought":"Text is agent-style guidance that transfers show pending up to one day before departing, SEPA/SWIFT timings - pending transfers. -> pending_transfer","status":"resolved","intent":"pending_transfer"}

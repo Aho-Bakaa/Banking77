@@ -1,0 +1,60 @@
+{"id": 6636, "thought": "Cue: how long is the transfer - generic duration. vs pending_transfer: no stuck item. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6637, "thought": "Cue: made a transfer, how long until it reaches my account. vs balance_not_updated_after_bank_transfer: timing ask, no complaint. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6638, "thought": "Cue: waiting for a transfer from the US, how much longer. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6640, "thought": "Cue: how long for the transfer to be available. vs pending_transfer: timing. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6641, "thought": "Cue: send a transfer from China quickly, how long. vs card_delivery_estimate: transfer. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6643, "thought": "Cue: how long for a transfer to show up in my account. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6646, "thought": "Cue: wait time for European transfers. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6647, "thought": "Cue: time period for money to be transferred. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6651, "thought": "Cue: quickly transfer from China, how long. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6654, "thought": "Cue: transfer from the US, how long the wait. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6655, "thought": "Cue: transfer something faster than normal - speed. vs transfer_into_account: speed. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6657, "thought": "Cue: couple days, how much longer for my transfer. vs pending_transfer: fits. -> ambiguous: transfer_timing | pending_transfer", "status": "ambiguous", "candidates": ["transfer_timing", "pending_transfer", "balance_not_updated_after_bank_transfer"], "question": "Is the transfer coming to you or going out, and does it show as pending?"}
+{"id": 6658, "thought": "Cue: when to expect the transfer complete. vs pending_transfer: timing. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6659, "thought": "Cue: how long do European transfers take. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6660, "thought": "Cue: why hasn't the transfer shown in my account yet - overdue incoming. vs balance_not_updated_after_bank_transfer: strong. -> ambiguous: transfer_timing | balance_not_updated_after_bank_transfer", "status": "ambiguous", "candidates": ["balance_not_updated_after_bank_transfer", "transfer_timing"], "question": "How long ago was the transfer sent, and from where?", "flag": "label_noise"}
+{"id": 6663, "thought": "Cue: transfer quick from China, how long. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6664, "thought": "Cue: just did a transfer, don't see money in my account - not reflected. vs balance_not_updated_after_bank_transfer: fits. -> ambiguous: transfer_timing | balance_not_updated_after_bank_transfer", "status": "ambiguous", "candidates": ["balance_not_updated_after_bank_transfer", "transfer_timing"], "question": "Was the transfer into this account, and when exactly did you send it?"}
+{"id": 6666, "thought": "Cue: how long for money to appear in my account - method unclear. -> ambiguous: transfer_timing | balance_not_updated_after_cheque_or_cash_deposit", "status": "ambiguous", "candidates": ["transfer_timing", "balance_not_updated_after_cheque_or_cash_deposit"], "question": "Is the money coming by bank transfer, or did you deposit cash or a cheque?"}
+{"id": 6671, "thought": "Cue: transfer ASAP from China, how long to post. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6673, "thought": "Cue: when will my transfer from the US get here. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6675, "thought": "Cue: need money transferred ASAP, how long. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6677, "thought": "Cue: when will my transfer reach my account. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6678, "thought": "Cue: estimated wait on a US transfer into my account. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6681, "thought": "Cue: urgent transfer from China, how long. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6682, "thought": "Cue: when will my account receive the money - method unclear. -> ambiguous: transfer_timing | balance_not_updated_after_cheque_or_cash_deposit", "status": "ambiguous", "candidates": ["transfer_timing", "balance_not_updated_after_cheque_or_cash_deposit"], "question": "Is the money coming by transfer, or from a cash or cheque deposit?"}
+{"id": 6684, "thought": "Cue: transfer from China, how long. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6685, "thought": "Cue: need to transfer something TO China - outgoing intent, no timing ask. vs transfer_fee_charged: no fee. -> ambiguous: transfer_timing | transfer_into_account", "status": "ambiguous", "candidates": ["transfer_timing", "transfer_fee_charged"], "question": "Would you like to know how long a transfer to China takes, or what it costs?", "flag": "label_noise"}
+{"id": 6686, "thought": "Cue: 3 days, how long to get to my wallet - overdue incoming. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6694, "thought": "Cue: when will a transfer from the US post. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6699, "thought": "Cue: when will I receive a transfer from Europe. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6701, "thought": "Cue: transfer urgently from China, how long. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6704, "thought": "Cue: when will my transfer arrive from Europe. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6705, "thought": "Cue: estimated time of arrival for transfers. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6707, "thought": "Cue: how long for money to show up in my account - method unclear. -> ambiguous: transfer_timing | balance_not_updated_after_cheque_or_cash_deposit", "status": "ambiguous", "candidates": ["transfer_timing", "balance_not_updated_after_cheque_or_cash_deposit"], "question": "Is it a bank transfer, or a cash or cheque deposit?"}
+{"id": 6711, "thought": "Cue: how long for a transfer to reach my account. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6712, "thought": "Cue: estimated wait for transfers from the US. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6713, "thought": "Cue: time for money to reach the account. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6715, "thought": "Cue: why hasn't my transfer from Europe gone through - overdue. vs balance_not_updated_after_bank_transfer: fits. -> ambiguous: transfer_timing | balance_not_updated_after_bank_transfer", "status": "ambiguous", "candidates": ["balance_not_updated_after_bank_transfer", "transfer_timing"], "question": "How long ago was the transfer from Europe sent?"}
+{"id": 6717, "thought": "Cue: what's taking so long on my transfer from the US. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6718, "thought": "Cue: how long does a transfer from the US take. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6719, "thought": "Cue: how long does a transfer transaction take. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 6721, "thought": "Cue: money transfer help, how long. -> transfer_timing", "status": "resolved", "intent": "transfer_timing"}
+{"id": 4339, "thought": "Cue: how many times can I use a virtual card - usage limit (disposable concept). vs getting_virtual_card: limits. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4340, "thought": "Cue: friend's disposable cards, what do I need to get that feature - acquiring. vs disposable_card_limits: no limit asked. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card", "flag": "label_noise"}
+{"id": 4341, "thought": "Cue: can I have more disposable cards - quantity limit. vs getting_spare_card: disposable. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4342, "thought": "Cue: virtual card for a hotel didn't work - failure; hotels often reject disposable cards. vs virtual_card_not_working: fits. -> ambiguous: disposable_card_limits | virtual_card_not_working", "status": "ambiguous", "candidates": ["virtual_card_not_working", "disposable_card_limits"], "question": "Was it a disposable (single-use) virtual card, or your standard virtual card?"}
+{"id": 4344, "thought": "Cue: asks whether disposable cards have a transaction limit. vs top_up_limits: card usage limit. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4347, "thought": "Cue: how many disposable cards am I allowed. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4353, "thought": "Cue: how limited is a virtual card - limits. vs getting_virtual_card: limits. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4355, "thought": "Cue: multiple disposable cards per day. vs getting_spare_card: disposable quantity. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4357, "thought": "Cue: more than 2 disposable cards. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4359, "thought": "Cue: asks what the limit on disposable cards is. vs getting_spare_card: disposable limit. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4360, "thought": "Cue: create several temp cards every day - quantity per day. vs getting_spare_card: temporary cards. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4361, "thought": "Cue: limits to using disposable virtual cards. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4362, "thought": "Cue: number of transactions with one disposable card. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4364, "thought": "Cue: have a disposable card, how many transactions. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4365, "thought": "Cue: policies of disposable cards. vs get_disposable_virtual_card: rules. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4367, "thought": "Cue: make several disposable cards per day. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4369, "thought": "Cue: how many disposable virtual cards can you have. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}
+{"id": 4370, "thought": "Cue: asks for the restrictions on disposable cards. vs get_disposable_virtual_card: rules, not obtaining. -> disposable_card_limits", "status": "resolved", "intent": "disposable_card_limits"}

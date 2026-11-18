@@ -1,0 +1,110 @@
+## card_fail | card_not_working,declined_card_payment | Nothing says whether one payment was refused or the card fails everywhere.
+I was at the supermarket and it just wouldn't take my card, so embarrassing. What's going on? || supermarket refusal, scope unknown || Was that the only place it was refused, or has the card failed elsewhere too?
+Hi there, tried to pay for petrol and the card didn't work. Can you check? || one petrol attempt || Has the card worked anywhere else since, or is it failing every time?
+My card has been funny all week || week-long vague issue || Are payments being declined, or does the card not work at all?
+card dead? || suspected dead card || Is it declining payments, or not responding at all?
+Nothing goes through on my card lately, at least not at the places I tried || some places fail || Has it worked anywhere recently, or is it failing everywhere?
+pls help my card doesnt work for paying || paying fails || Is it one merchant declining it, or every payment?
+I have funds but the card still won't pay || funds present, failure || Are you seeing a 'declined' message at checkout, or is the card not working at all?
+Card stopped working out of nowhere when I tried to pay for dinner || dinner failure || Has it failed anywhere other than the restaurant?
+Why is my card being difficult today || vague || Is it being declined at shops, or not working at all?
+Hi, my card won't work at the gym front desk || one place || Does it work for other payments?
+## card_tap | contactless_not_working,card_not_working | Payment method (tap vs chip/PIN) is not stated.
+The card machine at the cafe just kept flashing and wouldn't take my payment || cafe machine || Were you tapping the card, or inserting it?
+Tube barrier rejected my card || transit gate || Does your card work when you pay with chip and PIN?
+Can't pay at the parking meter || parking meter || Were you tapping to pay, and does the chip work?
+the card reader isn't picking up my card || reader not picking up || Is it tap payments that fail, or inserting the card too?
+my card works sometimes but not at the small shops || intermittent || Do the small shops ask you to tap, while bigger ones use chip and PIN?
+## card_missing | lost_or_stolen_card,card_arrival,card_swallowed | Whether the card was lost, never delivered, or kept by an ATM is not said.
+Haven't seen my card in days and I'm starting to panic || not seen || Did you have the card and lose it, or are you waiting for it to be delivered?
+No sign of my card, please help || no sign || Is it a card we posted to you, or one you already had?
+My card has vanished || vanished || Was it lost or stolen, or kept by an ATM?
+I don't have my card on me and I need cash || no card || Is your card lost, or has a new card not arrived yet?
+the card never made it to me || 'never made it' suggests delivery, or theft in post || Was it a new card being posted to you?
+## fraud | card_payment_not_recognised,compromised_card | Whether the customer is reporting specific unknown payments or a compromised card is unclear.
+I got an alert I wasn't expecting, is my card OK? || unexpected alert || Was the alert about a payment you didn't make?
+Feels like someone else is using my account || suspicion || Can you see specific payments you didn't make?
+the app showed something I didn't do || unknown activity || Was it a card payment you don't recognise?
+I'm worried about fraud on my card || worry || Have you seen any transactions you didn't make?
+bank notification about a purchase I didn't make, what now || unknown purchase alert || Would you like to block your card first, or dispute the purchase?
+## unknown_charge | card_payment_not_recognised,direct_debit_payment_not_recognised,cash_withdrawal_not_recognised | The type of the unknown transaction is not stated.
+something's been taken out that I didn't agree to || unauthorised debit || Does it show as a card payment, a direct debit, or a cash withdrawal?
+I looked at my account this morning and there's a deduction I can't explain || unexplained deduction || What type of transaction does it show as?
+money missing from my balance, I didn't spend it || missing money || Can you see the transaction, and is it a purchase, a direct debit, or a withdrawal?
+there's a transaction from yesterday that isn't me || unknown yesterday || Is it a card purchase, a direct debit, or a cash withdrawal?
+## fee_generic | card_payment_fee_charged,transfer_fee_charged,cash_withdrawal_charge | The transaction the fee applies to is not stated.
+I was told there were no fees but I just got charged one || unexpected fee || Which transaction was the fee on: paying by card, a transfer, or a cash withdrawal?
+This fee is ridiculous, explain please || complaint || What was the fee for: a card payment, a transfer, or a withdrawal?
+are there hidden charges || hidden charges || For which activity: card payments, transfers, or withdrawals?
+service charge on my account? || service charge || What were you doing when it was charged?
+fees went up? || fee increase || Which fees: on payments, transfers, or withdrawals?
+## extra_vs_fee | extra_charge_on_statement,card_payment_fee_charged,transaction_charged_twice | Whether it is a standalone extra charge, a fee on a payment, or a duplicate is not stated.
+the shop charged me but the amount is off || amount off || Is there a fee added, or was the payment taken twice?
+I got billed extra this month || billed extra || Is it a separate charge, or a payment duplicated?
+my statement shows more than I spent at the store || statement > spend || Do you see the store payment twice, or a separate fee?
+## topup_problem | pending_top_up,top_up_failed,top_up_reverted | The state of the top-up (pending, failed, or reversed) is not stated.
+Topped up an hour ago and my balance is still zero, I need to pay rent || balance zero after top-up || Does the top-up show as pending, or did it fail?
+The app took my top up but I can't spend it || taken, not spendable || Is the top-up showing as pending?
+money from my card top up hasn't landed || not landed || Is it pending or failed?
+my top up came and went || came and went? || Did it show in your balance and then disappear?
+I keep trying to top up and something goes wrong || repeated issue || Does it fail with an error, or stay pending?
+## topup_fee | top_up_by_card_charge,top_up_by_bank_transfer_charge | The top-up method is not stated.
+Will I lose some money if I add funds || loss on adding funds || Are you adding funds by card or by bank transfer?
+the amount I added was less than I sent || shortfall on top-up || Did you top up by card or by bank transfer?
+I want the cheapest way to add money || cheapest method || I can compare card and bank transfer top-ups; which are you considering?
+## transfer_problem | pending_transfer,failed_transfer,declined_transfer | The transfer's status (pending, failed, declined) is not stated.
+I need to pay my landlord and the transfer is giving me trouble || trouble, state unknown || Is the transfer pending, did it fail, or was it declined?
+sent money to my sister and something's off || vague || What does the app show for that transfer?
+the payment I sent isn't going right || vague || Is it pending, failed, or declined?
+my transfer won't finish || unfinished || Is it stuck pending, or did it fail?
+I've had trouble with transfers all day || repeated trouble || Are they being declined, failing, or staying pending?
+## transfer_direction | transfer_not_received_by_recipient,balance_not_updated_after_bank_transfer | Whether the money was sent to someone else or into the customer's own account is not stated.
+I moved money two days ago and it's not there || moved money, not there || Did you move it into this account, or to someone else?
+the transfer from yesterday hasn't shown || not shown || Is it coming into your account or going out to someone?
+nobody's got the money I transferred || 'nobody' maybe recipient || Who should have received it: you or someone else?
+transfer shows sent but money isn't anywhere || sent, missing || Was it sent to another person or to your own account here?
+## transfer_timing | transfer_timing,pending_transfer | Whether the customer is asking in general or about a specific pending transfer is unclear.
+it's been a day, is that normal for transfers || is delay normal || Is your transfer showing as pending?
+do transfers usually take this long || 'this long' implies waiting || Does the transfer you sent still show as pending?
+I need it to arrive today, how long will it take || urgent timing || Have you already sent it?
+## deposit_missing | balance_not_updated_after_bank_transfer,balance_not_updated_after_cheque_or_cash_deposit,pending_top_up | How the money was added is not stated.
+money I put in on Monday still not there || Monday deposit || How did you put the money in: transfer, cash/cheque, or card top-up?
+I added funds and my account is unchanged || unchanged || Which method did you use to add the funds?
+the money should be in my account by now || overdue || How was it sent to your account?
+## payment_status | pending_card_payment,declined_card_payment,reverted_card_payment? | Whether the card payment is pending, was declined, or was reverted is not stated.
+the online shop says my payment didn't come through || merchant report || In your app, is the payment pending, declined, or did the money come back?
+my payment for the concert tickets is acting weird || vague || Is it pending, declined, or reversed?
+did my payment go through? || status || What does the app show: pending, declined, or completed then reversed?
+## refund | request_refund,Refund_not_showing_up | Whether a refund has already been issued is not stated.
+the store messed up my order and I want money back || wants money back || Has the store already processed a refund?
+I sent back a jacket, what about my money || returned item || Did the shop confirm the refund was sent?
+## fx_wrong | card_payment_wrong_exchange_rate,wrong_exchange_rate_for_cash_withdrawal | Whether the wrong rate was on a card payment or a cash withdrawal is not stated.
+I spent dollars in New York and the rate seems awful || 'spent' may be cash or card || Did you pay by card in shops, or take out cash?
+the yen I got cost way too much || yen cost || Did you withdraw yen at an ATM, or pay by card?
+## atm_problem | declined_cash_withdrawal,wrong_amount_of_cash_received,card_swallowed | What went wrong at the ATM is not stated.
+went to get cash and it was a disaster || disaster || Was the withdrawal declined, did you get the wrong amount, or was your card kept?
+the ATM at the station did something weird || weird ATM || What happened: refused, wrong cash, or card kept?
+## pin | pin_blocked,change_pin,get_physical_card | What the customer needs regarding the PIN is not stated.
+I don't trust my PIN anymore || distrust: change? || Do you want to change it, or is it currently blocked?
+PIN trouble at the ATM || ATM PIN trouble || Is your PIN now blocked, or do you not know it?
+## login | passcode_forgotten,lost_or_stolen_phone | Why the customer can't access the app is not stated.
+I need to access my money but I can't get in || no access || Have you forgotten your passcode, or don't you have your phone?
+I'm stuck outside the app || stuck || Is it the passcode, or do you not have your device?
+## verify | verify_my_identity,unable_to_verify_identity,why_verify_identity | What the customer needs about identity verification is not stated.
+the app keeps asking for my ID || repeated prompts || Has your ID been rejected, or would you like to know why it's needed?
+stuck at the ID step || stuck || Is it rejecting your document, or are you unsure what to upload?
+## new_card | order_physical_card,getting_spare_card,card_about_to_expire | Whether the customer wants a first, additional, or replacement card is not stated.
+my partner needs a card too, or maybe I just need a fresh one || mixed || Would you like an extra card for your partner, or a replacement for yourself?
+I want a shiny new card || new card || Is your current card expiring, or would you like an extra card?
+## card_delivery | card_arrival,card_delivery_estimate | Whether the card is overdue or the customer is asking about normal delivery times is not stated.
+I'm going on holiday soon, will my card get here in time? || deadline || Have you already ordered it, and when?
+## virtual | getting_virtual_card,get_disposable_virtual_card | Whether a standard or single-use virtual card is wanted is not stated.
+I want to shop online without using my real card number || hide real number || Would you like a reusable virtual card, or a single-use one?
+## reverse | cancel_transfer,request_refund,transaction_charged_twice | Why the customer wants a transaction undone is not stated.
+please reverse what happened this morning || reverse || Was it a transfer, a purchase, or a duplicate charge?
+## currencies | fiat_currency_support,supported_cards_and_currencies | Whether the question is about held currencies or top-up currencies is not stated.
+do you support Swiss francs || CHF || To hold in your account, or to top up with?
+## card_where | card_acceptance,atm_support,country_support | Whether the question is about merchants, ATMs, or service availability is not stated.
+I'm moving to Portugal, will this still work || moving abroad || Will you be living there, or just using the card while visiting?
+## freeze | lost_or_stolen_card,compromised_card | Why the customer wants the card frozen is not stated.
+put a hold on my card please, something's not right || hold, suspicion || Is your card missing, or have you seen suspicious activity?

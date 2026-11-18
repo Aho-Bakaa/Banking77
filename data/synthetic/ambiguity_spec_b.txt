@@ -1,0 +1,102 @@
+## extra_vs_fee | extra_charge_on_statement,card_payment_fee_charged,transaction_charged_twice | Whether it is a standalone extra charge, a fee on a payment, or a duplicate is not stated.
+I was charged more than I should have been || overcharge, no detail || Was it a separate small charge, a fee on a payment, or the same payment taken twice?
+the amount taken is wrong || wrong amount debited || Does it look like an extra fee, or like you were charged twice?
+paid more than the price || paid over price || Was a fee added to the payment, or was the payment taken twice?
+extra money came off my card || extra debit || Is it a separate small charge, or a duplicate of a payment you made?
+my statement doesn't add up || statement mismatch || Is there an extra fee line, or a payment that appears twice?
+why is the total higher || higher total || Was a fee added, or was something charged twice?
+I've been overcharged at a shop || shop overcharge || Was the shop payment duplicated, or was a fee added to it?
+more came out than I spent || debit > spend || Do you see the same payment twice, or a separate fee?
+there's an odd small amount on my account || small odd amount || Is it a standalone charge, or attached to a payment you made?
+extra deduction || extra deduction || Is it a fee on a payment, or a duplicate charge?
+## topup_problem | pending_top_up,top_up_failed,top_up_reverted | The state of the top-up (pending, failed, or reversed) is not stated.
+my top up isn't there || top-up missing || Is it showing as pending, did it fail, or did it appear and then disappear?
+top up problem || vague || Is the top-up pending, failed, or reversed?
+added money but it's not in my balance || not reflected || Does the app show it as pending, or did it fail?
+where did my top-up go || missing || Did it show in your balance at any point before disappearing?
+top up issue again || recurring issue || Is it stuck as pending, failing outright, or being reversed?
+money I put on my card isn't showing || not reflected || Is the top-up pending, or did you get a failure message?
+tried to load my account, nothing || no result || Did the top-up fail with an error, or is it still pending?
+top-up hasn't worked || not worked || Does it show as failed or pending?
+my balance didn't go up after topping up || balance unchanged || Is the top-up pending, or did it fail?
+whats happening with my top up || status unknown || Is it pending, failed, or did it go through and then get reversed?
+the top up thing isn't working || feature not working || Are top-ups failing straight away, or staying pending?
+loaded money, now it's gone || appeared then gone? || Did the money show in your balance before it disappeared?
+top up stuck? || possibly pending || Does the app say pending, or did it fail?
+## topup_fee | top_up_by_card_charge,top_up_by_bank_transfer_charge | The top-up method is not stated.
+does it cost to add money || cost of top-up, method unknown || Will you be adding money by card or by bank transfer?
+top-up fee? || bare fee query || Are you topping up by card or by bank transfer?
+was I charged for adding funds || charge on adding funds || Did you add the funds by card or by bank transfer?
+fee for loading money || loading fee || Are you loading money by card or bank transfer?
+any charges to put money in || charges, method unknown || Would you use a card or a bank transfer to put money in?
+how much to top up my account || price of top-up || Is that by card or by bank transfer?
+I got a fee on my top up || fee seen || Was the top-up made by card or by bank transfer?
+are top ups free || free? || Which method: card or bank transfer?
+charged when I added money || charge on deposit || Did you add it with a card or by transferring from a bank?
+cost of funding my account || funding cost || By card or by bank transfer?
+## transfer_problem | pending_transfer,failed_transfer,declined_transfer | The transfer's status (pending, failed, declined) is not stated.
+problem with my transfer || vague || Is the transfer pending, did it fail, or was it declined?
+transfer issue || vague || What does the app show for it: pending, failed, or declined?
+my transfer didn't work || not worked || Did it fail after sending, or was it declined straight away?
+transfer not done || not completed || Is it still pending, or did it fail?
+what happened to my transfer || unknown state || Does it say pending, failed, or declined?
+the transfer is stuck || maybe pending || Is it showing as pending, or as failed?
+can't complete transfer || can't complete || Are you getting a 'declined' message, or does it fail after you send it?
+transfer error || error || Does the error say declined, or that the transfer failed?
+transfer hasn't gone || not sent || Is it still pending, or was it rejected?
+sent money but something's wrong || vague || Is the transfer pending, failed, or declined?
+my bank transfer is messed up || vague || Is it stuck pending, or did it fail or get declined?
+## transfer_direction | transfer_not_received_by_recipient,balance_not_updated_after_bank_transfer | Whether the money was sent to someone else or into the customer's own account is not stated.
+my transfer hasn't arrived || not arrived, direction unknown || Was the transfer sent to someone else, or into your own account here?
+the money I transferred isn't there || not there || Should it appear in your account, or in someone else's?
+transfer missing || missing || Is it a transfer you sent to someone, or one into your account?
+money sent hasn't shown up || not shown || Who is waiting for it: you or the recipient?
+can't see the transfer anywhere || not visible || Was it coming into your account, or going out to someone else?
+where is my bank transfer || location || Is it a transfer into your account or one you sent out?
+transfer still not received || not received by whom? || Is the money meant for you or for someone you paid?
+I did a transfer but no money || no money where? || Was it into your account here, or to another person?
+nothing arrived from the transfer || nothing arrived || Was the transfer sent to you or by you?
+transferred funds are missing || missing funds || Were they sent into your account or to someone else?
+## transfer_timing | transfer_timing,pending_transfer | Whether the customer is asking in general or about a specific pending transfer is unclear.
+how long for a transfer || timing || Do you have a transfer pending right now, or are you asking in general?
+transfer time? || timing || Is there a specific transfer you're waiting on?
+when will it go through || 'it' a transfer? || Is this a transfer you've already sent that's pending?
+how long do I wait || waiting || Are you waiting on a transfer you've already made, or planning one?
+how fast are transfers || speed || Is a transfer you made taking longer than expected, or is this a general question?
+transfer taking ages? || maybe pending || Does your transfer show as pending in the app?
+how long until done || timing || Which transaction are you waiting on: a transfer you sent?
+how many days for a bank transfer || days || Have you already sent one that's pending, or is this for planning?
+when does money get there || arrival || Have you already sent it, or are you planning to?
+## deposit_missing | balance_not_updated_after_bank_transfer,balance_not_updated_after_cheque_or_cash_deposit,pending_top_up | How the money was added is not stated.
+my money hasn't shown up || money not shown || How did you add it: bank transfer, cash or cheque deposit, or a card top-up?
+balance not updated || balance stale || What were you expecting to see: a transfer, a deposit, or a top-up?
+I put money in and can't see it || added, not visible || Did you deposit cash or a cheque, transfer it, or top up by card?
+money I added is missing || added money missing || Was it a bank transfer, a cash/cheque deposit, or a card top-up?
+funds not available yet || unavailable || How were the funds added to your account?
+where's my deposit || deposit || Was it a cash or cheque deposit, or a bank transfer?
+my account hasn't updated || stale account || Which payment are you waiting to see?
+I paid in money yesterday, nothing || paid in, method unknown || Did you pay in cash or a cheque, or send a transfer?
+balance still the same after adding money || unchanged || Was the money added by transfer, deposit, or card top-up?
+waiting for my money to appear || waiting || How was it sent: bank transfer, deposit, or top-up?
+## payment_status | pending_card_payment,declined_card_payment,reverted_card_payment? | Whether the card payment is pending, was declined, or was reverted is not stated.
+problem with a card payment || vague || Is the payment pending, was it declined, or did it go through and then get reversed?
+my payment didn't complete || not completed || Is it still pending, or was it declined?
+what's happening with my purchase || status unknown || Does the payment show as pending, declined, or reversed?
+card payment issue || vague || Is it pending, declined, or reverted?
+paid for something but it's weird || vague || Is the payment still pending, or did the money come back to you?
+the shop says they didn't get paid || merchant didn't receive || Is the payment pending in your app, or did it disappear after being taken?
+my card payment isn't showing right || display issue || Does it show as pending, or was it reversed?
+payment on my card didnt finish || unfinished || Is it pending, or was it declined at the time?
+purchase not processed || not processed || Is it pending, or was it declined?
+what's up with my online order payment || online payment || Was it declined, is it pending, or was it refunded back?
+## refund | request_refund,Refund_not_showing_up | Whether a refund has already been issued is not stated.
+I want my money back from a shop || money back || Has the shop already agreed to refund you, or do you need to request a refund?
+refund please || bare request || Is this a refund the merchant already sent, or one you'd like to start?
+refund issue || vague || Are you waiting on a refund that hasn't arrived, or trying to get one?
+how do refunds work || process || Are you waiting for a refund, or starting one?
+still no refund || 'still' implies waiting || Did the merchant confirm the refund was sent?
+help with a refund || vague || Has a refund been issued yet, or do you want to request one?
+returned an item || return made || Has the shop said they've refunded you?
+my refund || vague || Is it late, or haven't you requested it yet?
+get my money back for an order || money back || Has the seller agreed to a refund already?
+seller owes me money || owed || Has the seller sent a refund that hasn't arrived, or refused to refund?

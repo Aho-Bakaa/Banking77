@@ -1,0 +1,60 @@
+{"id":6440,"thought":"Cue: charged for one thing two times. vs extra_charge_on_statement: duplicate, not a fee. vs card_payment_not_recognised: customer made it once. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6443,"thought":"Cue: a duplicate payment on my account. vs reverted_card_payment?: duplicated, not returned. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6444,"thought":"Cue: statement shows 'various transaction times' - the same transaction listed several times. vs pending_transfer: not about a pending transfer. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6454,"thought":"Cue: reason I was charged twice for a transaction. vs card_payment_fee_charged: duplicate. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6455,"thought":"Cue: duplicate transactions on my account. vs compromised_card: duplicates, no fraud claim. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6461,"thought":"Cue: charged twice for things this week when I only bought one. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6465,"thought":"Cue: a repeated transaction on my card. vs card_payment_not_recognised: repeat of a known one. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6467,"thought":"Cue: a transaction showing up more than once. vs cancel_transfer: duplicate charge. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6468,"thought":"Cue: explain the various transaction times on my statement - same transaction appearing multiple times. vs pending_cash_withdrawal: no ATM. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6470,"thought":"Cue: resolve a duplicate charge on my statement. vs extra_charge_on_statement: duplicate. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6474,"thought":"Cue: charged double for something I bought, how long before reporting. vs request_refund: duplicate charge. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6476,"thought":"Cue: a duplicated payment was made for something. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6478,"thought":"Cue: account seems off, getting weird charges - vague: unknown, duplicate or fees. vs card_payment_not_recognised: 'weird charges' leans unknown. -> ambiguous: transaction_charged_twice | card_payment_not_recognised | extra_charge_on_statement","status":"ambiguous","candidates":["transaction_charged_twice","card_payment_not_recognised","extra_charge_on_statement"],"question":"What looks wrong with the charges: are some repeated, do you not recognise them, or are there unexpected fees?"}
+{"id":6479,"thought":"Cue: multiple charges for one transaction. -> transaction_charged_twice","status":"resolved","intent":"transaction_charged_twice"}
+{"id":6245,"thought":"Cue: the ATM took my card. vs atm_support: not asking which ATMs. vs lost_or_stolen_card: retained by a machine. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6246,"thought":"Cue: credit card swallowed by the ATM. vs declined_cash_withdrawal: the card, not the cash, is the issue. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6249,"thought":"Cue: can't get my card out of the ATM. vs card_not_working: the card is stuck. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6250,"thought":"Cue: card got stuck in an ATM. vs declined_cash_withdrawal: card retained. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6251,"thought":"Cue: your machine took my card, how to get it back. vs lost_or_stolen_card: machine retained it. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6253,"thought":"Cue: card is stuck in the ATM. vs pending_cash_withdrawal: no pending cash. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6257,"thought":"Cue: 'the ATM stole my card' - ATM retained the card. vs lost_or_stolen_card: 'stole' is figurative; a machine kept it. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6259,"thought":"Cue: the ATM took my card. vs wrong_amount_of_cash_received: card, not cash. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6260,"thought":"Cue: ATM won't give my card back. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6261,"thought":"Cue: get my card back quickly from a bank machine. vs lost_or_stolen_card: machine kept it. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6264,"thought":"Cue: getting cash and the card got stuck inside. vs declined_cash_withdrawal: card retained. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6266,"thought":"Cue: what to do if the ATM kept my card. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6268,"thought":"Cue: can't get my card out of the ATM. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6272,"thought":"Cue: why did the ATM eat my card. vs declined_cash_withdrawal: card retained. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6273,"thought":"Cue: send a new card, the ATM ate mine. vs order_physical_card: replacement after ATM retention. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6274,"thought":"Cue: the ATM didn't return my card. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6275,"thought":"Cue: was withdrawing money and now don't have access to my card - card lost during a withdrawal, i.e. retained by the ATM. vs cash_withdrawal_not_recognised: customer made the withdrawal. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6278,"thought":"Cue: 'lost my card in ATM' - card left in / kept by the ATM. vs lost_or_stolen_card: location is the ATM. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6279,"thought":"Cue: cannot get my card out of the ATM. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6283,"thought":"Cue: what to do if the ATM eats my card. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6284,"thought":"Cue: the ATM took my card. vs lost_or_stolen_card: machine. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6286,"thought":"Cue: who to talk to about the ATM swallowing my card. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6287,"thought":"Cue: an ATM swallowed my credit card. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6289,"thought":"Cue: the ATM swallowed my card. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6291,"thought":"Cue: the money machine kept my card. vs topping_up_by_card: unrelated. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6292,"thought":"Cue: new card because your machine swallowed mine. vs card_about_to_expire: no expiry. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6293,"thought":"Cue: the ATM machine ate my card. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6294,"thought":"Cue: new card after the ATM ate it. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6297,"thought":"Cue: how to get my card out of the ATM. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6298,"thought":"Cue: help me get my card back - card not in possession; no ATM or loss detail. vs lost_or_stolen_card: equally plausible. -> ambiguous: card_swallowed | lost_or_stolen_card","status":"ambiguous","candidates":["card_swallowed","lost_or_stolen_card"],"question":"Was your card kept by an ATM, or has it been lost or stolen?"}
+{"id":6299,"thought":"Cue: ATM ate my card, how to get a new one. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6300,"thought":"Cue: get my card back after the ATM swallowed it. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6303,"thought":"Cue: steps to recover my swallowed card. vs lost_or_stolen_card: 'swallowed'. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6304,"thought":"Cue: card stuck inside the ATM. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6305,"thought":"Cue: 'stuck ATM' - customer means card stuck in the ATM. vs atm_support: problem with retention. -> card_swallowed","status":"resolved","intent":"card_swallowed"}
+{"id":6886,"thought":"Cue: change my PIN at any cash machines. vs atm_support: purpose is PIN change. vs pin_blocked: not blocked. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6887,"thought":"Cue: make my card PIN a different number. vs get_physical_card: already has a PIN. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6897,"thought":"Cue: can I pick a new PIN. vs get_physical_card: choosing a new one replaces the existing. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6898,"thought":"Cue: where can I update my PIN number. vs edit_personal_details: PIN, not details. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6900,"thought":"Cue: need to change my card PIN. vs pin_blocked: not blocked. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6901,"thought":"Cue: change PIN directly from an ATM. vs atm_support: PIN change. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6912,"thought":"Cue: go to an office to change my PIN. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6916,"thought":"Cue: which countries can I change my PIN in. vs country_support: about PIN change. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6919,"thought":"Cue: change PIN at an ATM in Spain, someone saw it. vs compromised_card: the remedy asked is a PIN change. vs wrong_exchange_rate_for_cash_withdrawal: no. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6924,"thought":"Cue: change PIN while in Austria. vs country_support: PIN change abroad. -> change_pin","status":"resolved","intent":"change_pin"}
+{"id":6928,"thought":"Cue: must change my PIN ASAP. vs pin_blocked: not blocked. -> change_pin","status":"resolved","intent":"change_pin"}

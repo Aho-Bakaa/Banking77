@@ -1,0 +1,60 @@
+{"id":9778,"thought":"Cue: how do I prove I am who I am - process. vs unable_to_verify_identity: no failure. vs why_verify_identity: how, not why. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9781,"thought":"Cue: what to do to perform identity checks. vs unable_to_verify_identity: process. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9783,"thought":"Cue: how recent documents must be for verification - document requirements. vs verify_top_up: identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9784,"thought":"Cue: what I need for the identity check process. vs why_verify_identity: what, not why. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9787,"thought":"Cue: what documents to verify my identity. vs unable_to_verify_identity: process. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9789,"thought":"Cue: what I'll need to verify my identity. vs verify_top_up: identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9791,"thought":"Cue: what proof of identification is needed. vs unable_to_verify_identity: requirements. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9792,"thought":"Cue: how do I perform identity checks. vs compromised_card: no. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9793,"thought":"Cue: what I need for identity verification. vs why_verify_identity: what. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9794,"thought":"Cue: what I need for identity validation. vs verify_top_up: identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9795,"thought":"Cue: what you need for the identity verification. vs why_verify_identity: what. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9797,"thought":"Cue: how do I go through identity checks. vs verify_source_of_funds: identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9799,"thought":"Cue: steps to verify identity. vs unable_to_verify_identity: steps. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9800,"thought":"Cue: what is the identity verification process. vs why_verify_identity: process. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9803,"thought":"Cue: tell me how I verify my identity. vs unable_to_verify_identity: how-to. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9804,"thought":"Cue: how can I prove who I am. vs edit_personal_details: proof. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9805,"thought":"Cue: what works for identity verification - acceptable documents. vs verify_top_up: identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9809,"thought":"Cue: where can I verify my identity. vs verify_source_of_funds: identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9810,"thought":"Cue: not sure what I need to verify my identity. vs unable_to_verify_identity: requirements. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9811,"thought":"Cue: what I need for the identity check. vs edit_personal_details: verification. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9814,"thought":"Cue: how do I verify my ID. vs verify_top_up: ID. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9815,"thought":"Cue: without all documents can they still verify - requirements flexibility. vs unable_to_verify_identity: hypothetical, no failure. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9816,"thought":"Cue: WHY do I have to show my ID - the reason. vs verify_my_identity: why, not how. -> why_verify_identity","status":"resolved","intent":"why_verify_identity","flag":"label_noise"}
+{"id":9817,"thought":"Cue: don't know how to verify my identity. vs unable_to_verify_identity: how-to. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9818,"thought":"Cue: any proof needed for the identity check. vs why_verify_identity: what. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9819,"thought":"Cue: full list of instructions for identity checks. vs passcode_forgotten: no. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9821,"thought":"Cue: what I need for the verification check - no object, but identity check is typical. vs verify_top_up: possible. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9823,"thought":"Cue: what needs to be provided for identity verification. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9825,"thought":"Cue: use my social security card as identity - acceptable ID document. vs card_acceptance: ID card, not payment card. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9830,"thought":"Cue: verify my identity in the app. vs unable_to_verify_identity: how/where. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9831,"thought":"Cue: what has to be done to verify my identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9832,"thought":"Cue: have to verify my identity, what to do. vs why_verify_identity: what. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9833,"thought":"Cue: what type of ID do you accept. vs visa_or_mastercard: ID, not cards. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9835,"thought":"Cue: getting identity verified, what do I need. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9836,"thought":"Cue: explain how to verify my identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9839,"thought":"Cue: can I verify my identity - capability/how. vs unable_to_verify_identity: no failure. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9840,"thought":"Cue: where to find out how to verify my identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9841,"thought":"Cue: how do I validate my identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9842,"thought":"Cue: worried about fraud, how do you protect my account - security practices, not identity verification. vs compromised_card: no misuse reported. -> ambiguous: verify_my_identity | compromised_card","status":"ambiguous","candidates":["verify_my_identity","compromised_card"],"question":"Has something suspicious happened on your account, or would you like to know how we protect it in general?","flag":"label_noise"}
+{"id":9843,"thought":"Cue: what you demand for identity verification. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9844,"thought":"Cue: trying to verify but can't figure out how. vs unable_to_verify_identity: how-to confusion, not rejection. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9851,"thought":"Cue: steps for the identity checks. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9852,"thought":"Cue: acceptable documents to prove identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9854,"thought":"Cue: documents needed to verify identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9855,"thought":"Cue: 'how do I change my identity' - likely changing personal details, or confused about verification. vs edit_personal_details: plausible. -> ambiguous: verify_my_identity | edit_personal_details","status":"ambiguous","candidates":["verify_my_identity","edit_personal_details"],"question":"Do you want to update personal details like your name, or verify your identity?"}
+{"id":9856,"thought":"Cue: information on the identity checks. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9858,"thought":"Cue: how can you assist on verifying my identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9860,"thought":"Cue: WHY do I need to show ID. vs verify_my_identity: reason. -> why_verify_identity","status":"resolved","intent":"why_verify_identity","flag":"label_noise"}
+{"id":9864,"thought":"Cue: what ID do I need to verify my identity. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9865,"thought":"Cue: how do I complete the ID check. vs card_not_working: ID. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9871,"thought":"Cue: what form of identification is accepted. vs order_physical_card: ID. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":9872,"thought":"Cue: what is necessary for identity verification. -> verify_my_identity","status":"resolved","intent":"verify_my_identity"}
+{"id":6481,"thought":"Cue: 'where exactly does money come from' - origin of funds; vague. vs receiving_money: possible. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6483,"thought":"Cue: check where the funds came from - source of funds. vs cash_withdrawal_not_recognised: origin, not withdrawal. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6485,"thought":"Cue: need to know where money comes from - source of funds. vs exchange_rate: no. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6486,"thought":"Cue: look at the source of my current funds. vs transfer_into_account: source. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6489,"thought":"Cue: who can put money in my account - could be receiving money from others. vs receiving_money: strong fit. -> ambiguous: verify_source_of_funds | receiving_money","status":"ambiguous","candidates":["verify_source_of_funds","receiving_money"],"question":"Are you asking who is allowed to send you money, or have you been asked to prove where your funds come from?"}
+{"id":6492,"thought":"Cue: what source do my funds come from. vs balance_not_updated_after_bank_transfer: source. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6503,"thought":"Cue: require verification for my source of funds. vs verify_my_identity: funds. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6507,"thought":"Cue: where can I see where funds came from. vs cash_withdrawal_not_recognised: source. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}

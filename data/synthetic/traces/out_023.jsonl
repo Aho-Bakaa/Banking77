@@ -1,0 +1,60 @@
+{"id": 4846, "thought": "Cue: entered my passcode and it's not working - app login passcode rejected. vs unable_to_verify_identity: login, not KYC. vs card_not_working: passcode, not card. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4853, "thought": "Cue: don't know the code for the app - app passcode. vs card_linking: no card. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4856, "thought": "Cue: used to know my password, not anymore. vs lost_or_stolen_phone: device fine. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4860, "thought": "Cue: where can I get a new passcode. vs edit_personal_details: credential reset. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4865, "thought": "Cue: can't log in because I lost my password. vs lost_or_stolen_phone: password, not phone. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4866, "thought": "Cue: can't access my passcode. vs pin_blocked: passcode. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4874, "thought": "Cue: completely forgot the code to get into the app. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4878, "thought": "Cue: I can't log in - cause unstated (forgotten passcode, lost phone). vs lost_or_stolen_phone: possible. -> ambiguous: passcode_forgotten | lost_or_stolen_phone", "status": "ambiguous", "candidates": ["passcode_forgotten", "lost_or_stolen_phone"], "question": "Have you forgotten your passcode, or do you not have access to the phone you usually log in with?"}
+{"id": 4882, "thought": "Cue: what to do if I've forgotten my passcode. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4886, "thought": "Cue: I have forgotten my passcode. vs pin_blocked: passcode. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4887, "thought": "Cue: password reset if I don't have it. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4888, "thought": "Cue: can't access my account - cause unstated. -> ambiguous: passcode_forgotten | lost_or_stolen_phone", "status": "ambiguous", "candidates": ["passcode_forgotten", "lost_or_stolen_phone"], "question": "Is it that you can't remember your passcode, or that you don't have your phone?"}
+{"id": 4894, "thought": "Cue: can't get into the app with the passcode. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4898, "thought": "Cue: I lost my passcode. vs lost_or_stolen_card: passcode. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4900, "thought": "Cue: how to reset the passcode. vs pin_blocked: passcode. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4901, "thought": "Cue: can't remember what my password is. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 4906, "thought": "Cue: don't have my passcode to access the app. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten"}
+{"id": 1667, "thought": "Cue: exceeded the number of PIN attempts. vs declined_cash_withdrawal: cause is PIN lock. vs change_pin: not changing. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1675, "thought": "Cue: where do I find the PIN for my card - locating the PIN, nothing about being blocked. vs pin_blocked: no lock. -> get_physical_card", "status": "resolved", "intent": "get_physical_card", "flag": "label_noise"}
+{"id": 1677, "thought": "Cue: entered my PIN too many times. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1679, "thought": "Cue: how can I unblock my PIN. vs change_pin: unblocking. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1681, "thought": "Cue: asks what to do to get the PIN unblocked. vs change_pin: unblocking, not choosing a new PIN. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1685, "thought": "Cue: mistyped PIN and the card got stuck in the machine. Two cues: PIN errors and a retained card. vs card_swallowed: the card is in the machine. -> ambiguous: pin_blocked | card_swallowed", "status": "ambiguous", "candidates": ["pin_blocked", "card_swallowed"], "question": "Is the ATM still holding your card, or do you have it back and just need your PIN unblocked?"}
+{"id": 1686, "thought": "Cue: cannot try my PIN anymore - no attempts left. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1688, "thought": "Cue: make my PIN work again - restore a disabled PIN. vs change_pin: restoration. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1691, "thought": "Cue: use the app to unblock my card. vs card_linking: unblocking. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1692, "thought": "Cue: tried the wrong PIN too many times. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1696, "thought": "Cue: forgot my PIN number - forgotten, not yet blocked. vs get_physical_card: retrieving the PIN. vs pin_blocked: no lock stated. -> ambiguous: pin_blocked | get_physical_card", "status": "ambiguous", "candidates": ["pin_blocked", "get_physical_card"], "question": "Has your PIN been blocked after wrong attempts, or do you just need to find out what it is?"}
+{"id": 1697, "thought": "Cue: tried PIN several times incorrectly, why isn't it working. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1698, "thought": "Cue: needs the PIN unlocked - PIN currently locked. vs get_physical_card: PIN exists but is locked. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1700, "thought": "Cue: take a block off my card. vs lost_or_stolen_card: unblocking. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1703, "thought": "Cue: process for unlocking the PIN. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1704, "thought": "Cue: how to go about unlocking a PIN. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1705, "thought": "Cue: entered wrong information, need my account unblocked. Wrong entries -> block; could be app login or card PIN. vs passcode_forgotten: possible. -> ambiguous: pin_blocked | passcode_forgotten", "status": "ambiguous", "candidates": ["pin_blocked", "passcode_forgotten"], "question": "Was it your card PIN you entered incorrectly, or your app passcode?"}
+{"id": 1710, "thought": "Cue: wrong PIN too many times, now blocked, help unblock. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1712, "thought": "Cue: procedure for unblocking my PIN. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1714, "thought": "Cue: logged in wrong and am blocked - app login lockout. vs pin_blocked: app login, not card PIN. -> passcode_forgotten", "status": "resolved", "intent": "passcode_forgotten", "flag": "label_noise"}
+{"id": 1715, "thought": "Cue: goofed my PIN and the machine ate my card, how to get it back - retention is the outcome asked about. vs pin_blocked: cause was PIN errors. -> ambiguous: pin_blocked | card_swallowed", "status": "ambiguous", "candidates": ["pin_blocked", "card_swallowed"], "question": "Do you need help getting the card back from the ATM, or unblocking your PIN once you have it?"}
+{"id": 1717, "thought": "Cue: reset my darned PIN - 'reset' after frustration: unblock or change. -> ambiguous: pin_blocked | change_pin", "status": "ambiguous", "candidates": ["pin_blocked", "change_pin"], "question": "Is your PIN blocked, or would you like to change it to a new one?"}
+{"id": 1718, "thought": "Cue: 'my PIN is unlocked' - likely meant locked. vs change_pin: problem state. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1720, "thought": "Cue: my PIN can't access my card. vs get_physical_card: PIN refused. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1722, "thought": "Cue: how do I unblock my PIN. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1723, "thought": "Cue: what happens if I forget my PIN - hypothetical, no block yet. vs get_physical_card: finding the PIN. -> ambiguous: pin_blocked | get_physical_card", "status": "ambiguous", "candidates": ["pin_blocked", "get_physical_card"], "question": "Have you already been locked out after wrong attempts, or do you just need to look up your PIN?"}
+{"id": 1725, "thought": "Cue: drunkenly blocked my card - card blocked by wrong attempts. vs lost_or_stolen_card: card present. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1729, "thought": "Cue: my card got blocked, how to reset. vs card_not_working: blocked. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1730, "thought": "Cue: PIN incorrect and can't access it. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1731, "thought": "Cue: a way to reset my PIN - unblock vs change unclear. -> ambiguous: pin_blocked | change_pin", "status": "ambiguous", "candidates": ["pin_blocked", "change_pin"], "question": "Is your PIN currently blocked, or do you want to set a different PIN?"}
+{"id": 1732, "thought": "Cue: exceeded all my PIN tries. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1733, "thought": "Cue: how do I get unblocked - what is blocked is unstated (card PIN or app). vs passcode_forgotten: possible. -> ambiguous: pin_blocked | passcode_forgotten", "status": "ambiguous", "candidates": ["pin_blocked", "passcode_forgotten"], "question": "What's blocked: your card PIN, or your access to the app?"}
+{"id": 1738, "thought": "Cue: my PIN isn't working. vs get_physical_card: PIN exists but fails. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1741, "thought": "Cue: forgot my PIN and am blocked now. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1742, "thought": "Cue: must have entered my PIN wrong. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1743, "thought": "Cue: locked out from entering my PIN. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1745, "thought": "Cue: entered PIN wrong too many times. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1746, "thought": "Cue: used all my PIN tries. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1756, "thought": "Cue: how many incorrect attempts cause a block. vs disposable_card_limits: PIN attempts. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1759, "thought": "Cue: used all PIN tries, what now. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1761, "thought": "Cue: PIN seems to be blocked. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1763, "thought": "Cue: entered PIN wrong, blocked, how to unblock. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}
+{"id": 1764, "thought": "Cue: I cannot use my PIN. vs get_physical_card: PIN fails. -> pin_blocked", "status": "resolved", "intent": "pin_blocked"}

@@ -1,0 +1,60 @@
+{"id": 4126, "thought": "Cue: what credit cards do you CARRY - which card brands/networks the bank issues. vs supported_cards_and_currencies: about cards we issue, not external ones we accept. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4130, "thought": "Cue: choice for a Mastercard. vs order_physical_card: network choice. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4132, "thought": "Cue: choose either Visa or Mastercard. vs supported_cards_and_currencies: our card network. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4133, "thought": "Cue: can I have a Visa card. vs card_acceptance: network choice. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4138, "thought": "Cue: my preference is Mastercard. vs atm_support: network preference. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4144, "thought": "Cue: get a Visa or Mastercard. vs order_physical_card: network. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4145, "thought": "Cue: do you give out Visa or Mastercards. vs supported_cards_and_currencies: our issued network. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4146, "thought": "Cue: do I have to pick a credit card brand - network choice. vs order_physical_card: brand. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4149, "thought": "Cue: can both Visa and Mastercard be chosen. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4151, "thought": "Cue: what cards do you offer - could be networks or card types (virtual, spare). vs getting_spare_card: possible. -> ambiguous: visa_or_mastercard | order_physical_card", "status": "ambiguous", "candidates": ["visa_or_mastercard", "order_physical_card"], "question": "Are you asking whether our cards are Visa or Mastercard, or which types of card you can order?"}
+{"id": 4153, "thought": "Cue: choose between Visa and Mastercard. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4160, "thought": "Cue: give me a Mastercard and Visa. vs getting_spare_card: network. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4171, "thought": "Cue: does it matter which card I use - vague; could be network, or which card to top up/pay with. vs supported_cards_and_currencies: possible. -> ambiguous: visa_or_mastercard | supported_cards_and_currencies", "status": "ambiguous", "candidates": ["visa_or_mastercard", "supported_cards_and_currencies"], "question": "Do you mean whether your card is Visa or Mastercard, or which of your other cards you can use to top up?"}
+{"id": 4174, "thought": "Cue: like to get a Visa card. vs order_physical_card: network. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4176, "thought": "Cue: choose between Mastercard and Visa. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4190, "thought": "Cue: get both a Visa and a Mastercard from you. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4192, "thought": "Cue: given a choice, I'd rather have Mastercard. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4196, "thought": "Cue: Mastercard is preferred to me. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4205, "thought": "Cue: how can I get a Visa and Mastercard. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4210, "thought": "Cue: got a different card than requested - wrong network issued. vs card_arrival: card arrived. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4211, "thought": "Cue: can I use a Visa or Mastercard - which network, or whether external cards are accepted. vs supported_cards_and_currencies: plausible. -> ambiguous: visa_or_mastercard | supported_cards_and_currencies", "status": "ambiguous", "candidates": ["visa_or_mastercard", "supported_cards_and_currencies"], "question": "Are you asking which network our card uses, or whether you can top up with your own Visa or Mastercard?"}
+{"id": 4212, "thought": "Cue: choose between Visa and Mastercard. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4213, "thought": "Cue: Mastercard is my preferred company. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4215, "thought": "Cue: says they would prefer a Mastercard - network preference. vs order_physical_card: network choice. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4219, "thought": "Cue: can I get a Visa from you. vs receiving_money: card. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4229, "thought": "Cue: can I get a Visa card. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4230, "thought": "Cue: do you use Visa or Mastercard. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4232, "thought": "Cue: do you use Visa or Mastercard. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 4233, "thought": "Cue: can I choose what card I can use - card network choice. vs supported_cards_and_currencies: choice of our card. -> visa_or_mastercard", "status": "resolved", "intent": "visa_or_mastercard"}
+{"id": 1558, "thought": "Cue: how old to use the bank's services. vs atm_support: age. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1561, "thought": "Cue: how old do I need to be. vs verify_my_identity: age eligibility. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1562, "thought": "Cue: age requirements for opening an account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1563, "thought": "Cue: is there any age limit. vs top_up_limits: age. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1564, "thought": "Cue: start a college fund for my daughter - account for a child. vs getting_spare_card: not a card. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1565, "thought": "Cue: how old do my kids have to be. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1573, "thought": "Cue: how old do my kids have to be to use this. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1575, "thought": "Cue: open an account for my kids. vs terminate_account: opening. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1586, "thought": "Cue: requirements to open an account for a minor. vs verify_my_identity: minor eligibility. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1589, "thought": "Cue: can my 8-year-old grandson open an account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1600, "thought": "Cue: I am 16, can I deposit checks - eligibility at 16. vs top_up_by_cash_or_cheque: age is the concern. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1603, "thought": "Cue: age limit for opening a new account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1604, "thought": "Cue: is my daughter eligible to open an account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1608, "thought": "Cue: how old must I be to open an account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1610, "thought": "Cue: can my children have an account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1614, "thought": "Cue: account services for children and teens. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1619, "thought": "Cue: open an account for my children, how. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1622, "thought": "Cue: open an account for my children. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1626, "thought": "Cue: at what age can a person open an account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1632, "thought": "Cue: can my teenager have an account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1633, "thought": "Cue: what age to open an account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1636, "thought": "Cue: age limit for when my child can use services. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1639, "thought": "Cue: asks whether there are any accounts for children. vs getting_spare_card: an account, not a card. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1655, "thought": "Cue: asks whether there are any age restrictions. vs country_support: age, not location. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1657, "thought": "Cue: how old does one need to be. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1658, "thought": "Cue: my daughter needs an account. vs getting_spare_card: account, not card. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1661, "thought": "Cue: is my child too young to sign up. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1664, "thought": "Cue: youngest I can be to open an account. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 1666, "thought": "Cue: separate accounts for my kids. vs getting_spare_card: accounts. -> age_limit", "status": "resolved", "intent": "age_limit"}
+{"id": 9644, "thought": "Cue: Apple Watch, use it to top up my card - Apple Pay top-up. vs topping_up_by_card: wallet is the focus. -> apple_pay_or_google_pay", "status": "resolved", "intent": "apple_pay_or_google_pay"}
+{"id": 9646, "thought": "Cue: top up not working with American Express in Apple Pay - wallet top-up failing. vs top_up_failed: Apple Pay focus. vs supported_cards_and_currencies: Amex. -> apple_pay_or_google_pay", "status": "resolved", "intent": "apple_pay_or_google_pay"}

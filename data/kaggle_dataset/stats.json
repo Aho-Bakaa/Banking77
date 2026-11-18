@@ -1,0 +1,340 @@
+{
+  "dataset": {
+    "total_examples": 4428,
+    "train_examples": 4033,
+    "val_examples": 395,
+    "gate_labels_total": 10003,
+    "gate_think": 2056,
+    "gate_fast": 7947,
+    "dropped_label_noise": 181,
+    "train_leak_rows_removed": 3
+  },
+  "mixture_breakdown_overall": {
+    "think_resolved": 2002,
+    "fast": 998,
+    "think_ambiguous": 1428
+  },
+  "token_lengths": {
+    "mean": 465.0,
+    "median": 463.0,
+    "min": 420,
+    "max": 567,
+    "p95": 507.0
+  },
+  "thought_word_lengths": {
+    "mean": 18.6,
+    "median": 18.0,
+    "min": 8,
+    "max": 42
+  },
+  "per_intent_counts": {
+    "Refund_not_showing_up": {
+      "train": 47,
+      "val": 5
+    },
+    "activate_my_card": {
+      "train": 53,
+      "val": 3
+    },
+    "age_limit": {
+      "train": 37,
+      "val": 2
+    },
+    "apple_pay_or_google_pay": {
+      "train": 40,
+      "val": 12
+    },
+    "atm_support": {
+      "train": 37,
+      "val": 2
+    },
+    "automatic_top_up": {
+      "train": 46,
+      "val": 6
+    },
+    "balance_not_updated_after_bank_transfer": {
+      "train": 69,
+      "val": 3
+    },
+    "balance_not_updated_after_cheque_or_cash_deposit": {
+      "train": 51,
+      "val": 5
+    },
+    "beneficiary_not_allowed": {
+      "train": 54,
+      "val": 5
+    },
+    "cancel_transfer": {
+      "train": 47,
+      "val": 8
+    },
+    "card_about_to_expire": {
+      "train": 41,
+      "val": 13
+    },
+    "card_acceptance": {
+      "train": 48,
+      "val": 3
+    },
+    "card_arrival": {
+      "train": 55,
+      "val": 3
+    },
+    "card_delivery_estimate": {
+      "train": 46,
+      "val": 6
+    },
+    "card_linking": {
+      "train": 49,
+      "val": 3
+    },
+    "card_not_working": {
+      "train": 107,
+      "val": 11
+    },
+    "card_payment_fee_charged": {
+      "train": 70,
+      "val": 8
+    },
+    "card_payment_not_recognised": {
+      "train": 104,
+      "val": 12
+    },
+    "card_payment_wrong_exchange_rate": {
+      "train": 60,
+      "val": 3
+    },
+    "card_swallowed": {
+      "train": 50,
+      "val": 2
+    },
+    "cash_withdrawal_charge": {
+      "train": 51,
+      "val": 3
+    },
+    "cash_withdrawal_not_recognised": {
+      "train": 49,
+      "val": 3
+    },
+    "change_pin": {
+      "train": 50,
+      "val": 2
+    },
+    "compromised_card": {
+      "train": 50,
+      "val": 2
+    },
+    "contactless_not_working": {
+      "train": 60,
+      "val": 3
+    },
+    "country_support": {
+      "train": 50,
+      "val": 2
+    },
+    "declined_card_payment": {
+      "train": 69,
+      "val": 9
+    },
+    "declined_cash_withdrawal": {
+      "train": 52,
+      "val": 11
+    },
+    "declined_transfer": {
+      "train": 44,
+      "val": 5
+    },
+    "direct_debit_payment_not_recognised": {
+      "train": 49,
+      "val": 3
+    },
+    "disposable_card_limits": {
+      "train": 49,
+      "val": 0
+    },
+    "edit_personal_details": {
+      "train": 51,
+      "val": 1
+    },
+    "exchange_charge": {
+      "train": 51,
+      "val": 1
+    },
+    "exchange_rate": {
+      "train": 49,
+      "val": 7
+    },
+    "exchange_via_app": {
+      "train": 44,
+      "val": 8
+    },
+    "extra_charge_on_statement": {
+      "train": 59,
+      "val": 8
+    },
+    "failed_transfer": {
+      "train": 45,
+      "val": 4
+    },
+    "fiat_currency_support": {
+      "train": 47,
+      "val": 8
+    },
+    "get_disposable_virtual_card": {
+      "train": 51,
+      "val": 1
+    },
+    "get_physical_card": {
+      "train": 50,
+      "val": 2
+    },
+    "getting_spare_card": {
+      "train": 46,
+      "val": 6
+    },
+    "getting_virtual_card": {
+      "train": 48,
+      "val": 5
+    },
+    "lost_or_stolen_card": {
+      "train": 81,
+      "val": 4
+    },
+    "lost_or_stolen_phone": {
+      "train": 51,
+      "val": 7
+    },
+    "order_physical_card": {
+      "train": 55,
+      "val": 3
+    },
+    "passcode_forgotten": {
+      "train": 56,
+      "val": 3
+    },
+    "pending_card_payment": {
+      "train": 77,
+      "val": 7
+    },
+    "pending_cash_withdrawal": {
+      "train": 46,
+      "val": 6
+    },
+    "pending_top_up": {
+      "train": 67,
+      "val": 17
+    },
+    "pending_transfer": {
+      "train": 61,
+      "val": 13
+    },
+    "pin_blocked": {
+      "train": 56,
+      "val": 5
+    },
+    "receiving_money": {
+      "train": 45,
+      "val": 8
+    },
+    "request_refund": {
+      "train": 55,
+      "val": 6
+    },
+    "reverted_card_payment?": {
+      "train": 48,
+      "val": 4
+    },
+    "supported_cards_and_currencies": {
+      "train": 47,
+      "val": 5
+    },
+    "terminate_account": {
+      "train": 38,
+      "val": 1
+    },
+    "top_up_by_bank_transfer_charge": {
+      "train": 51,
+      "val": 1
+    },
+    "top_up_by_card_charge": {
+      "train": 59,
+      "val": 5
+    },
+    "top_up_by_cash_or_cheque": {
+      "train": 48,
+      "val": 4
+    },
+    "top_up_failed": {
+      "train": 47,
+      "val": 5
+    },
+    "top_up_limits": {
+      "train": 51,
+      "val": 1
+    },
+    "top_up_reverted": {
+      "train": 41,
+      "val": 1
+    },
+    "topping_up_by_card": {
+      "train": 51,
+      "val": 3
+    },
+    "transaction_charged_twice": {
+      "train": 43,
+      "val": 9
+    },
+    "transfer_fee_charged": {
+      "train": 45,
+      "val": 3
+    },
+    "transfer_into_account": {
+      "train": 43,
+      "val": 9
+    },
+    "transfer_not_received_by_recipient": {
+      "train": 61,
+      "val": 4
+    },
+    "transfer_timing": {
+      "train": 60,
+      "val": 2
+    },
+    "unable_to_verify_identity": {
+      "train": 47,
+      "val": 5
+    },
+    "verify_my_identity": {
+      "train": 49,
+      "val": 7
+    },
+    "verify_source_of_funds": {
+      "train": 48,
+      "val": 4
+    },
+    "verify_top_up": {
+      "train": 47,
+      "val": 5
+    },
+    "virtual_card_not_working": {
+      "train": 42,
+      "val": 13
+    },
+    "visa_or_mastercard": {
+      "train": 49,
+      "val": 3
+    },
+    "why_verify_identity": {
+      "train": 47,
+      "val": 5
+    },
+    "wrong_amount_of_cash_received": {
+      "train": 48,
+      "val": 4
+    },
+    "wrong_exchange_rate_for_cash_withdrawal": {
+      "train": 48,
+      "val": 4
+    }
+  }
+}

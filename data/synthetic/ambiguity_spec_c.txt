@@ -1,0 +1,123 @@
+## fx_wrong | card_payment_wrong_exchange_rate,wrong_exchange_rate_for_cash_withdrawal | Whether the wrong rate was on a card payment or a cash withdrawal is not stated.
+the rate was wrong abroad || wrong rate abroad || Was it on a card payment or a cash withdrawal?
+bad exchange rate on my last transaction || last transaction || Was that transaction a purchase or an ATM withdrawal?
+I lost money on the conversion || conversion loss || Was the conversion on a card payment or on cash you withdrew?
+the euros cost me too much || overpaid for euros || Did you pay by card in euros, or withdraw euros at an ATM?
+conversion seems off || off conversion || Was it a payment or a withdrawal?
+wrong rate on holiday || holiday rate || Were you paying by card or taking out cash?
+the rate you gave me is unfair || unfair rate || Which transaction: a card payment or an ATM withdrawal?
+foreign transaction rate looks wrong || foreign transaction || Was it a purchase or a cash withdrawal?
+exchange rate mistake || mistake || On a card payment or a cash withdrawal?
+I got a terrible rate in Spain || Spain rate || Were you paying in shops or withdrawing cash?
+## fx_info | exchange_rate,exchange_charge,exchange_via_app | Whether the customer wants the rate, the fee, or how to exchange is unclear.
+tell me about currency exchange || generic exchange || Would you like to know our rates, the fees, or how to exchange in the app?
+exchanging money || generic || Are you asking how to exchange, what rate you'll get, or what it costs?
+currency conversion info || info || Rates, fees, or the steps to convert?
+how does exchange work here || how it works || Do you want the steps in the app, or how rates and fees are set?
+what will I get if I exchange || outcome of exchange || Are you asking about the rate, or about any fees?
+exchange cost || cost: rate or fee? || Do you mean the exchange rate, or the fee on top?
+pounds to euros? || conversion query || Would you like the current rate, the fee, or how to do it in the app?
+is exchanging worth it || value || Would you like our rates and fees for exchanging?
+convert my money question || generic || Is it about how to convert, the rate, or the fee?
+## atm_problem | declined_cash_withdrawal,wrong_amount_of_cash_received,card_swallowed | What went wrong at the ATM is not stated.
+problem at the ATM || ATM problem || Was the withdrawal declined, did you get the wrong amount, or did it keep your card?
+ATM issue || vague || Did the ATM refuse you, short you, or keep your card?
+the cash machine messed up || machine error || What happened: no cash, wrong amount, or the card wasn't returned?
+something went wrong withdrawing || withdrawal issue || Was it declined, or did the ATM give the wrong amount?
+cashpoint trouble || trouble || Did it decline, give the wrong cash, or keep your card?
+ATM didn't work properly || malfunction || Did you get no cash, too little cash, or lose your card in it?
+couldn't get my money out properly || partial or none || Did the ATM refuse, or give you less than requested?
+the atm was broken || broken machine || Did it keep your card, or not dispense cash?
+withdrawal went wrong || went wrong || Was it declined, or was the amount wrong?
+machine ate my money || cash or card? || Did the ATM keep your card, or take the money without dispensing it?
+## pin | pin_blocked,change_pin,get_physical_card | What the customer needs regarding the PIN is not stated.
+PIN help || bare || Do you need to find your PIN, change it, or unblock it?
+pin issue || vague || Is your PIN blocked, or do you want to find or change it?
+my pin || vague || What would you like to do: find it, change it, or unblock it?
+problem with PIN number || problem || Is it blocked after wrong attempts, or do you not know it?
+PIN not working || not working: blocked or unknown || Have you entered it wrong several times, or do you not know your PIN?
+I need a new PIN || new: change or unblock || Is your current PIN blocked, or do you want to change it?
+reset PIN || reset || Is it blocked, or do you just want a different PIN?
+help with my card PIN || help || Find it, change it, or unblock it?
+what do I do about my PIN || what to do || Is it locked, forgotten, or do you want to change it?
+## login | passcode_forgotten,lost_or_stolen_phone | Why the customer can't access the app is not stated.
+can't get into the app || no access || Have you forgotten your passcode, or don't you have your phone?
+locked out of my account || locked out || Is it a forgotten passcode, or a lost or stolen phone?
+app won't let me in || blocked || Do you remember your passcode, and do you have your usual phone?
+can't log in to banking || login failure || Forgotten passcode, or no access to your phone?
+lost access to the app || lost access || Was your phone lost or stolen, or did you forget the passcode?
+how do I get back into my account || regain access || Do you have your phone with you, and do you remember your passcode?
+app access problem || problem || Is the issue your passcode or your device?
+I can't open my banking || can't open || Have you forgotten the passcode, or lost your phone?
+no way to access my money in the app || no access || Is your phone missing, or have you forgotten your passcode?
+## verify | verify_my_identity,unable_to_verify_identity,why_verify_identity | What the customer needs about identity verification is not stated.
+ID verification || bare || Do you need help with how to verify, did it fail, or are you asking why it's required?
+verification question || question || Is it about the steps, a failed attempt, or why we need it?
+about the identity check || identity check || How to do it, why it's needed, or a problem with it?
+help with verifying || help || Has your verification failed, or do you need the steps?
+identity thing in the app || vague || Do you need to complete it, or has it been rejected?
+verification problem || problem || Was your ID rejected, or are you unsure how to verify?
+KYC || bare || Would you like to know how to verify, or why it's required?
+do I really have to verify || necessity, or how || Would you like to know why it's needed, or how to do it?
+my verification || vague || Is it pending, rejected, or not started yet?
+## new_card | order_physical_card,getting_spare_card,card_about_to_expire | Whether the customer wants a first, additional, or replacement card is not stated.
+I want another card || another: extra or replacement? || Do you want an extra card alongside your current one, or a replacement?
+need a card || need card || Is this your first physical card, an extra one, or a replacement?
+new card please || new card || Are you replacing your current card, or adding another one?
+can I get a card || get card || Do you already have a card with us?
+card request || request || First card, extra card, or replacement for an expiring one?
+I'd like a different card || different card || Do you want to replace your current card or add an extra one?
+how do I get a new card || how-to, reason unstated || Why do you need a new card: first card, extra, or expiry?
+order card || order || Is this your first physical card or a replacement?
+second card? || 'second' suggests extra || Do you want an extra card, or to replace your current one?
+## card_delivery | card_arrival,card_delivery_estimate | Whether the card is overdue or the customer is asking about normal delivery times is not stated.
+when do I get my card || timing || Have you already ordered it and it's late, or are you asking about normal delivery time?
+card delivery? || delivery || Are you tracking a card you ordered, or asking how long delivery takes?
+how long for the card || duration || Is your card already overdue, or is this before ordering?
+card coming soon? || reassurance || Has it been longer than expected since you ordered?
+delivery time for my card || time || Are you waiting on an order, or planning one?
+is my card on the way || status || When did you order it?
+waiting on the card || waiting || How long ago did you order it?
+when will it be delivered || 'it' presumably card || Have you already ordered your card?
+## virtual | getting_virtual_card,get_disposable_virtual_card | Whether a standard or single-use virtual card is wanted is not stated.
+online card? || online-only card || Do you want a regular virtual card or a single-use disposable one?
+can I have a card just for internet shopping || online shopping card || Should it be reusable, or single-use for one purchase?
+digital card please || digital || A standard virtual card, or a disposable one?
+card in the app without plastic || no plastic || Do you need a regular virtual card or a one-time disposable card?
+virtual card options || options || Standard virtual or disposable?
+safe card for online || safe online card || Would a disposable single-use card suit you, or a regular virtual card?
+how do I make a card in the app || create card || Do you want a reusable virtual card or a disposable one?
+temporary card || temporary: disposable or virtual? || Do you need a single-use card, or a regular virtual card?
+## reverse | cancel_transfer,request_refund,transaction_charged_twice | Why the customer wants a transaction undone is not stated.
+undo a payment || undo || Was it a transfer you sent, a purchase you want refunded, or a double charge?
+reverse my transaction || reverse || Why would you like it reversed: wrong transfer, unwanted purchase, or a duplicate?
+take back a payment || take back || Is it a transfer or a card purchase?
+I need a transaction cancelled || cancel || Was it a transfer or a card payment, and was it charged twice?
+stop that payment || stop || Is it a transfer you just sent, or a card purchase?
+payment mistake || mistake || Did you send a transfer to the wrong place, or were you charged twice?
+I want that money back || money back || Was it a transfer you made, or a purchase?
+can you reverse it || reverse || What kind of transaction is it?
+## currencies | fiat_currency_support,supported_cards_and_currencies | Whether the question is about held currencies or top-up currencies is not stated.
+what currencies || currencies || Do you mean currencies you can hold, or ones you can top up with?
+which currencies are OK || accepted currencies || For holding in your account, or for adding money?
+do you do dollars || USD support || Do you want to hold dollars, or top up in dollars?
+currency support || support || Holding currencies, or top-up currencies?
+euros accepted? || EUR || To hold in your account, or to top up with?
+other currencies? || others || For your balance, or for adding money?
+can I use pounds || GBP || To hold, or to top up?
+## card_where | card_acceptance,atm_support,country_support | Whether the question is about merchants, ATMs, or service availability is not stated.
+where does this work || where || Do you mean shops, ATMs, or which countries we operate in?
+can I use it everywhere || everywhere || For payments, cash withdrawals, or living in another country?
+will it work abroad || abroad || For paying in shops, withdrawing cash, or opening the account from there?
+where can I use the account || account usage || Shops, ATMs, or countries?
+is it accepted overseas || overseas || For purchases or for ATM withdrawals?
+which places take it || places || Shops or cash machines?
+does it work in other countries || other countries || Are you travelling, or do you live outside the UK?
+## freeze | lost_or_stolen_card,compromised_card | Why the customer wants the card frozen is not stated.
+freeze my card || freeze || Is your card lost or stolen, or do you think someone's using its details?
+block my card now || block || Has the card been lost or stolen, or compromised?
+I need my card stopped || stop card || Lost, stolen, or misused?
+lock the card please || lock || Do you still have the card?
+cancel my card urgently || urgent cancel || Is it lost or stolen, or have you seen suspicious activity?
+can you disable my card || disable || Has it gone missing, or been used without your permission?
+deactivate card asap || deactivate || Do you still have it, or is it missing?

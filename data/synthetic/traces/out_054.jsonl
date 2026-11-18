@@ -1,0 +1,60 @@
+{"id": 7156, "thought": "Cue: transfer hasn't gone through, now receiving an error message - error at submission. vs failed_transfer: error pattern for a blocked payee. -> beneficiary_not_allowed", "status": "resolved", "intent": "beneficiary_not_allowed"}
+{"id": 7158, "thought": "Cue: why won't you take my transfer, keep getting an error. vs declined_transfer: error message pattern. -> beneficiary_not_allowed", "status": "resolved", "intent": "beneficiary_not_allowed"}
+{"id": 7159, "thought": "Cue: beneficiary transfer problems. vs failed_transfer: beneficiary named. -> beneficiary_not_allowed", "status": "resolved", "intent": "beneficiary_not_allowed"}
+{"id": 7160, "thought": "Cue: why would my beneficiary not be allowed. vs declined_transfer: beneficiary. -> beneficiary_not_allowed", "status": "resolved", "intent": "beneficiary_not_allowed"}
+{"id": 2078, "thought": "Cue: cancel a transfer I just made. vs request_refund: transfer, not purchase. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2081, "thought": "Cue: cancel a transaction - type unstated (transfer vs purchase). vs request_refund: possible. -> ambiguous: cancel_transfer | request_refund", "status": "ambiguous", "candidates": ["cancel_transfer", "request_refund"], "question": "Is it a transfer you sent, or a card purchase you'd like to undo?"}
+{"id": 2085, "thought": "Cue: how do I cancel a CHARGE - a card charge, refund-like. vs cancel_transfer: 'charge' leans purchase. -> ambiguous: cancel_transfer | request_refund", "status": "ambiguous", "candidates": ["cancel_transfer", "request_refund"], "question": "Is the charge a card payment to a merchant, or a transfer you made?"}
+{"id": 2090, "thought": "Cue: revert my transaction from this morning - undo own transaction. vs request_refund: type unknown. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2094, "thought": "Cue: transaction to the wrong account by mistake - misdirected transfer. vs card_payment_not_recognised: customer made it. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2096, "thought": "Cue: need to change a transfer - modify/cancel a transfer. vs edit_personal_details: transfer. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2098, "thought": "Cue: need to cancel a transaction. vs terminate_account: transaction. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2099, "thought": "Cue: revert a transaction I did. vs transaction_charged_twice: undo. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2101, "thought": "Cue: need a transfer cancelled. vs declined_transfer: cancel. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2107, "thought": "Cue: stop a transaction I made. vs compromised_card: own. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2112, "thought": "Cue: steps to cancel a transaction. vs request_refund: cancel. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2117, "thought": "Cue: cancel a transaction accidentally sent to the wrong account. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2118, "thought": "Cue: transaction not gone through, can I cancel the transfer. vs pending_transfer: cancel request. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2128, "thought": "Cue: who to talk to to cancel a transfer. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2141, "thought": "Cue: is my transaction cancelable. vs request_refund: possible. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2146, "thought": "Cue: transaction to an account I didn't mean to - misdirected. vs card_payment_not_recognised: own mistake. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2151, "thought": "Cue: app won't let me cancel a transfer sent to the wrong account. vs beneficiary_not_allowed: cancel. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2157, "thought": "Cue: stop the transfer I just started, not correct. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2160, "thought": "Cue: transaction to a wrong account, can I cancel. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2165, "thought": "Cue: no longer want to transfer funds, cancel. vs terminate_account: transfer. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2168, "thought": "Cue: revert a transaction I did this morning. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2169, "thought": "Cue: payment I made for a wrong amount, correct the mistake - own payment error. vs card_payment_wrong_exchange_rate: no FX. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2177, "thought": "Cue: take back my transaction. vs request_refund: own transfer. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2179, "thought": "Cue: sent payment to the wrong account number (typo), cancel immediately. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2185, "thought": "Cue: goofed and used the wrong account - misdirected payment. vs terminate_account: no. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2187, "thought": "Cue: 'Cancel Transaction'. vs terminate_account: transaction. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2188, "thought": "Cue: refund my transaction, paid into the wrong account. vs request_refund: misdirected transfer. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2191, "thought": "Cue: how to go about cancelling a transaction. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2192, "thought": "Cue: arranged a transfer, no longer need it, how to stop. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2193, "thought": "Cue: would like to cancel a transfer. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2199, "thought": "Cue: incorrect payment for my rent, fix by tomorrow - misdirected payment. vs transfer_not_received_by_recipient: own error. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2200, "thought": "Cue: recently made a transfer, need to cancel ASAP. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2204, "thought": "Cue: payment had an account number error, can't cancel, can you. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2206, "thought": "Cue: can I cancel a transfer I made. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2207, "thought": "Cue: where to go to cancel a transaction. vs atm_support: no. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2208, "thought": "Cue: cancel a transaction to a wrong account. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2217, "thought": "Cue: morning transaction needs to be cancelled. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2218, "thought": "Cue: transaction from earlier needs to be reversed. vs transaction_charged_twice: undo. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2223, "thought": "Cue: payment mistake yesterday, put it in the correct account. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2224, "thought": "Cue: sent payment to wrong account (typo), cancel transfer. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 2228, "thought": "Cue: cancel my recent transfer, mistake, before it goes through. -> cancel_transfer", "status": "resolved", "intent": "cancel_transfer"}
+{"id": 5542, "thought": "Cue: why was my transfer request declined. vs failed_transfer: declined. vs beneficiary_not_allowed: no payee issue. -> declined_transfer", "status": "resolved", "intent": "declined_transfer"}
+{"id": 5543, "thought": "Cue: transfer was rejected. vs failed_transfer: rejected up front. -> declined_transfer", "status": "resolved", "intent": "declined_transfer"}
+{"id": 5544, "thought": "Cue: buying something online, message saying declined twice - a declined online purchase. vs declined_transfer: no transfer stated. -> ambiguous: declined_transfer | declined_card_payment", "status": "ambiguous", "candidates": ["declined_card_payment", "declined_transfer"], "question": "Were you paying with your card at checkout, or sending a bank transfer?"}
+{"id": 5545, "thought": "Cue: 'Decline' message after making the transfer. -> declined_transfer", "status": "resolved", "intent": "declined_transfer"}
+{"id": 5546, "thought": "Cue: the bank transfer was declined. -> declined_transfer", "status": "resolved", "intent": "declined_transfer"}
+{"id": 5549, "thought": "Cue: doing a transfer, it says declined. -> declined_transfer", "status": "resolved", "intent": "declined_transfer"}
+{"id": 5554, "thought": "Cue: sees that the transfer was declined. vs failed_transfer: explicitly declined. -> declined_transfer", "status": "resolved", "intent": "declined_transfer"}
+{"id": 5560, "thought": "Cue: transfer didn't work, why - declined vs failed unclear. vs failed_transfer: fits. -> ambiguous: declined_transfer | failed_transfer", "status": "ambiguous", "candidates": ["declined_transfer", "failed_transfer"], "question": "Did you get a 'declined' message, or did the transfer fail after it was sent?"}
+{"id": 5567, "thought": "Cue: how do I make my transfer go through - not completing. vs failed_transfer: fits. -> ambiguous: declined_transfer | failed_transfer", "status": "ambiguous", "candidates": ["declined_transfer", "failed_transfer"], "question": "Is the transfer being declined, or failing after you send it?"}
+{"id": 5568, "thought": "Cue: transfer was not approved. vs failed_transfer: approval denied. -> declined_transfer", "status": "resolved", "intent": "declined_transfer"}
+{"id": 5571, "thought": "Cue: decline message in a transfer. -> declined_transfer", "status": "resolved", "intent": "declined_transfer"}
+{"id": 5576, "thought": "Cue: online shopping declined at checkout - card purchase. vs declined_transfer: no transfer. -> ambiguous: declined_transfer | declined_card_payment", "status": "ambiguous", "candidates": ["declined_card_payment", "declined_transfer"], "question": "Were you paying by card at checkout, or by bank transfer?"}
+{"id": 5578, "thought": "Cue: needs to make a transfer but it keeps getting declined. vs failed_transfer: declined. -> declined_transfer", "status": "resolved", "intent": "declined_transfer"}
+{"id": 5581, "thought": "Cue: transfers failing continuously though details correct. vs failed_transfer: 'failed'. -> ambiguous: declined_transfer | failed_transfer", "status": "ambiguous", "candidates": ["failed_transfer", "declined_transfer"], "question": "Are you seeing a 'declined' message, or do the transfers fail after being sent?"}
+{"id": 5584, "thought": "Cue: recent transfer didn't go through - unclear. vs failed_transfer: fits. -> ambiguous: declined_transfer | failed_transfer", "status": "ambiguous", "candidates": ["declined_transfer", "failed_transfer"], "question": "Was it declined when you submitted it, or did it fail later?"}

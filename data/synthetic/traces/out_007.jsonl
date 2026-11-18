@@ -1,0 +1,60 @@
+{"id": 195, "thought": "Cue: found my lost card, can I still use it - recovered card being brought back into use. vs lost_or_stolen_card: no longer lost. vs card_arrival: not a delivery. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 196, "thought": "Cue: put my old card back into the app instead of getting a new one - re-adding an existing card. vs card_about_to_expire: no expiry. vs getting_spare_card: not extra. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 199, "thought": "Cue: reactivate my card, found it after thinking it was lost. vs lost_or_stolen_card: recovered. vs activate_my_card: re-activation of an old card. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 202, "thought": "Cue: found the card I thought I lost, can I reactivate it. vs compromised_card: no misuse. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 204, "thought": "Cue: how do I get the card linked. vs order_physical_card: not ordering. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 205, "thought": "Cue: have one of your cards, don't know how to link it. vs getting_spare_card: already owns it. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 207, "thought": "Cue: received my card, how to link it to the app. vs activate_my_card: explicit 'link to the app'. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 209, "thought": "Cue: add the card I just received so it shows in the app. vs card_arrival: it arrived. vs topping_up_by_card: no money. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 216, "thought": "Cue: found my lost card, do I still need to activate the replacement to access the account - which card to use after recovery. vs lost_or_stolen_card: card recovered. vs card_arrival: replacement already arrived. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 217, "thought": "Cue: where can I link a new card. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 218, "thought": "Cue: how do I add a card on to the app. vs topping_up_by_card: adding the card, not money. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 221, "thought": "Cue: find the card I received in the app - getting the card to appear in the app. vs card_arrival: received. vs card_payment_not_recognised: no. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 225, "thought": "Cue: activate a card IN THE APP - enabling via app, the linking flow. vs activate_my_card: close; 'in the app' tips toward linking but both fit. -> ambiguous: card_linking | activate_my_card", "status": "ambiguous", "candidates": ["card_linking", "activate_my_card"], "question": "Is this a new card you've just received, or an existing card you'd like to add back into the app?"}
+{"id": 228, "thought": "Cue: cancelled the card as lost, then found it in my jacket, wants to re-establish it. vs lost_or_stolen_card: recovered. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 233, "thought": "Cue: where do I scan my card - scanning a card into the app to add it. vs card_acceptance: not where it's accepted. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 236, "thought": "Cue: reactivate my card, found it again in my jacket. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 237, "thought": "Cue: reactivation after finding a misplaced card in my coat. vs lost_or_stolen_card: found. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 238, "thought": "Cue: you sent me a card and now I want to link it. vs card_arrival: received. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 241, "thought": "Cue: add a card I already have to the app. vs getting_spare_card: not new. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 242, "thought": "Cue: reported card lost, just found it, can I still use it. vs lost_or_stolen_card: recovered. vs compromised_card: no misuse. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 249, "thought": "Cue: card received, how will it show up in the app. vs card_arrival: received. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 251, "thought": "Cue: what to do to link my new card. vs activate_my_card: 'link'. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 254, "thought": "Cue: found the card I thought I'd lost, need to reactivate it. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 255, "thought": "Cue: link a card of yours I already have. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 257, "thought": "Cue: card arrived, need to make it work IN THE APP. vs activate_my_card: app integration focus. vs card_not_working: not a fault. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 263, "thought": "Cue: how to get my card into the app. vs get_physical_card: no PIN. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 269, "thought": "Cue: how can I add a new card - adding a card to the account/app. vs getting_spare_card: 'add' could mean get an extra card, but default reading is adding to app. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 270, "thought": "Cue: how to get my card on the app. vs order_physical_card: card already held. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 276, "thought": "Cue: can I link your physical card. vs order_physical_card: linking. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 277, "thought": "Cue: activate AND link my new card - both named; linking is the app-integration step being asked. vs activate_my_card: shares the request. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 279, "thought": "Cue: received new card, where is it in the app. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 285, "thought": "Cue: don't see my card anywhere in the app - card missing from app view. vs lost_or_stolen_card: about the app, not the physical card. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 286, "thought": "Cue: received card, how to get it to work in the app. vs card_not_working: not broken. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 287, "thought": "Cue: what do I do if I already had a card with you - an existing card to bring into the app/account. vs getting_spare_card: not requesting another. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 290, "thought": "Cue: new card isn't in my app, how to get it there. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 291, "thought": "Cue: access the card I already got so I can see its information - bringing it into the app. vs lost_or_stolen_card: not lost. -> card_linking", "status": "resolved", "intent": "card_linking"}
+{"id": 3994, "thought": "Cue: don't have a PIN yet - PIN for a newly received card. vs pin_blocked: not blocked. vs change_pin: nothing to change. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 3995, "thought": "Cue: is my PIN sent separately - how the new card's PIN is delivered. vs change_pin: not changing. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 3997, "thought": "Cue: PIN hasn't arrived in the post, wants a new one - obtaining the PIN for the card. vs pin_blocked: not locked. vs change_pin: has no PIN to change. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4013, "thought": "Cue: how do I find my PIN. vs pin_blocked: not locked. vs change_pin: not changing. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4016, "thought": "Cue: where to locate my card PIN. vs lost_or_stolen_card: card fine. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4028, "thought": "Cue: do I have a card PIN - whether a PIN is issued with the card. vs change_pin: no change. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4032, "thought": "Cue: where can I find my card PIN. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4037, "thought": "Cue: cannot find my PIN. vs pin_blocked: not blocked. vs passcode_forgotten: card PIN, not app passcode. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4038, "thought": "Cue: how do I request the PIN. vs change_pin: obtaining, not changing. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4040, "thought": "Cue: signed up but have no PIN, where to find it. vs passcode_forgotten: card PIN. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4041, "thought": "Cue: how is the PIN delivered. vs card_delivery_estimate: about the PIN, not card shipping. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4044, "thought": "Cue: where's my card PIN. vs card_arrival: PIN, not card. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4045, "thought": "Cue: how to set my physical card PIN - initial PIN for a physical card. vs change_pin: 'set' an initial PIN rather than change an existing one; close sibling. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4047, "thought": "Cue: when will I have access to my PIN number. vs pin_blocked: not locked. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4048, "thought": "Cue: what's my PIN number. vs passcode_forgotten: card PIN. vs change_pin: not changing. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4051, "thought": "Cue: how to locate my PIN. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4054, "thought": "Cue: where is my PIN - locating the PIN for the card. vs pin_blocked: nothing locked. vs change_pin: not changing it. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4056, "thought": "Cue: how do I find the PIN. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4057, "thought": "Cue: will the PIN come separately. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4062, "thought": "Cue: how long do I wait for my PIN. vs card_delivery_estimate: PIN, not card. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4067, "thought": "Cue: haven't received my PIN yet, do I get it from you. vs card_arrival: PIN not card. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4071, "thought": "Cue: will my PIN number be sent with my card. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4072, "thought": "Cue: can't find my PIN anywhere. vs pin_blocked: not blocked. -> get_physical_card", "status": "resolved", "intent": "get_physical_card"}
+{"id": 4073, "thought": "Cue: a question regarding the card PIN - unspecified: could be finding it, changing it, or a blocked PIN. -> ambiguous: get_physical_card | change_pin | pin_blocked", "status": "ambiguous", "candidates": ["get_physical_card", "change_pin", "pin_blocked"], "question": "What would you like to do with your PIN: find out what it is, change it, or unblock it?"}

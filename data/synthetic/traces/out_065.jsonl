@@ -1,0 +1,60 @@
+{"id": 8447, "thought": "Cue: what are disposable cards meant for - purpose/info. vs disposable_card_limits: not about limits. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 8448, "thought": "Cue: what do disposable cards do - info. vs disposable_card_limits: purpose. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 8450, "thought": "Cue: is there a disposable virtual card option. vs getting_virtual_card: disposable. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 8451, "thought": "Cue: explain how disposable virtual cards work. vs disposable_card_limits: general. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 8452, "thought": "Cue: not sure how disposable virtual cards work. vs virtual_card_not_working: info. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 8453, "thought": "Cue: how do I use the disposable cards. vs disposable_card_limits: usage how-to. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 8459, "thought": "Cue: way to get a disposable virtual card as well. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 8460, "thought": "Cue: learning more about disposable virtual cards. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 8462, "thought": "Cue: need a single-use card for online shopping. vs card_acceptance: single-use card. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 8463, "thought": "Cue: 'deposit my virtual card' (garbled) - getting a virtual card, no disposable cue. vs getting_virtual_card: fits. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card", "flag": "label_noise"}
+{"id": 8464, "thought": "Cue: benefits of a disposable card. vs disposable_card_limits: benefits. -> get_disposable_virtual_card", "status": "resolved", "intent": "get_disposable_virtual_card"}
+{"id": 2999, "thought": "Cue: order a new virtual card. vs get_disposable_virtual_card: no disposable. vs order_physical_card: virtual. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3000, "thought": "Cue: sign up for a virtual card. vs activate_my_card: acquiring. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3007, "thought": "Cue: where is my virtual card - locating it in the app. vs virtual_card_not_working: not a failure. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3008, "thought": "Cue: where are the virtual cards - finding the feature. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3011, "thought": "Cue: don't have a virtual card, how to get one. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3013, "thought": "Cue: haven't gotten a virtual card yet. vs card_arrival: virtual. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3016, "thought": "Cue: process of getting a virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3021, "thought": "Cue: where do I get a virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3028, "thought": "Cue: rather not use physical card, get a virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3030, "thought": "Cue: use my app to get a virtual card. vs card_linking: acquiring. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3033, "thought": "Cue: way to go about getting a virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3035, "thought": "Cue: when will my virtual card arrive. vs card_arrival: virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3036, "thought": "Cue: how do I get my virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3037, "thought": "Cue: how to get virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3041, "thought": "Cue: what is a virtual card and how do I get one. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3043, "thought": "Cue: how many virtual cards can I have, want 8 - quantity. vs getting_spare_card: virtual. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3045, "thought": "Cue: how do I access the virtual card. vs virtual_card_not_working: access. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3046, "thought": "Cue: more info on getting a virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3050, "thought": "Cue: would like to order a virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3054, "thought": "Cue: can't find the virtual card - locating in app. vs lost_or_stolen_card: virtual. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3056, "thought": "Cue: want one of the virtual cards. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3058, "thought": "Cue: virtual cards instead of physical ones. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3062, "thought": "Cue: where can virtual cards be ordered. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3064, "thought": "Cue: how long to see the virtual card I ordered. vs card_delivery_estimate: virtual. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3065, "thought": "Cue: want to get a virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3067, "thought": "Cue: where to sign up for a virtual card. vs card_acceptance: acquiring. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3069, "thought": "Cue: asks whether virtual cards are offered. vs get_disposable_virtual_card: no disposable wording. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3071, "thought": "Cue: ordered a virtual card, hasn't come through. vs card_arrival: virtual. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3076, "thought": "Cue: lost my card, need a virtual card instantly for online order. vs lost_or_stolen_card: wants virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3081, "thought": "Cue: order a new card, direct me to the virtual cards. vs order_physical_card: virtual. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3082, "thought": "Cue: I need my virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3083, "thought": "Cue: haven't received my virtual card. vs card_arrival: virtual. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3086, "thought": "Cue: would like a virtual card, how. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3087, "thought": "Cue: explain the virtual card. vs get_disposable_virtual_card: no disposable. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3092, "thought": "Cue: alternative to a physical card - virtual. vs getting_spare_card: alternative type. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 3093, "thought": "Cue: how I can get a virtual card. -> getting_virtual_card", "status": "resolved", "intent": "getting_virtual_card"}
+{"id": 8167, "thought": "Cue: disposable virtual card not working. vs disposable_card_limits: failure. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8168, "thought": "Cue: use virtual card for membership transactions - recurring payments are often blocked on virtual/disposable cards; capability question. vs card_acceptance: virtual. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8169, "thought": "Cue: why won't my virtual card work. vs card_not_working: virtual. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8170, "thought": "Cue: virtual card not going through. vs declined_card_payment: virtual. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8172, "thought": "Cue: disposable virtual card was rejected. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8173, "thought": "Cue: disposable virtual card got rejected. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8175, "thought": "Cue: throwaway virtual card won't work. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8176, "thought": "Cue: disposable virtual card wouldn't process payment. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8177, "thought": "Cue: the virtual card won't work. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8178, "thought": "Cue: reason my virtual card won't work. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8179, "thought": "Cue: help me get the virtual card working. vs getting_virtual_card: already has it. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8181, "thought": "Cue: disposable virtual card isn't working. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}
+{"id": 8182, "thought": "Cue: paid with disposable virtual card, rejected, fix. -> virtual_card_not_working", "status": "resolved", "intent": "virtual_card_not_working"}

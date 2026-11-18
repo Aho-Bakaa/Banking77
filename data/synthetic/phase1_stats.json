@@ -1,0 +1,223 @@
+{
+  "banking77_cot": {
+    "total": 3983,
+    "status": {
+      "resolved": 3276,
+      "ambiguous": 707
+    },
+    "status_by_tier": {
+      "hard/resolved": 1349,
+      "easy/resolved": 1927,
+      "hard/ambiguous": 632,
+      "easy/ambiguous": 75
+    },
+    "label_noise_flags": 181,
+    "label_noise_resolved_relabels_top": [
+      {
+        "gold": "reverted_card_payment?",
+        "teacher": "declined_card_payment",
+        "count": 8
+      },
+      {
+        "gold": "why_verify_identity",
+        "teacher": "verify_my_identity",
+        "count": 4
+      },
+      {
+        "gold": "top_up_reverted",
+        "teacher": "top_up_failed",
+        "count": 4
+      },
+      {
+        "gold": "get_disposable_virtual_card",
+        "teacher": "getting_virtual_card",
+        "count": 4
+      },
+      {
+        "gold": "contactless_not_working",
+        "teacher": "order_physical_card",
+        "count": 3
+      },
+      {
+        "gold": "lost_or_stolen_phone",
+        "teacher": "lost_or_stolen_card",
+        "count": 3
+      },
+      {
+        "gold": "pending_cash_withdrawal",
+        "teacher": "balance_not_updated_after_cheque_or_cash_deposit",
+        "count": 3
+      },
+      {
+        "gold": "verify_my_identity",
+        "teacher": "why_verify_identity",
+        "count": 3
+      },
+      {
+        "gold": "compromised_card",
+        "teacher": "lost_or_stolen_card",
+        "count": 2
+      },
+      {
+        "gold": "declined_cash_withdrawal",
+        "teacher": "pin_blocked",
+        "count": 2
+      },
+      {
+        "gold": "topping_up_by_card",
+        "teacher": "pending_top_up",
+        "count": 2
+      },
+      {
+        "gold": "card_not_working",
+        "teacher": "card_about_to_expire",
+        "count": 1
+      },
+      {
+        "gold": "card_not_working",
+        "teacher": "pin_blocked",
+        "count": 1
+      },
+      {
+        "gold": "contactless_not_working",
+        "teacher": "card_delivery_estimate",
+        "count": 1
+      },
+      {
+        "gold": "getting_spare_card",
+        "teacher": "lost_or_stolen_card",
+        "count": 1
+      }
+    ],
+    "ambiguity_rate_by_cluster": {
+      "card_failures": 0.081,
+      "card_lifecycle": 0.094,
+      "card_payments": 0.182,
+      "card_security": 0.109,
+      "cash_atm": 0.166,
+      "fx_currency": 0.102,
+      "identity_account": 0.1,
+      "top_up": 0.246,
+      "transfers": 0.317,
+      "virtual_cards": 0.056
+    },
+    "top_ambiguous_pairs": [
+      {
+        "pair": [
+          "balance_not_updated_after_bank_transfer",
+          "transfer_not_received_by_recipient"
+        ],
+        "count": 27
+      },
+      {
+        "pair": [
+          "card_payment_not_recognised",
+          "direct_debit_payment_not_recognised"
+        ],
+        "count": 26
+      },
+      {
+        "pair": [
+          "card_payment_fee_charged",
+          "transfer_fee_charged"
+        ],
+        "count": 25
+      },
+      {
+        "pair": [
+          "pending_top_up",
+          "top_up_failed"
+        ],
+        "count": 24
+      },
+      {
+        "pair": [
+          "balance_not_updated_after_bank_transfer",
+          "transfer_timing"
+        ],
+        "count": 24
+      },
+      {
+        "pair": [
+          "pending_transfer",
+          "transfer_not_received_by_recipient"
+        ],
+        "count": 24
+      },
+      {
+        "pair": [
+          "card_arrival",
+          "card_delivery_estimate"
+        ],
+        "count": 20
+      },
+      {
+        "pair": [
+          "top_up_by_bank_transfer_charge",
+          "top_up_by_card_charge"
+        ],
+        "count": 20
+      },
+      {
+        "pair": [
+          "declined_card_payment",
+          "declined_transfer"
+        ],
+        "count": 18
+      },
+      {
+        "pair": [
+          "card_payment_wrong_exchange_rate",
+          "wrong_exchange_rate_for_cash_withdrawal"
+        ],
+        "count": 18
+      },
+      {
+        "pair": [
+          "top_up_by_bank_transfer_charge",
+          "transfer_fee_charged"
+        ],
+        "count": 18
+      },
+      {
+        "pair": [
+          "balance_not_updated_after_bank_transfer",
+          "pending_transfer"
+        ],
+        "count": 16
+      },
+      {
+        "pair": [
+          "balance_not_updated_after_bank_transfer",
+          "balance_not_updated_after_cheque_or_cash_deposit"
+        ],
+        "count": 15
+      },
+      {
+        "pair": [
+          "declined_transfer",
+          "failed_transfer"
+        ],
+        "count": 15
+      },
+      {
+        "pair": [
+          "beneficiary_not_allowed",
+          "failed_transfer"
+        ],
+        "count": 13
+      }
+    ],
+    "intents_covered": 77
+  },
+  "synthetic_ambiguity": {
+    "train": 805,
+    "test": 200,
+    "families": 38
+  },
+  "thought_words": {
+    "mean": 16.5,
+    "median": 16.0,
+    "max": 44
+  }
+}

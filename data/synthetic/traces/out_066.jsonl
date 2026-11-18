@@ -1,0 +1,23 @@
+{"id":8183,"thought":"Cue: can't use my virtual disposable card - card failing. vs disposable_card_limits: no limit question. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8184,"thought":"Cue: get this virtual card to work. vs getting_virtual_card: already has it. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8185,"thought":"Cue: can't get the virtual card to work. vs card_not_working: virtual. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8186,"thought":"Cue: disposable virtual card not working. vs disposable_card_limits: failure. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8187,"thought":"Cue: cannot get virtual card to work. vs card_not_working: virtual. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8188,"thought":"Cue: my virtual car(d) is not working. vs card_not_working: virtual. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8189,"thought":"Cue: can't get my disposable virtual card to work. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8190,"thought":"Cue: cannot get my virtual card to function. vs activate_my_card: virtual failing. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8191,"thought":"Cue: rejected using disposable virtual card for a gym subscription - recurring payment refused. vs declined_card_payment: virtual card. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8192,"thought":"Cue: can't get my virtual card to work at all. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8193,"thought":"Cue: can't get my virtual card to work. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8194,"thought":"Cue: can't do any business with this virtual card. vs getting_virtual_card: failing. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8195,"thought":"Cue: received virtual card info, unable to make a purchase. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8196,"thought":"Cue: can't make multiple payments with my virtual card - single-use behaviour. vs disposable_card_limits: fits. -> ambiguous: virtual_card_not_working | disposable_card_limits","status":"ambiguous","candidates":["virtual_card_not_working","disposable_card_limits"],"question":"Is it a disposable (single-use) virtual card, or your regular virtual card?"}
+{"id":8197,"thought":"Cue: disposable virtual card won't work right. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8198,"thought":"Cue: virtual card for recurring monthly payments - capability. vs disposable_card_limits: possible. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8199,"thought":"Cue: virtual card won't work for me. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8200,"thought":"Cue: disposable virtual card won't work. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8202,"thought":"Cue: why is my disposable card not working. vs card_not_working: disposable. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8204,"thought":"Cue: what if my disposable virtual card doesn't work. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8205,"thought":"Cue: can't make purchases with my virtual card. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8206,"thought":"Cue: have a disposable card but it doesn't work. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}
+{"id":8207,"thought":"Cue: virtual card rejected for a car rental. vs declined_card_payment: virtual. -> virtual_card_not_working","status":"resolved","intent":"virtual_card_not_working"}

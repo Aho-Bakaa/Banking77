@@ -1,0 +1,60 @@
+{"id": 6111, "thought": "Cue: made a transfer, not changed on my dashboard - not completed. vs balance_not_updated_after_bank_transfer: direction unclear. -> ambiguous: pending_transfer | balance_not_updated_after_bank_transfer", "status": "ambiguous", "candidates": ["pending_transfer", "balance_not_updated_after_bank_transfer"], "question": "Was the transfer sent out of your account, or into it?"}
+{"id": 6113, "thought": "Cue: why is my transfer stuck on pending. vs pending_card_payment: transfer. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6114, "thought": "Cue: there is a transfer pending. vs transfer_timing: status. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6115, "thought": "Cue: wait for this transfer taking long, how long. vs transfer_timing: specific in-progress transfer. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6116, "thought": "Cue: transferred abroad hours ago, still pending. vs transfer_not_received_by_recipient: pending status. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6119, "thought": "Cue: waiting forever for this international transfer, info correct. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6120, "thought": "Cue: transfer between countries taking long, info right. vs transfer_fee_charged: no fee. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6127, "thought": "Cue: why my transfer is pending still. vs declined_transfer: pending. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6128, "thought": "Cue: waiting for a money transfer to process. vs balance_not_updated_after_bank_transfer: processing. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6129, "thought": "Cue: transfer approved, urgently waiting, how long. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6133, "thought": "Cue: when the transfer will be completed. vs transfer_timing: specific. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 6134, "thought": "Cue: 'why a money transfer is available' - garbled; likely why it is (not) available yet. Weak. -> ambiguous: pending_transfer | balance_not_updated_after_bank_transfer", "status": "ambiguous", "candidates": ["pending_transfer", "balance_not_updated_after_bank_transfer"], "question": "Is a transfer you made still pending, or is money you're expecting not available yet?", "flag": "label_noise"}
+{"id": 6136, "thought": "Cue: pending still shows on this transfer. -> pending_transfer", "status": "resolved", "intent": "pending_transfer"}
+{"id": 7333, "thought": "Cue: can my salary be received here. vs top_up_by_bank_transfer_charge: no fee. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7334, "thought": "Cue: boss pay me directly to the card - receiving wages. vs card_acceptance: incoming. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7337, "thought": "Cue: how can my friend give me money. vs topping_up_by_card: receiving from others. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7339, "thought": "Cue: how can I receive money. vs top_up_by_cash_or_cheque: receiving. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7340, "thought": "Cue: received a transfer in GBP, change it to another currency - post-receipt exchange. vs exchange_via_app: strong fit. -> ambiguous: receiving_money | exchange_via_app", "status": "ambiguous", "candidates": ["exchange_via_app", "receiving_money"], "question": "Do you want to convert the GBP you received now, or receive future payments in a different currency?", "flag": "label_noise"}
+{"id": 7342, "thought": "Cue: receive my salary in another currency. vs exchange_via_app: receiving. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7346, "thought": "Cue: receive my salary this way. vs apple_pay_or_google_pay: salary. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7347, "thought": "Cue: steps for getting money from a friend. vs transfer_not_received_by_recipient: receiving. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7352, "thought": "Cue: how people transfer money to me. vs transfer_into_account: from others. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7353, "thought": "Cue: get my salary deposited as pesos. vs exchange_rate: receiving salary. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7355, "thought": "Cue: what to do to get my salary through this. vs top_up_by_cash_or_cheque: salary. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7357, "thought": "Cue: need my payment in another currency - receive payment in currency. vs exchange_via_app: incoming. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7358, "thought": "Cue: how do I find out about transfers - vague. vs balance_not_updated_after_bank_transfer: possible. -> ambiguous: receiving_money | transfer_into_account | transfer_timing", "status": "ambiguous", "candidates": ["receiving_money", "transfer_into_account", "transfer_timing"], "question": "Would you like to know how to receive transfers, how to send money in, or how long transfers take?", "flag": "label_noise"}
+{"id": 7360, "thought": "Cue: transfer my payroll to the bank - salary into account. vs transfer_into_account: payroll. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7363, "thought": "Cue: select a preference to receive salary in GBP. vs exchange_via_app: receiving. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7370, "thought": "Cue: what my account is set to, paid in GBP - receiving currency setup. vs verify_source_of_funds: no. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7371, "thought": "Cue: receive money in a different country's money. vs fiat_currency_support: receiving. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7374, "thought": "Cue: salary in GBP, exchange before putting in account - receiving salary currency. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7375, "thought": "Cue: convert currency from GBP before transferring - pre-transfer conversion. vs exchange_via_app: fits. -> ambiguous: receiving_money | exchange_via_app", "status": "ambiguous", "candidates": ["receiving_money", "exchange_via_app"], "question": "Is this money you're receiving in GBP, or money you want to convert before sending?"}
+{"id": 7377, "thought": "Cue: husband open an account and transfer money - receiving from spouse. vs age_limit: no. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7378, "thought": "Cue: asks how to receive money from someone. vs transfer_into_account: from another person. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7379, "thought": "Cue: what can I use to receive my salary. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7384, "thought": "Cue: transfer money using a different currency - direction unclear. vs exchange_via_app: possible. -> ambiguous: receiving_money | exchange_via_app", "status": "ambiguous", "candidates": ["receiving_money", "exchange_via_app"], "question": "Do you want to receive money in another currency, or send money in another currency?"}
+{"id": 7387, "thought": "Cue: can this app take my salary. vs apple_pay_or_google_pay: salary. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7391, "thought": "Cue: get my pay in another currency. vs exchange_via_app: receiving pay. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7394, "thought": "Cue: who can send me money. vs verify_source_of_funds: receiving. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7395, "thought": "Cue: salary in GBP, need to configure. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7397, "thought": "Cue: transfer my paycheck to the account. vs transfer_into_account: paycheck. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7398, "thought": "Cue: how does one send me money. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7399, "thought": "Cue: salary in GBP, change options. vs change_pin: currency options. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7401, "thought": "Cue: receive my salary in another currency. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7405, "thought": "Cue: employer able to pay me with this service. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7406, "thought": "Cue: which foreign currencies can be transferred into my account - receivable currencies. vs fiat_currency_support: fits. -> ambiguous: receiving_money | fiat_currency_support", "status": "ambiguous", "candidates": ["receiving_money", "fiat_currency_support"], "question": "Are you asking how to receive foreign payments, or which currencies the account supports?"}
+{"id": 7407, "thought": "Cue: get my salary in a different currency. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7408, "thought": "Cue: methods for my friend to send me money. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7409, "thought": "Cue: receive transfers from my employer in GBP. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7410, "thought": "Cue: allowed to use different currencies - vague. vs fiat_currency_support: fits better. -> ambiguous: receiving_money | fiat_currency_support", "status": "ambiguous", "candidates": ["fiat_currency_support", "receiving_money"], "question": "Do you mean receiving money in other currencies, or holding and spending them?", "flag": "label_noise"}
+{"id": 7411, "thought": "Cue: receive payment in another currency. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7413, "thought": "Cue: how can my friend pay me. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7415, "thought": "Cue: use a transfer to receive my transfer - receiving via transfer. vs transfer_into_account: receiving. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7416, "thought": "Cue: can friends transfer money to each other. vs topping_up_by_card: peer transfers. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7417, "thought": "Cue: job deposit my wages directly. vs top_up_by_cash_or_cheque: wages. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7418, "thought": "Cue: anything special for my friend to send money to my account. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7419, "thought": "Cue: friend wants to send me money, options. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7421, "thought": "Cue: accept my salary in another currency. vs supported_cards_and_currencies: salary. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7423, "thought": "Cue: different currency with my salary. -> receiving_money", "status": "resolved", "intent": "receiving_money"}
+{"id": 7426, "thought": "Cue: direct deposits from my employer. vs direct_debit_payment_not_recognised: incoming wages. -> receiving_money", "status": "resolved", "intent": "receiving_money"}

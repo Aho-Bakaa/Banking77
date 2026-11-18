@@ -1,0 +1,125 @@
+## card_fail | card_not_working,declined_card_payment | Nothing says whether one payment was refused or the card fails everywhere.
+my card wasn't accepted for my groceries this evening || groceries
+paying by card failed at the chemist || chemist
+card won't work when I try to pay for parking || parking payment
+card was knocked back at the bar || bar
+I have issues paying with my card || paying issues
+## card_tap | contactless_not_working,card_not_working | Payment method (tap vs chip/PIN) is not stated.
+the ferry ticket machine wouldn't take my card || ferry machine
+my card doesn't work on the scooter app terminal || scooter terminal
+## card_missing | lost_or_stolen_card,card_arrival,card_swallowed | Whether the card was lost, never delivered, or kept by an ATM is not said.
+my card's not where it should be || misplaced?
+still haven't got a card in my hands || not in hands
+## fraud | card_payment_not_recognised,compromised_card | Whether the customer is reporting specific unknown payments or a compromised card is unclear.
+my card has been charged by someone else I think || charged by someone
+I spotted payments that look like fraud || fraud-like payments
+## unknown_charge | card_payment_not_recognised,direct_debit_payment_not_recognised,cash_withdrawal_not_recognised | The type of the unknown transaction is not stated.
+there's money out of my account to someone I don't know || unknown payee
+my account was charged and I didn't authorise anything || unauthorised
+## fee_generic | card_payment_fee_charged,transfer_fee_charged,cash_withdrawal_charge | The transaction the fee applies to is not stated.
+I didn't expect any charge but there is one || unexpected
+the fee seems too high || high fee
+## extra_vs_fee | extra_charge_on_statement,card_payment_fee_charged,transaction_charged_twice | Whether it is a standalone extra charge, a fee on a payment, or a duplicate is not stated.
+I was overbilled on my card || overbilled
+## topup_problem | pending_top_up,top_up_failed,top_up_reverted | The state of the top-up (pending, failed, or reversed) is not stated.
+the top up from my other card isn't showing || other card top-up
+my top up has disappeared or never arrived || unsure
+## topup_fee | top_up_by_card_charge,top_up_by_bank_transfer_charge | The top-up method is not stated.
+do I get charged when I top up my balance || charged
+## transfer_problem | pending_transfer,failed_transfer,declined_transfer | The transfer's status (pending, failed, declined) is not stated.
+I'm having problems sending money abroad || abroad
+my transfer to the builder isn't sorted || builder
+## transfer_direction | transfer_not_received_by_recipient,balance_not_updated_after_bank_transfer | Whether the money was sent to someone else or into the customer's own account is not stated.
+the transferred cash hasn't appeared yet || not appeared
+## transfer_timing | transfer_timing,pending_transfer | Whether the customer is asking in general or about a specific pending transfer is unclear.
+should my transfer have arrived by now || by now
+## deposit_missing | balance_not_updated_after_bank_transfer,balance_not_updated_after_cheque_or_cash_deposit,pending_top_up | How the money was added is not stated.
+I paid money in but the balance hasn't moved || not moved
+## payment_status | pending_card_payment,declined_card_payment,reverted_card_payment? | Whether the card payment is pending, was declined, or was reverted is not stated.
+the money for my purchase is in a strange state || strange state
+## refund | request_refund,Refund_not_showing_up | Whether a refund has already been issued is not stated.
+I'm waiting on money back or need to ask for it, not sure || unsure
+## fx_wrong | card_payment_wrong_exchange_rate,wrong_exchange_rate_for_cash_withdrawal | Whether the wrong rate was on a card payment or a cash withdrawal is not stated.
+I think the rate on my overseas spending was wrong || overseas spending
+## fx_info | exchange_rate,exchange_charge,exchange_via_app | Whether the customer wants the rate, the fee, or how to exchange is unclear.
+what about swapping currencies || swapping
+## atm_problem | declined_cash_withdrawal,wrong_amount_of_cash_received,card_swallowed | What went wrong at the ATM is not stated.
+the ATM experience was bad today || bad
+## pin | pin_blocked,change_pin,get_physical_card | What the customer needs regarding the PIN is not stated.
+issue with my four-digit code || code
+## login | passcode_forgotten,lost_or_stolen_phone | Why the customer can't access the app is not stated.
+I'm unable to get into banking on my phone || phone banking
+## verify | verify_my_identity,unable_to_verify_identity,why_verify_identity | What the customer needs about identity verification is not stated.
+the app wants to verify me || wants to verify
+## new_card | order_physical_card,getting_spare_card,card_about_to_expire | Whether the customer wants a first, additional, or replacement card is not stated.
+send me a new bank card || new bank card
+## card_delivery | card_arrival,card_delivery_estimate | Whether the card is overdue or the customer is asking about normal delivery times is not stated.
+when should the card arrive || should arrive
+## virtual | getting_virtual_card,get_disposable_virtual_card | Whether a standard or single-use virtual card is wanted is not stated.
+I need a card number for an online subscription || subscription
+## reverse | cancel_transfer,request_refund,transaction_charged_twice | Why the customer wants a transaction undone is not stated.
+I want a payment of mine reversed || reversed
+## currencies | fiat_currency_support,supported_cards_and_currencies | Whether the question is about held currencies or top-up currencies is not stated.
+do you deal with Polish zloty || PLN
+## card_where | card_acceptance,atm_support,country_support | Whether the question is about merchants, ATMs, or service availability is not stated.
+will I be able to use it in Dubai || Dubai
+## freeze | lost_or_stolen_card,compromised_card | Why the customer wants the card frozen is not stated.
+deactivate my card please, urgent || urgent
+## decline_channel | declined_card_payment,declined_transfer,declined_cash_withdrawal | The channel that was declined (card payment, transfer, ATM) is not stated.
+why is my money being declined || money declined
+## pending_type | pending_card_payment,pending_transfer,pending_cash_withdrawal | The type of the pending transaction is not stated.
+there's a pending charge I want to understand || pending charge
+## card_setup | activate_my_card,card_linking | Whether the card is new and needs activating, or needs adding to the app, is not stated.
+the new card isn't usable in the app || not usable in app
+## lost_phone_card | lost_or_stolen_phone,lost_or_stolen_card | Whether the phone, the card, or both were lost is not stated.
+I dropped my things somewhere on the way home || dropped things
+## withdrawal_cost | cash_withdrawal_charge,wrong_exchange_rate_for_cash_withdrawal | Whether the extra cost was a fee or the exchange rate is not stated.
+getting money out cost me extra this time || extra
+## topup_how | topping_up_by_card,transfer_into_account,top_up_by_cash_or_cheque | The intended top-up method is not stated.
+how to put money onto my card || onto card
+## beneficiary | beneficiary_not_allowed,failed_transfer,declined_transfer | Whether the recipient is blocked or the transfer failed or was declined is unclear.
+my payment to the school won't work || school
+## dispute | card_payment_not_recognised,request_refund,transaction_charged_twice | The reason for disputing the charge is not stated.
+I'm not happy with a charge and want it removed || removed
+## money_in | receiving_money,transfer_into_account | Whether money comes from someone else or from the customer's own account is not stated.
+how do I get money into this from another account or person || mixed
+## replace_reason | card_about_to_expire,lost_or_stolen_card,card_not_working | Why the card needs replacing is not stated.
+my card is no good anymore, send another || no good
+## card_fail | card_not_working,declined_card_payment | Nothing says whether one payment was refused or the card fails everywhere.
+my card wouldn't go through at the hairdresser || hairdresser
+card wasn't taken at the corner shop || corner shop
+card wouldn't pay for my taxi ride home || taxi ride
+## fraud | card_payment_not_recognised,compromised_card | Whether the customer is reporting specific unknown payments or a compromised card is unclear.
+my card shows purchases from a city I wasn't in || other city
+## unknown_charge | card_payment_not_recognised,direct_debit_payment_not_recognised,cash_withdrawal_not_recognised | The type of the unknown transaction is not stated.
+there's a debit of 200 I have no clue about || 200 debit
+## fee_generic | card_payment_fee_charged,transfer_fee_charged,cash_withdrawal_charge | The transaction the fee applies to is not stated.
+explain why I'm paying fees now || fees now
+## topup_problem | pending_top_up,top_up_failed,top_up_reverted | The state of the top-up (pending, failed, or reversed) is not stated.
+top-up went weird this afternoon || weird
+## transfer_problem | pending_transfer,failed_transfer,declined_transfer | The transfer's status (pending, failed, declined) is not stated.
+my transfer to my landlord didn't work out || landlord
+## transfer_direction | transfer_not_received_by_recipient,balance_not_updated_after_bank_transfer | Whether the money was sent to someone else or into the customer's own account is not stated.
+the money from my transfer is still missing || still missing
+## deposit_missing | balance_not_updated_after_bank_transfer,balance_not_updated_after_cheque_or_cash_deposit,pending_top_up | How the money was added is not stated.
+money should have been added by now || added by now
+## payment_status | pending_card_payment,declined_card_payment,reverted_card_payment? | Whether the card payment is pending, was declined, or was reverted is not stated.
+did the payment for my order actually work || order payment
+## refund | request_refund,Refund_not_showing_up | Whether a refund has already been issued is not stated.
+need my money back from an airline || airline
+## atm_problem | declined_cash_withdrawal,wrong_amount_of_cash_received,card_swallowed | What went wrong at the ATM is not stated.
+cash machine problem in town || town ATM
+## login | passcode_forgotten,lost_or_stolen_phone | Why the customer can't access the app is not stated.
+app won't open my account for me || won't open
+## new_card | order_physical_card,getting_spare_card,card_about_to_expire | Whether the customer wants a first, additional, or replacement card is not stated.
+I'd like an additional or replacement card || unsure
+## decline_channel | declined_card_payment,declined_transfer,declined_cash_withdrawal | The channel that was declined (card payment, transfer, ATM) is not stated.
+I keep getting refusals today || refusals
+## pending_type | pending_card_payment,pending_transfer,pending_cash_withdrawal | The type of the pending transaction is not stated.
+why are things still pending on my account || things pending
+## reverse | cancel_transfer,request_refund,transaction_charged_twice | Why the customer wants a transaction undone is not stated.
+I want to undo a transaction from today || today
+## card_where | card_acceptance,atm_support,country_support | Whether the question is about merchants, ATMs, or service availability is not stated.
+is this card fine to use in Europe || Europe
+## freeze | lost_or_stolen_card,compromised_card | Why the customer wants the card frozen is not stated.
+I need my card put on hold || hold

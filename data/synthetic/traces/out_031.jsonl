@@ -1,0 +1,60 @@
+{"id": 8994, "thought": "Cue: cost for exchanging currencies. vs exchange_via_app: cost, not how-to. vs exchange_rate: fee, not rate. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 8995, "thought": "Cue: do exchanges cost more - extra cost of exchange. vs exchange_rate: fee. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 8997, "thought": "Cue: additional cost to exchange currencies. vs fiat_currency_support: cost. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 8998, "thought": "Cue: exchange cash with a discount for a large transaction. vs wrong_exchange_rate_for_cash_withdrawal: pricing question, no complaint. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9002, "thought": "Cue: fee for accepting money from a foreign country - receiving an international payment. vs receiving_money: fee question; vs transfer_fee_charged: possible. -> ambiguous: exchange_charge | transfer_fee_charged", "status": "ambiguous", "candidates": ["exchange_charge", "transfer_fee_charged"], "question": "Will the money arrive in a different currency that needs converting, or are you asking about a fee for receiving transfers?"}
+{"id": 9004, "thought": "Cue: how much do you charge for exchange rates - the charge for exchanging. vs exchange_rate: asks a charge. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9005, "thought": "Cue: pay extra to exchange money. vs transfer_fee_charged: exchange. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9010, "thought": "Cue: cost to exchange my balance into a foreign currency. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9013, "thought": "Cue: discount for frequent currency exchanges. vs exchange_rate: pricing. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9015, "thought": "Cue: your currency exchange fee. vs exchange_rate: fee. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9016, "thought": "Cue: foreign currency to change, how much will it cost. vs exchange_via_app: cost. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9020, "thought": "Cue: fee charged for exchanges. vs transfer_fee_charged: exchanges. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9023, "thought": "Cue: the rate for exchange FEES - fee level. vs exchange_rate: fees. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9029, "thought": "Cue: charge for a foreign currency exchange. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9032, "thought": "Cue: a fee ('few') for exchanging foreign currencies. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9033, "thought": "Cue: what the exchange fee is. vs exchange_rate: fee. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9034, "thought": "Cue: provide currency exchange RATES - rate info, not fee. vs exchange_charge: no cost wording. -> exchange_rate", "status": "resolved", "intent": "exchange_rate", "flag": "label_noise"}
+{"id": 9041, "thought": "Cue: is it free to exchange currency. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9042, "thought": "Cue: someone abroad sends me money, do I pay a fee. vs receiving_money: fee question; currency conversion implied. vs transfer_fee_charged: possible. -> ambiguous: exchange_charge | transfer_fee_charged", "status": "ambiguous", "candidates": ["exchange_charge", "transfer_fee_charged"], "question": "Will the money be sent in a different currency, or are you asking about fees on incoming transfers generally?"}
+{"id": 9044, "thought": "Cue: pay more for exchanges. vs card_payment_fee_charged: exchanges. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9045, "thought": "Cue: charged for exchanging foreign currency. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9049, "thought": "Cue: lots of currency exchange for work, discounts or lower prices. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9050, "thought": "Cue: discounts for frequent currency exchanges. vs extra_charge_on_statement: pricing. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9058, "thought": "Cue: need to exchange currency, what's the charge. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9060, "thought": "Cue: extra charge to exchange different currencies. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9063, "thought": "Cue: tell me what the exchange fee is. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 9064, "thought": "Cue: commission on currency exchange. vs fiat_currency_support: fee. -> exchange_charge", "status": "resolved", "intent": "exchange_charge"}
+{"id": 292, "thought": "Cue: what my money is worth in other countries - conversion rates. vs fiat_currency_support: value, not supported currencies. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 293, "thought": "Cue: will my money be of equal value abroad - rate question. vs wrong_exchange_rate_for_cash_withdrawal: no complaint. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 294, "thought": "Cue: do you know the rate of exchange. vs exchange_charge: rate, not fee. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 296, "thought": "Cue: what is the exchange looking like - current rates. vs exchange_via_app: info. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 298, "thought": "Cue: how rates are calculated when transferring funds. vs transfer_fee_charged: rate. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 299, "thought": "Cue: what exchange rates you use. vs card_payment_wrong_exchange_rate: no complaint. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 300, "thought": "Cue: cash foreign transfers, how does that work - converting incoming foreign money. vs receiving_money: plausible. -> ambiguous: exchange_rate | receiving_money", "status": "ambiguous", "candidates": ["exchange_rate", "receiving_money"], "question": "Are you asking how to receive money from abroad, or what rate will be used to convert it?"}
+{"id": 301, "thought": "Cue: what your exchange rates are. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 307, "thought": "Cue: need to know your exchange rates. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 308, "thought": "Cue: process for exchanges - how exchanging works. vs exchange_via_app: process of exchanging fits better. -> ambiguous: exchange_rate | exchange_via_app", "status": "ambiguous", "candidates": ["exchange_rate", "exchange_via_app"], "question": "Would you like to know how to exchange currency in the app, or how our exchange rates are set?"}
+{"id": 310, "thought": "Cue: how exchange rates are calculated at this bank. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 311, "thought": "Cue: what you use to figure the exchange rate for the card. vs card_payment_wrong_exchange_rate: no complaint. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 312, "thought": "Cue: foreign exchange rate I will receive. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 316, "thought": "Cue: basis of your exchange rates. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 328, "thought": "Cue: where your exchange rates come from. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 330, "thought": "Cue: why rates differ on different days. vs card_payment_wrong_exchange_rate: general. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 335, "thought": "Cue: value I can get for my currency. vs exchange_via_app: rate info. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 338, "thought": "Cue: what is an exchange rate. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 340, "thought": "Cue: asks what exchange rates the bank assigns. vs exchange_charge: rates, not fees. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 344, "thought": "Cue: when exchanging, how much are the rates. vs exchange_charge: rates. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 345, "thought": "Cue: the exchange rate for EUR. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 354, "thought": "Cue: foreign exchange rate you'll apply. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 355, "thought": "Cue: explain the interbank exchange rate. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 358, "thought": "Cue: what exchange rates do you use. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 359, "thought": "Cue: how will I know what the rate is. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 360, "thought": "Cue: factors affecting the exchange rate. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 361, "thought": "Cue: where the exchange rate stands right now. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 363, "thought": "Cue: does the exchange rate change. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 367, "thought": "Cue: is the rate the same on weekends. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 368, "thought": "Cue: how do you do exchanges - how-to. vs exchange_via_app: how-to fits better. -> ambiguous: exchange_rate | exchange_via_app", "status": "ambiguous", "candidates": ["exchange_rate", "exchange_via_app"], "question": "Do you want steps to exchange currency in the app, or details on how rates are worked out?"}
+{"id": 371, "thought": "Cue: factors that determine your rate. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 373, "thought": "Cue: what your exchange rates are. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 375, "thought": "Cue: what are the exchange rates. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}

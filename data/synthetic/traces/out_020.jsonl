@@ -1,0 +1,60 @@
+{"id": 6929, "thought": "Cue: think my PIN has been compromised, what to do - PIN exposure; remedy is changing it. vs compromised_card: only the PIN is exposed, no misuse. vs pin_blocked: not locked. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6935, "thought": "Cue: how do I change the PIN. vs get_physical_card: has a PIN already. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6936, "thought": "Cue: where can I change my PIN. vs atm_support: PIN change is the goal. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6941, "thought": "Cue: really need to know how to change my PIN. vs pin_blocked: not locked. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6943, "thought": "Cue: how can I RESET my PIN - could mean change it, or unlock after too many tries. vs pin_blocked: 'reset' often follows a block. -> ambiguous: change_pin | pin_blocked", "status": "ambiguous", "candidates": ["change_pin", "pin_blocked"], "question": "Is your PIN currently blocked after too many attempts, or do you just want to choose a new one?"}
+{"id": 6946, "thought": "Cue: someone saw my PIN, on vacation in Spain, change it at an ATM. vs atm_support: PIN change. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6956, "thought": "Cue: can I reset my PIN - change vs unblock unclear. -> ambiguous: change_pin | pin_blocked", "status": "ambiguous", "candidates": ["change_pin", "pin_blocked"], "question": "Has your PIN been blocked, or would you simply like to change it?"}
+{"id": 6957, "thought": "Cue: at what cash machines can I change my PIN. vs atm_support: purpose is PIN change. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6963, "thought": "Cue: how can I alter my PIN. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6969, "thought": "Cue: change my PIN online. vs edit_personal_details: PIN. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6970, "thought": "Cue: change my PIN abroad. vs exchange_via_app: no. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6971, "thought": "Cue: 'change my Rowlock' - garbled word; 'change my ___' with a lock-like word best matches changing a PIN or passcode. vs passcode_forgotten: nothing forgotten. -> ambiguous: change_pin | passcode_forgotten", "status": "ambiguous", "candidates": ["change_pin", "passcode_forgotten"], "question": "Did you mean changing your card PIN, or the passcode you use to log in to the app?", "flag": "label_noise"}
+{"id": 6974, "thought": "Cue: get a new PIN number at any ATM with my card. vs get_physical_card: replacing an existing PIN. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6977, "thought": "Cue: set up a NEW PIN. vs get_physical_card: 'new' implies replacing. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6978, "thought": "Cue: PIN changed in any cash machine. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6981, "thought": "Cue: wants to replace the current PIN with a new one. vs get_physical_card: already has a PIN. vs pin_blocked: not locked. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6990, "thought": "Cue: which ATMs allow me to change my PIN. vs atm_support: PIN change. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6991, "thought": "Text states PIN can be changed at Visa/Mastercard ATMs except some countries - an answer about PIN change locations. vs visa_or_mastercard: networks are context. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6992, "thought": "Cue: go to an actual bank to change my PIN. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6993, "thought": "Cue: change my PIN at ATMs, which ones. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6994, "thought": "Cue: can I change my card PIN. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6995, "thought": "Cue: which ATMs allow PIN change. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 6997, "thought": "Cue: what ATMs allow me to change my PIN. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 7002, "thought": "Cue: out of the country, need to change my PIN. vs country_support: PIN change. -> change_pin", "status": "resolved", "intent": "change_pin"}
+{"id": 4460, "thought": "Cue: detect fraudulent use on my card ('car' typo) - fraud on the card. vs card_payment_not_recognised: no specific payment, it's about fraud handling. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4461, "thought": "Cue: think my account has been hacked + unrecognised charges. Customer concludes compromise. vs card_payment_not_recognised: charges are evidence for the hack claim. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4462, "thought": "Cue: don't recognise some transactions, is someone else using it. Unknown transactions with a compromise suspicion. vs card_payment_not_recognised: close. -> ambiguous: compromised_card | card_payment_not_recognised", "status": "ambiguous", "candidates": ["compromised_card", "card_payment_not_recognised"], "question": "Would you like to secure your card first in case someone else is using it, or start by disputing the transactions you don't recognise?"}
+{"id": 4463, "thought": "Cue: someone stole my card information and made several fraudulent purchases, suspend the card. Customer concludes stolen details. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4464, "thought": "Cue: how do I stop fraud to my account - fraud prevention. vs terminate_account: not closing. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4465, "thought": "Cue: card is being used by someone else. vs card_not_working: misuse. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4469, "thought": "Cue: suspicious spending on my credit card I don't recall. Unknown spending; 'suspicious' hints fraud. vs card_payment_not_recognised: strong fit. -> ambiguous: compromised_card | card_payment_not_recognised", "status": "ambiguous", "candidates": ["compromised_card", "card_payment_not_recognised"], "question": "Do you think your card details have been stolen, or would you like to look into the specific payments first?"}
+{"id": 4470, "thought": "Cue: someone besides me ordered something with my card. Card used by another person. vs card_payment_not_recognised: framed as another person using the card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4471, "thought": "Cue: charges on my card I haven't purchased - reports unknown charges, no compromise claim. vs compromised_card: no 'someone using it'. -> ambiguous: compromised_card | card_payment_not_recognised", "status": "ambiguous", "candidates": ["compromised_card", "card_payment_not_recognised"], "question": "Do you still have your card and think the details were stolen, or would you like to dispute these charges first?"}
+{"id": 4472, "thought": "Cue: someone might be using my card. vs lost_or_stolen_card: card not lost. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4474, "thought": "Cue: stop unauthorised payments on my card, transactions from places never visited. Prevention of ongoing misuse. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4475, "thought": "Cue: somebody is using my card without authorisation. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4476, "thought": "Cue: unknown transactions, think someone got my card details. Customer concludes details stolen. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4477, "thought": "Cue: someone has been using my card, freeze it. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4478, "thought": "Cue: card details stolen from my car, used to buy gas. vs lost_or_stolen_card: details stolen, card status unclear. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4479, "thought": "Cue: cancel my card, think someone else is using it. vs terminate_account: card, not account. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4482, "thought": "Cue: someone using my card without my knowledge. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4483, "thought": "Cue: unusual activity, believe someone 'took my card'. Took could be physical theft. vs lost_or_stolen_card: possible. -> ambiguous: compromised_card | lost_or_stolen_card", "status": "ambiguous", "candidates": ["compromised_card", "lost_or_stolen_card"], "question": "Do you still have your card with you, or is it missing?"}
+{"id": 4485, "thought": "Cue: order a new card before freezing my original - freezing implies security concern. vs card_about_to_expire: no expiry. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4486, "thought": "Cue: someone may be using my card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4487, "thought": "Cue: someone has hacked my card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4488, "thought": "Cue: card has been compromised, online charges I didn't make, freeze it. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4490, "thought": "Cue: suspicious of my card's security. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4492, "thought": "Cue: someone stole my card number and bought stuff, suspend purchases. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4493, "thought": "Cue: possibility my card was compromised. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4495, "thought": "Cue: how do I stop fraud to my card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4497, "thought": "Cue: charges for things I never purchased, were my account details stolen. Customer suspects stolen details. vs card_payment_not_recognised: close. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4500, "thought": "Cue: someone might have had access to my card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4502, "thought": "Cue: someone else might be using my card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4503, "thought": "Cue: card used without my permission. vs lost_or_stolen_card: no loss. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4504, "thought": "Cue: someone used my card without permission. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4505, "thought": "Cue: someone using my card ('with permission' likely typo for without). -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4508, "thought": "Cue: victim of credit card fraud. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4509, "thought": "Cue: my card info was stolen. vs lost_or_stolen_card: info, not the physical card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4510, "thought": "Cue: didn't make these transactions, card details might be stolen. -> compromised_card", "status": "resolved", "intent": "compromised_card"}
+{"id": 4511, "thought": "Cue: unrecognised transactions, someone is using my card. -> compromised_card", "status": "resolved", "intent": "compromised_card"}

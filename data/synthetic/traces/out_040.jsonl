@@ -1,0 +1,60 @@
+{"id":6508,"thought":"Cue: who is giving me my money - origin of funds. vs receiving_money: not how to receive, but where it came from. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6510,"thought":"Cue: is there a way to check my balance - generic balance check; no source-of-funds wording. vs balance_not_updated_after_bank_transfer: no missing money. Nothing fits well. -> ambiguous: verify_source_of_funds | balance_not_updated_after_bank_transfer","status":"ambiguous","candidates":["verify_source_of_funds","balance_not_updated_after_bank_transfer"],"question":"Is something missing from your balance that you expected, or would you like to see where the money in your account came from?","flag":"label_noise"}
+{"id":6512,"thought":"Cue: where do my available funds come from. vs transfer_into_account: source. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6513,"thought":"Cue: what kind of security protects my money - account security. No source-of-funds cue. vs compromised_card: no fraud. -> ambiguous: verify_source_of_funds | compromised_card","status":"ambiguous","candidates":["verify_source_of_funds","compromised_card"],"question":"Are you worried about something specific on your account, or asking how we keep your money safe in general?","flag":"label_noise"}
+{"id":6515,"thought":"Cue: track history on funds - tracing where funds came from. vs direct_debit_payment_not_recognised: no unknown debit. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6517,"thought":"Cue: what to do to verify my funds. vs verify_top_up: funds verification. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6519,"thought":"Cue: my money, where is it coming from. vs exchange_rate: source. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6523,"thought":"Cue: what I need to see my source of money. vs verify_my_identity: funds. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6525,"thought":"Cue: where are the transfers originating - origin of incoming money. vs transfer_fee_charged: origin. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6531,"thought":"Cue: need to see where my money came from. vs wrong_amount_of_cash_received: source. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6532,"thought":"Cue: steps to see where my funds come from. vs transfer_into_account: source. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6534,"thought":"Cue: find out where my funds came from. vs receiving_money: origin. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6535,"thought":"Cue: see where my money is being transferred from. vs pending_transfer: origin. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6542,"thought":"Cue: WHY do I need to verify my funds - reason for source-of-funds check. vs why_verify_identity: funds, not identity. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6543,"thought":"Cue: my funds must be verified. vs verify_top_up: funds. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6544,"thought":"Cue: how do I track the money - trace where it came from. vs card_arrival: money. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6547,"thought":"Cue: how to tell where my funds come from. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6548,"thought":"Cue: can I see my available money - balance view, no source cue. vs balance_not_updated_after_bank_transfer: no issue. -> ambiguous: verify_source_of_funds | balance_not_updated_after_bank_transfer","status":"ambiguous","candidates":["verify_source_of_funds","balance_not_updated_after_bank_transfer"],"question":"Is there money missing from your balance, or would you like to see where your funds came from?","flag":"label_noise"}
+{"id":6554,"thought":"Cue: tell me where my funds come from. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6556,"thought":"Cue: verify my source of funds. vs verify_my_identity: funds. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6557,"thought":"Cue: how can I prove the source of my funds. vs top_up_by_cash_or_cheque: proof. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6559,"thought":"Cue: verification for the source of my funds. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6561,"thought":"Cue: tell the source of my available funds. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6565,"thought":"Cue: where do my funds come from. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6566,"thought":"Cue: want to know the source of my funds. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6569,"thought":"Cue: need to trace a deposit - origin of a deposit. vs balance_not_updated_after_cheque_or_cash_deposit: tracing source, not a missing deposit. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6573,"thought":"Cue: show me the source of my money. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6575,"thought":"Cue: find out my source of funds. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6578,"thought":"Cue: where is my top-up generated from - origin of a top-up. vs pending_top_up: origin. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6586,"thought":"Cue: what to do to verify my source of funds. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":6587,"thought":"Cue: know where my funds come from. -> verify_source_of_funds","status":"resolved","intent":"verify_source_of_funds"}
+{"id":3774,"thought":"Cue: reason for the identity check. vs verify_my_identity: why, not how. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3775,"thought":"Cue: answered many identity questions, why do you need this. vs unable_to_verify_identity: no failure. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3778,"thought":"Cue: why are all my identity details required. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3782,"thought":"Cue: why is identity verification required. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3783,"thought":"Cue: why is my identification required. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3784,"thought":"Cue: why so many questions about who I am. vs edit_personal_details: why. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3785,"thought":"Cue: WHICH identity details are required - what, not why. vs why_verify_identity: no reason asked. -> verify_my_identity","status":"resolved","intent":"verify_my_identity","flag":"label_noise"}
+{"id":3788,"thought":"Cue: why do you require identification documents. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3789,"thought":"Cue: already have an account, why can't I use it unless verified. vs unable_to_verify_identity: necessity question. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3790,"thought":"Cue: why does my identity need to be verified. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3794,"thought":"Cue: not comfortable verifying my identity - objection to verification. vs unable_to_verify_identity: unwilling, not unable. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3795,"thought":"Cue: WHAT I need to verify my account - requirements, not reason. vs why_verify_identity: no 'why'. -> verify_my_identity","status":"resolved","intent":"verify_my_identity","flag":"label_noise"}
+{"id":3796,"thought":"Cue: what if I don't verify my identity - consequences, i.e. necessity. vs verify_my_identity: not how. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3799,"thought":"Cue: why does it matter that I prove my identity. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3804,"thought":"Cue: why do I need to verify my identity. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3805,"thought":"Cue: verification hasn't gone through, can I use my account - usage before verification. vs unable_to_verify_identity: pending status. -> ambiguous: why_verify_identity | unable_to_verify_identity","status":"ambiguous","candidates":["why_verify_identity","unable_to_verify_identity"],"question":"Has your verification been rejected, or is it still pending and you're asking what you can do meanwhile?"}
+{"id":3809,"thought":"Cue: function of the identity check - purpose. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3813,"thought":"Cue: first step to access my account - likely verification as onboarding step. Vague. vs passcode_forgotten: possible. -> ambiguous: why_verify_identity | verify_my_identity","status":"ambiguous","candidates":["why_verify_identity","verify_my_identity"],"question":"Are you setting up a new account and need the first steps, or are you locked out of an existing one?","flag":"label_noise"}
+{"id":3816,"thought":"Cue: don't want to use this method to identify myself - objection. vs unable_to_verify_identity: unwilling. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3824,"thought":"Cue: account accessible though verification hasn't passed. vs unable_to_verify_identity: about access before passing. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3826,"thought":"Cue: why do you need so much about me. vs verify_source_of_funds: personal info. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3827,"thought":"Cue: HOW does the identity check work - process. vs why_verify_identity: how, not why. -> verify_my_identity","status":"resolved","intent":"verify_my_identity","flag":"label_noise"}
+{"id":3828,"thought":"Cue: why is it required to verify my identity. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3830,"thought":"Cue: make transfers before identity verification - restriction before verifying. vs receiving_money: verification gate. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3831,"thought":"Cue: what do you need my identity details for - purpose. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3833,"thought":"Cue: use my account though verification hasn't passed. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3834,"thought":"Cue: what is with the need for all my ID information - objection. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3839,"thought":"Cue: don't understand why you want so much personal info. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}
+{"id":3841,"thought":"Cue: refuse to verify my identity. vs unable_to_verify_identity: refusal. -> why_verify_identity","status":"resolved","intent":"why_verify_identity"}

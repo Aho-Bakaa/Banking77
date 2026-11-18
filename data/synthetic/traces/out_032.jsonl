@@ -1,0 +1,60 @@
+{"id": 376, "thought": "Cue: how much are the rates of exchange - rate level. vs exchange_charge: rates, not fees. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 379, "thought": "Cue: source of the exchange rate for a planned transfer. vs transfer_fee_charged: rate source, not fee. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 381, "thought": "Cue: how much money I'll have when I travel abroad - conversion value. vs wrong_exchange_rate_for_cash_withdrawal: prospective, no complaint. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 382, "thought": "Cue: how do you do currency exchanges - how-to. vs exchange_via_app: how-to fits better. -> ambiguous: exchange_rate | exchange_via_app", "status": "ambiguous", "candidates": ["exchange_rate", "exchange_via_app"], "question": "Would you like the steps for exchanging currency in the app, or an explanation of how our rates are set?"}
+{"id": 387, "thought": "Cue: does this app have the same rate as third parties - rate comparison. vs exchange_via_app: about rates. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 388, "thought": "Cue: what are your exchange rates at. vs exchange_charge: rates. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 393, "thought": "Cue: opinion on the exchange rate - rate info. vs card_payment_wrong_exchange_rate: no complaint. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 394, "thought": "Cue: what you look at to decide an exchange rate. vs fiat_currency_support: rates. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 397, "thought": "Cue: want to know your exchange rates. vs exchange_charge: rates. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 398, "thought": "Cue: what exchange rate is it. vs exchange_charge: rate. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 403, "thought": "Cue: what foreign exchange rate will I get. vs card_payment_wrong_exchange_rate: prospective. -> exchange_rate", "status": "resolved", "intent": "exchange_rate"}
+{"id": 1361, "thought": "Cue: need to use GBP instead of USD - switch currency. vs fiat_currency_support: action of converting. vs receiving_money: no incoming money. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1362, "thought": "Cue: travelling, how do I get currency for Y - converting money. vs exchange_rate: how-to. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1363, "thought": "Cue: change from AUD to GBP. vs change_pin: currency. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1364, "thought": "Cue: money exchanged from one currency to another. vs fiat_currency_support: exchange action. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1366, "thought": "Cue: what currencies can be EXCHANGED IN THE APP. vs fiat_currency_support: which currencies, but framed as in-app exchange. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1367, "thought": "Cue: add a new currency to my account - holding another currency. vs fiat_currency_support: plausible. -> ambiguous: exchange_via_app | fiat_currency_support", "status": "ambiguous", "candidates": ["exchange_via_app", "fiat_currency_support"], "question": "Do you want to exchange some money into a new currency, or check which currencies your account can hold?"}
+{"id": 1371, "thought": "Cue: what do I do to exchange currency. vs exchange_charge: how-to. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1373, "thought": "Cue: turn my money into another currency. vs receiving_money: conversion. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1378, "thought": "Cue: is currency exchange possible. vs exchange_charge: capability. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1380, "thought": "Cue: use this app for both USD and GBP - multi-currency use. vs fiat_currency_support: holding currencies fits too. -> ambiguous: exchange_via_app | fiat_currency_support", "status": "ambiguous", "candidates": ["exchange_via_app", "fiat_currency_support"], "question": "Do you want to exchange between USD and GBP, or hold balances in both?"}
+{"id": 1382, "thought": "Cue: app allows exchanges between USD and GBP. vs fiat_currency_support: exchange. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1383, "thought": "Cue: able to exchange currency with this app. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1384, "thought": "Cue: change my currency to another. vs change_pin: currency. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1385, "thought": "Cue: exchange currencies using the app. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1386, "thought": "Cue: app allows currencies to be exchanged. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1388, "thought": "Cue: exchange currencies using the app. vs fiat_currency_support: action. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1390, "thought": "Cue: exchange USD and GBP with the app. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1394, "thought": "Cue: need Euros for holiday, exchange some money. vs wrong_exchange_rate_for_cash_withdrawal: no complaint. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1402, "thought": "Cue: exchange GBP to AUD, how. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1403, "thought": "Cue: support changing the currency I use. vs fiat_currency_support: changing = exchange. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1404, "thought": "Cue: convert money into different currencies. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1407, "thought": "Cue: use the app to exchange currencies. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1410, "thought": "Cue: exchange USD to GBP. vs exchange_rate: how-to. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1411, "thought": "Cue: make my money usable in another country - converting currency. vs country_support: currency, not availability. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1414, "thought": "Cue: exchange currencies using your app. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1416, "thought": "Cue: exchange from USD to GBP. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1418, "thought": "Cue: currencies available FOR EXCHANGE. vs fiat_currency_support: framed as exchange. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1422, "thought": "Cue: use this app to exchange between dollars and pounds. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1427, "thought": "Cue: need Australian dollars instead of UK currency. vs fiat_currency_support: conversion. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1432, "thought": "Cue: exchange currencies with this app. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1434, "thought": "Cue: exchange currency for different types. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1437, "thought": "Cue: process of changing from GBP to AUD. vs edit_personal_details: currency. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1439, "thought": "Cue: procedure for currency exchange. vs exchange_charge: procedure. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1440, "thought": "Cue: switch my money for another country's money. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1442, "thought": "Cue: would like to change currency. vs change_pin: currency. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1443, "thought": "Cue: how do I make a currency exchange. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1444, "thought": "Cue: can't figure out how to change GBP to AUD. vs automatic_top_up: currency. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1449, "thought": "Cue: change the currency I'm exchanging from AUD to GBP. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1450, "thought": "Cue: what to do to exchange my money. vs transfer_into_account: exchange. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1452, "thought": "Cue: what different currencies can I get - which currencies available. vs fiat_currency_support: plausible. -> ambiguous: exchange_via_app | fiat_currency_support", "status": "ambiguous", "candidates": ["exchange_via_app", "fiat_currency_support"], "question": "Are you looking to exchange money into another currency now, or to see which currencies the account supports?"}
+{"id": 1456, "thought": "Cue: asks whether this can convert money between currencies. vs receiving_money: conversion, not receiving. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1461, "thought": "Cue: need to exchange currencies. vs exchange_charge: action. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1464, "thought": "Cue: types of currency I can EXCHANGE. vs fiat_currency_support: exchange framing. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1468, "thought": "Cue: other currencies available to change to. vs fiat_currency_support: changing. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1471, "thought": "Cue: may need to change from GBP to AUD. vs edit_personal_details: currency. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1472, "thought": "Cue: app allows exchanges between currencies. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1473, "thought": "Cue: no longer need GBP, need AUD, how to change. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 1474, "thought": "Cue: use this app to change money. vs change_pin: money. -> exchange_via_app", "status": "resolved", "intent": "exchange_via_app"}
+{"id": 881, "thought": "Cue: do you allow currency exchanges - capability of exchanging. vs exchange_via_app: strong fit. -> ambiguous: fiat_currency_support | exchange_via_app", "status": "ambiguous", "candidates": ["fiat_currency_support", "exchange_via_app"], "question": "Would you like to know which currencies we support, or how to exchange money in the app?"}

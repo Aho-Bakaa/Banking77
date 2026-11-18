@@ -1,0 +1,60 @@
+{"id": 1935, "thought": "Cue: what if my top up doesn't go through - hypothetical not-completing top-up. vs top_up_failed: could be failure. -> ambiguous: pending_top_up | top_up_failed", "status": "ambiguous", "candidates": ["pending_top_up", "top_up_failed"], "question": "Is a top-up you made still showing as pending, or did it fail?"}
+{"id": 1937, "thought": "Cue: says my top-up is incomplete - not yet finished. vs top_up_failed: incomplete, not failed. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1941, "thought": "Cue: how long will my top-up stay pending. vs pending_transfer: top-up. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1942, "thought": "Cue: top up still pending. vs pending_card_payment: top-up. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1943, "thought": "Cue: regular customer, top up shows as pending. vs top_up_failed: pending. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1944, "thought": "Cue: why isn't my top-up going through - not completing; no failure message. vs top_up_failed: possible. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1945, "thought": "Cue: topped up, not in my account - not reflected yet. vs topping_up_by_card: done, not how-to. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1949, "thought": "Cue: how long for a top up to reflect in balance. vs balance_not_updated_after_bank_transfer: top-up. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1950, "thought": "Cue: top-up taking a while to process. vs top_up_failed: processing. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1951, "thought": "Cue: my top up is incomplete. vs top_up_reverted: incomplete. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1953, "thought": "Cue: asks why the top-up has not finished pending. vs top_up_failed: still pending, not failed. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1954, "thought": "Cue: topped off my card ('car'), didn't complete, where are my funds. vs balance_not_updated_after_cheque_or_cash_deposit: top-up. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1956, "thought": "Cue: tried to top up, didn't finish. vs top_up_failed: not finished. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1958, "thought": "Cue: top up did not complete. vs top_up_reverted: not completed. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1961, "thought": "Cue: when will my top up be approved - awaiting approval. vs verify_top_up: timing. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1962, "thought": "Cue: top-up didn't go through, still says pending. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1963, "thought": "Cue: can't find money I just added - method unclear but 'added' = top-up. vs balance_not_updated_after_cheque_or_cash_deposit: possible. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1967, "thought": "Cue: new customer, first top-up still pending though should be instant. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1969, "thought": "Cue: new account, why can I not top up - unable to top up. vs top_up_failed: inability fits failure. -> ambiguous: pending_top_up | top_up_failed", "status": "ambiguous", "candidates": ["pending_top_up", "top_up_failed"], "question": "When you try to top up, does it stay pending or does it fail with an error?"}
+{"id": 1970, "thought": "Cue: don't see money I just added. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1971, "thought": "Cue: top-up not reflected. vs top_up_reverted: not reflected yet. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1973, "thought": "Cue: new customer, first top-up still pending and not working. vs top_up_failed: status is pending. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1974, "thought": "Cue: needed gas, delayed half an hour - no top-up named; a delay of something. vs card_not_working: possible. -> ambiguous: pending_top_up | pending_card_payment", "status": "ambiguous", "candidates": ["pending_top_up", "pending_card_payment"], "question": "What's delayed: a top-up to your account, or a payment at the petrol station?", "flag": "label_noise"}
+{"id": 1978, "thought": "Cue: top-up loaded to the card, no update. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1979, "thought": "Cue: top-up pending a long time. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1980, "thought": "Cue: paid to top up, funds not available yet. vs verify_source_of_funds: availability. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1982, "thought": "Cue: top-up hasn't gone through. vs top_up_failed: not completed. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1983, "thought": "Cue: is my top up not working - unclear pending vs failed. -> ambiguous: pending_top_up | top_up_failed", "status": "ambiguous", "candidates": ["pending_top_up", "top_up_failed"], "question": "Is the top-up showing as pending, or did it fail?"}
+{"id": 1990, "thought": "Cue: how long to wait when I add money - top-up timing. vs transfer_timing: adding money. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1992, "thought": "Cue: problem with the top up system, transaction not gone through properly. vs failed_transfer: top-up. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1994, "thought": "Cue: believes the top up is still pending. vs pending_transfer: a top-up, not a transfer. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 1997, "thought": "Cue: money hasn't been deposited yet - method unclear. vs balance_not_updated_after_cheque_or_cash_deposit: possible. -> ambiguous: pending_top_up | balance_not_updated_after_cheque_or_cash_deposit", "status": "ambiguous", "candidates": ["pending_top_up", "balance_not_updated_after_cheque_or_cash_deposit"], "question": "Did you top up with a card, or deposit cash or a cheque?"}
+{"id": 1999, "thought": "Cue: after a FAILED top-up, how long for funds to return. vs top_up_failed: post-failure refund. -> ambiguous: pending_top_up | top_up_failed", "status": "ambiguous", "candidates": ["pending_top_up", "top_up_failed"], "question": "Did the top-up show as failed, or is it still pending with the money held?"}
+{"id": 2002, "thought": "Cue: has my top up gone through - checking completion. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2010, "thought": "Cue: my top up is still pending. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2012, "thought": "Cue: 'pop up' (top up) hasn't gone through yet. vs card_arrival: no. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2014, "thought": "Cue: where is my top-up, did I do something wrong. vs top_up_failed: missing. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2015, "thought": "Cue: why hasn't my top-up gone through. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2016, "thought": "Cue: should my top up still be pending. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2020, "thought": "Cue: why hasn't my top-up been processed yet. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2021, "thought": "Cue: can't see funds after I topped up. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2022, "thought": "Cue: top up hasn't gone through. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2024, "thought": "Cue: when will my top-up be completed. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2026, "thought": "Cue: waiting over an hour for top up to go through. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2028, "thought": "Cue: first top-up pending for half an hour. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2031, "thought": "Cue: top-up shows as pending this time. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2035, "thought": "Cue: topped up, don't think it went through. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2036, "thought": "Cue: the top-up is broken - vague: pending or failing. -> ambiguous: pending_top_up | top_up_failed", "status": "ambiguous", "candidates": ["pending_top_up", "top_up_failed"], "question": "Is your top-up stuck as pending, or is it failing when you try?"}
+{"id": 2037, "thought": "Cue: top up an hour ago still pending. vs top_up_reverted: hasn't come back. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2039, "thought": "Cue: top-up didn't go through instantly like usual. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2040, "thought": "Cue: been some time since I refilled (topped up). -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2041, "thought": "Cue: added money to the card but transaction didn't go through. vs reverted_card_payment?: top-up. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2043, "thought": "Cue: says the top up is not completed. vs top_up_reverted: never completed, not reversed. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2044, "thought": "Cue: top-up has not gone through. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2045, "thought": "Cue: added money to the card but couldn't use it - funds not yet available. vs declined_card_payment: cause is the top-up. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2047, "thought": "Cue: how do I make my top up complete. vs topping_up_by_card: completion. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2048, "thought": "Cue: what's taking so long with my top up. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2050, "thought": "Cue: recent top-up showing as pending, thought instant. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2051, "thought": "Cue: just made a top-up, shows as pending. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
+{"id": 2053, "thought": "Cue: topped up last night, no funds. -> pending_top_up", "status": "resolved", "intent": "pending_top_up"}
