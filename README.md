@@ -19,10 +19,10 @@ To solve this, we implement a **two-tier System-1 / System-2 routing architectur
 
 ```mermaid
 flowchart TD
-    UserQuery["Customer Query"] --> System1Gate{"System-1 Gate Router\n(bge-small + TF-IDF LogReg)\nThreshold: 0.227"}
+    UserQuery["Customer Query"] --> System1Gate{"System-1 Gate Router\n(bge-small + TF-IDF LogReg)"}
     
-    System1Gate -- "Confidence >= 0.227\n(Routine / Clean)" --> FastPath["Fast Mode &lt;fast&gt;\nDirect Intent Classification\nLatency: ~950ms | ~19 tokens"]
-    System1Gate -- "Confidence &lt; 0.227\n(Hard / Sibling Confusion)" --> ThinkPath["System-2 CoT SLM &lt;think&gt;\n(Qwen2.5-3B QLoRA)\nSibling Contrast & Cue Extraction"]
+    System1Gate -- "Confidence >= threshold\n(Routine / Clean)" --> FastPath["Fast Mode &lt;fast&gt;\nDirect Intent Classification\nLatency: ~950ms | ~19 tokens"]
+    System1Gate -- "Confidence &lt; threshold\n(Hard / Sibling Confusion)" --> ThinkPath["System-2 CoT SLM &lt;think&gt;\n(Qwen2.5-3B QLoRA)\nSibling Contrast & Cue Extraction"]
     
     FastPath --> DirectResolution["JSON Output: Resolved Intent"]
     
